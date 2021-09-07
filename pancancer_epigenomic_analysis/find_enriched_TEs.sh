@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # concatenate all healthy adult regulatory regions from Roadmap
+module load bedtools
+
 cat *1_TssA.bed *6_EnhG.bed *7_Enh.bed \
 | bedtools sort -i - \
 | bedtools merge -i - -c 4 -o distinct \
@@ -12,6 +14,8 @@ for i in *_peakCalls.bed;
 	done
 
 # for each cancer, bgzip the output bed file (required for GIGGLE)
+module load samtools
+
 for i in *peakCalls_minus_healthy.bed; 
 	do bgzip $i; 
 	done
@@ -41,14 +45,15 @@ for i in *_minus_healthy.bed.VSrepeats.tab;
 
 cat *.tmp \
 | grep -v "#" \
-| sort -nk9 \
+| sort -nrk9 \
 | awk '{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 "\t" $9  }' \
 | sed '1icancer\trepeat\tfilesize\toverlaps\toddsratio\tgigglescore' \
 > tcgaMinusRoadmap_vs_TEs_rankedByScore.tab
 
 ##################################################################################
 
-# the following steps are for visualization purposes only
+# The following steps are for visualization purposes
+### 1. make a pan-cancer bubble plot showing the top TE-cancer associations
 
 # remove satellite and low complexity repeats
 cat tcgaMinusRoadmap_vs_TEs_rankedByScore.tab \
@@ -83,4 +88,8 @@ cat tcgaMinusRoadmap_vs_TEs_23topTEs.tab \
 | awk '{if ($6>0) print}' \
 > tcgaMinusRoadmap_vs_TEs_23topTEs_giggle0.tab
 
-# make a bubble plot in jupyter
+# plot in jupyter (bubble_plot.py)
+
+### 2. make volcano plots showing top enriched TEs for each cancer type
+
+# add the steps to get to COAD volcano table
