@@ -25,7 +25,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - FastTree (http://www.microbesonline.org/fasttree/)
 
 ### Public databases:
-- The Cancer Genome Atlas via the Genome Data Commons (https://gdc.cancer.gov/)
+- The Cancer Genome Atlas, via the Genome Data Commons (https://gdc.cancer.gov/)
 - CEMT epigenomes (http://www.epigenomes.ca/data-release/)
 - Cistrome (http://cistrome.org/)
 - Roadmap Epigenomics Project (http://www.roadmapepigenomics.org/)
