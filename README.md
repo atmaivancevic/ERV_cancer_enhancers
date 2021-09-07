@@ -40,7 +40,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 
 1. Identify cancer-specific regulatory regions
 
-2. 
+2. Test for enrichment of TEs in cancer-specific regulatory regions
 
 ## Regulatory activity of LTR10 in colorectal cancer
 
