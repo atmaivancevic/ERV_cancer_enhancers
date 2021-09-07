@@ -11,7 +11,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - MACS2 (https://pypi.org/project/MACS2/)
 - BWA (https://github.com/lh3/bwa)
 - Samtools (http://www.htslib.org/)
-- Hisat2 (https://github.com/DaehwanKimLab/hisat2)
+- hisat2 (https://github.com/DaehwanKimLab/hisat2)
 - BBMap/BBduk (https://jgi.doe.gov/data-and-tools/bbtools/)
 - FastQC (https://github.com/s-andrews/FastQC)
 - MultiQC (https://github.com/ewels/MultiQC)
@@ -25,17 +25,16 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - FastTree (http://www.microbesonline.org/fasttree/)
 
 ### Public databases:
-- The Cancer Genome ATLAS (ATGA) ()
-- Canadian CEMT epigenomes ()
-- Cistrome
-- Roadmap
-- ENCODE
-- Dfam
-- UCSC 
-- GeneHancer
-- JASPAR
-- Gnomad
-- ONGene
+- The Cancer Genome Atlas (https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga/using-tcga)
+- CEMT epigenomes (http://www.epigenomes.ca/data-release/)
+- Cistrome (http://cistrome.org/)
+- Roadmap Epigenomics Project (http://www.roadmapepigenomics.org/)
+- ENCODE: Encyclopedia of DNA Elements (https://www.encodeproject.org/)
+- Dfam (https://dfam.org/home)
+- Human Endogenous Retrovirus Database (https://herv.img.cas.cz/)
+- UCSC (https://genome.ucsc.edu/)
+- JASPAR (http://jaspar.genereg.net/)
+- gnomAD (https://gnomad.broadinstitute.org/)
 
 ## Pan-cancer ATACseq analysis
 
