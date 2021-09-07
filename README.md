@@ -38,6 +38,10 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 
 ## Pan-cancer epigenomic analysis of TE activity
 
+1. Identify cancer-specific regulatory regions
+
+2. 
+
 ## Regulatory activity of LTR10 in colorectal cancer
 
 ## Control of LTR10 activity by MAPK signaling
