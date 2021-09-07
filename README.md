@@ -38,12 +38,10 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 
 ## Pan-cancer epigenomic analysis of TE activity
 
-## CRISPRi & CRISPR-KO RNAseq
+## Regulatory activity of LTR10 in colorectal cancer
 
-## Motif enrichment
+## Control of LTR10 activity by MAPK signaling
 
-## RNAseq and Cut&Run analysis of MAPK treated cells
+## CRISPR silencing & deletion of LTR10 elements
 
-## Blah
-
-## Blah
+## Human variation at AP1 sites within LTR10 elements
