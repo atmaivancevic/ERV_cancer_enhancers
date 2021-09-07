@@ -42,7 +42,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 
 Predicted regulatory regions in healthy adult tissues were defined using Roadmap categories 1_TssA, 6_EnhG & 7_Enh (see [Roadmap_healthy_adult_tissues_list.txt](pancancer_epigenomic_analysis/Roadmap_healthy_adult_tissues_list.txt)). Predicted regulatory regions for 21 different cancer types were obtained from TCGA ATACseq peaks (see [TCGA_cancers_list.txt](pancancer_epigenomic_analysis/TCGA_cancers_list.txt)). Cancer-specific regulatory regions were identified by subtracting all "healthy" regulatory regions from each cancer peak set (see example_script.sh). 
 
-2. Test for enrichment of TEs in cancer-specific regulatory regions
+#### 2. Test for enrichment of TEs in cancer-specific regulatory regions
 
 ## Regulatory activity of LTR10 in colorectal cancer
 
