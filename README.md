@@ -1,4 +1,4 @@
-# ERV cancer enhancers
+# Endogenous retroviruses mediate transcriptional rewiring in colorectal cancer
 
 Scripts and files used in:
 
