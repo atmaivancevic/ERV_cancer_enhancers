@@ -88,9 +88,15 @@ cat tcgaMinusRoadmap_vs_TEs_23topTEs.tab \
 | awk '{if ($6>0) print}' \
 > tcgaMinusRoadmap_vs_TEs_23topTEs_giggle0.tab
 
-# plot in jupyter (bubble_plot.py)
+# plot in jupyter (Figure1_bubbles.py)
 
 ### 2. make volcano plots showing top enriched TEs for each cancer type
+# e.g. prepare the colon cancer (COAD) table for volcano plotting in R
 
-# add the steps to get to COAD volcano table
+cat COAD_peakCalls_minus_healthy.bed.VSrepeats.tab \
+| sed 's/#//g' \
+| awk '{print $1 "\t" $4 "\t" $5 "\t" $8}' \
+| sed 's/file/repeat/g' \
+| sed 's/fishers_two_tail/fishers_two_tail_pval/g' \
+> COAD_minus_Roadmap.tab.volcano
 
