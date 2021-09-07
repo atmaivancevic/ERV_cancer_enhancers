@@ -11,6 +11,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - MACS2 (https://pypi.org/project/MACS2/)
 - BWA (https://github.com/lh3/bwa)
 - Samtools (http://www.htslib.org/)
+- Hisat2 (https://github.com/DaehwanKimLab/hisat2)
 - BBMap/BBduk (https://jgi.doe.gov/data-and-tools/bbtools/)
 - FastQC (https://github.com/s-andrews/FastQC)
 - MultiQC (https://github.com/ewels/MultiQC)
