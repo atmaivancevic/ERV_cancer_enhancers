@@ -1,15 +1,10 @@
-### Install and load DESeq2.
-#source("https://bioconductor.org/biocLite.R")
-#biocLite("DESeq2")
-#library("DESeq2")
-#biocLite("pheatmap")
-#library("pheatmap")
-#library("ggplot2")
-#biocLite("ggrepel")
-#library("ggrepel")
+source("https://bioconductor.org/biocLite.R")
+library("ggplot2")
+biocLite("ggrepel")
+library("ggrepel")
 
 ### Read in the output from featureCounts.
-countdata <- read.table("/scratch/Users/ativ2716/data/TCGA_subtract_Roadmap/cancer_minus_roadmap167categories/COAD_minus_Roadmap167.tab.volcano", header=TRUE, sep="\t")
+countdata <- read.table("COAD_minus_Roadmap167.tab.volcano", header=TRUE, sep="\t")
 head(countdata)
 
 # Set first column to be the rownames
@@ -51,15 +46,6 @@ value2
 value3 = subset(new, fishers_two_tail_pval<0.05 & odds_ratio>1)
 dim(value3)
 value3
-
-# this last subset will be for labelling the most significant genes
-value4 = subset(new, fishers_two_tail_pval<0.00000000000000000000000005 & odds_ratio>10)
-nrow(value4)
-rownames(value4)
-
-value5 = subset(new, fishers_two_tail_pval<0.0000000000000000000005 & odds_ratio<0.25)
-nrow(value5)
-rownames(value5)
 
 # plot it
 ggplot(new, aes(log2(odds_ratio), -log10(fishers_two_tail_pval)), colour="grey") +
