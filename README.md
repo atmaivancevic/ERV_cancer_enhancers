@@ -40,7 +40,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 
 1. Identify cancer-specific regulatory regions
 
-Predicted regulatory regions in healthy adult tissues were defined using Roadmap (adult tissues only from categories 1_TssA, 6_EnhG & 7_Enh; see [Roadmap_healthy_adult_tissues_list.txt](pancancer_epigenomic_analysis/Roadmap_healthy_adult_tissues_list.txt)). 
+Regulatory regions in healthy adult tissues were predicted using Roadmap (adult tissues only from categories 1_TssA, 6_EnhG & 7_Enh; see [Roadmap_healthy_adult_tissues_list.txt](pancancer_epigenomic_analysis/Roadmap_healthy_adult_tissues_list.txt)). 
 
 2. Test for enrichment of TEs in cancer-specific regulatory regions
 
