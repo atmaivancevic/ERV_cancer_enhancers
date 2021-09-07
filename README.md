@@ -40,6 +40,8 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 
 1. Identify cancer-specific regulatory regions
 
+Predicted regulatory regions in healthy adult tissues were downloaded from Roadmap (adult tissues only from categories 1_TssA, 6_EnhG & 7_Enh; see FILE for the full list). 
+
 2. Test for enrichment of TEs in cancer-specific regulatory regions
 
 ## Regulatory activity of LTR10 in colorectal cancer
