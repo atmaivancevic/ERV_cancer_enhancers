@@ -19,7 +19,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - MEME suite (https://meme-suite.org/meme/)
 - VSEARCH (https://github.com/torognes/vsearch)
 - MUSCLE (https://www.drive5.com/muscle/)
-- JalView (https://www.jalview.org/)
+- Jalview (https://www.jalview.org/)
 - Gblocks (https://ls23l.lscore.ucla.edu/MakeTree/documentation/gblocks.html)
 - FastTree (http://www.microbesonline.org/fasttree/)
 
