@@ -17,7 +17,6 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - DESeq2 (https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 - SRA toolkit (e.g. fastq-dump) (https://hpc.nih.gov/apps/sratoolkit.html)
 - MEME suite (https://meme-suite.org/meme/)
-- RepeatMasker (http://www.repeatmasker.org/)
 - VSEARCH (https://github.com/torognes/vsearch)
 - MUSCLE (https://www.drive5.com/muscle/)
 - JalView (https://www.jalview.org/)
