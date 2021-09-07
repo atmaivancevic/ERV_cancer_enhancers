@@ -19,4 +19,14 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - HMMer (http://hmmer.org/)
 - FastTree (http://www.microbesonline.org/fasttree/)
 
-## Workflow
+## Pan-cancer epigenomic analysis
+
+## CRISPRi & CRISPR-KO
+
+## Blah
+
+## Blah
+
+## Blah
+
+## Blah
