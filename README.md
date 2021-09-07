@@ -36,7 +36,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - JASPAR (http://jaspar.genereg.net/)
 - gnomAD (https://gnomad.broadinstitute.org/)
 
-## Pan-cancer epigenomic analysis
+## Pan-cancer epigenomic analysis of TE activity
 
 ## CRISPRi & CRISPR-KO RNAseq
 
