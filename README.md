@@ -1,4 +1,4 @@
-## Endogenous retroviruses mediate transcriptional rewiring in response to oncogenic signaling in colorectal cancer
+## Endogenous retroviruses mediate transcriptional rewiring in colorectal cancer
 
 #### Scripts and files used in:
 
