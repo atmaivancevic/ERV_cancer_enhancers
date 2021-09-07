@@ -29,7 +29,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - CEMT epigenomes (http://www.epigenomes.ca/data-release/)
 - Cistrome (http://cistrome.org/)
 - Roadmap Epigenomics Project (http://www.roadmapepigenomics.org/)
-- ENCODE: Encyclopedia of DNA Elements (https://www.encodeproject.org/)
+- ENCODE (https://www.encodeproject.org/)
 - Dfam (https://dfam.org/home)
 - Human Endogenous Retrovirus Database (https://herv.img.cas.cz/)
 - UCSC (https://genome.ucsc.edu/)
