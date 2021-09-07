@@ -25,7 +25,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - FastTree (http://www.microbesonline.org/fasttree/)
 
 ### Public databases:
-- The Cancer Genome Atlas, via the Genome Data Commons (https://gdc.cancer.gov/)
+- The Cancer Genome Atlas (TCGA), via the Genome Data Commons (https://gdc.cancer.gov/)
 - CEMT epigenomes (http://www.epigenomes.ca/data-release/)
 - Cistrome (http://cistrome.org/)
 - Roadmap Epigenomics Project (http://www.roadmapepigenomics.org/)
@@ -40,7 +40,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 
 1. Identify cancer-specific regulatory regions
 
-Regulatory regions in healthy adult tissues were predicted using Roadmap categories 1_TssA, 6_EnhG & 7_Enh (see [Roadmap_healthy_adult_tissues_list.txt](pancancer_epigenomic_analysis/Roadmap_healthy_adult_tissues_list.txt)). 
+Predicted regulatory regions in healthy adult tissues were defined using Roadmap categories 1_TssA, 6_EnhG & 7_Enh (see [Roadmap_healthy_adult_tissues_list.txt](pancancer_epigenomic_analysis/Roadmap_healthy_adult_tissues_list.txt)). Predicted regulatory regions for -- different cancer subtypes were obtained from TCGA ATACseq peaks  (see FILE). 
 
 2. Test for enrichment of TEs in cancer-specific regulatory regions
 
