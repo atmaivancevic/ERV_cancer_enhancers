@@ -91,7 +91,7 @@ cat tcgaMinusRoadmap_vs_TEs_23topTEs.tab \
 # import and plot in python (Figure1_bubbles.py)
 
 ### 2. make volcano plots showing top enriched TEs for each cancer type
-# e.g. prepare the colon cancer (COAD) table for volcano plotting in R
+# e.g. prepare the colon cancer (COAD) table for plotting in R
 
 cat COAD_peakCalls_minus_healthy.bed.VSrepeats.tab \
 | sed 's/#//g' \
