@@ -38,7 +38,7 @@ windowRight=4000
 binSize=10
 numCPU=8
 
-singularity exec --bind /Shares/CL_Shared $deeptools \
+singularity exec --bind /scratch/Users $deeptools \
 computeMatrix reference-point \
 --referencePoint TSS \
 --scoreFileName HCT116_H3K27ac_84767.bw HCT116_H3K4me1_85458.bw HCT116_POLR2A_46201.bw HCT116_EP300_42907.bw HCT116_ATACseq_105341.bw \
@@ -56,7 +56,7 @@ echo $(date +"[%b %d %H:%M:%S] Plot heatmap...")
 zMin=0
 yMin=0
 
-singularity exec --bind /Shares/CL_Shared $deeptools \
+singularity exec --bind /scratch/Users $deeptools \
 plotHeatmap \
 -m $outDir/$outFile.mat.gz \
 --outFileName $outDir/$outFile.pdf \
