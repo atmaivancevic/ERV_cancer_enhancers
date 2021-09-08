@@ -75,6 +75,8 @@ Supp table 2: roadmap giggle results
 
 ## Control of LTR10 activity by MAPK signaling
 
+Analysis scripts for Cut&Run and RNAseq (slurm scripts would be everything from fastq, peak calling with nacs2, etc; R scripts would be deseq2 and plottting)
+
 3a: MA plot Cobi. Redo with lfcShrink. 
 
 3b: MA plot TNF-alpha, also need to redo. Only need to provide script for one of them (since it's the same with diff input table). Upload input feature counts tables (raw counts), normalized count tables and Deseq2 results tables for each case. 
@@ -88,6 +90,8 @@ Supp table 2: roadmap giggle results
 3g: R script pheatmap of genes with treatments. Also R script pheatmap of H3K27ac Cut&Run LTR10 elements
 
 ## CRISPR silencing & deletion of LTR10 elements
+
+Analysis scripts for RNAseq, like above. 
 
 Python coolbox scripts and R scripts for deseq2/genome distance plots. Need to redo with lfcShrink. Also python scripts for bargraphs. And MA plots for e.g. ATG12 LTR10F. 
 
