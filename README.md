@@ -49,7 +49,7 @@ GIGGLE was used to create a database of all TE families in the hg38 human genome
 
 Genome coordinates of LTR10 elements were obtained from Dfam. LTR10A and LTR10F elements were merged (within 2kb) and used to generate heatmaps from TCGA tumor ATACseq (e.g. [Fig1_deeptools_atacseq.sbatch](pancancer_epigenomic_analysis/Fig1_deeptools_atacseq.sbatch)). Similar heatmaps were plotted using other TEs and other LTR10 subfamilies (e.g. [deeptools_atacseq_allLTR10.sbatch](pancancer_epigenomic_analysis/deeptools_atacseq_allLTR10.sbatch)).   
 
-Figure 1E: HCT116. (e.g. [Fig1_deeptools_HCT116_marks_over_LTR10AF.sbatch](pancancer_epigenomic_analysis/Fig1_deeptools_HCT116_marks_over_LTR10AF.sbatch))
+Figure 1E: HCT116. (e.g. [Fig1_deeptools_HCT116.sbatch](pancancer_epigenomic_analysis/Fig1_deeptools_HCT116.sbatch))
 
 ## Regulatory activity of LTR10 in colorectal cancer
  
