@@ -51,7 +51,7 @@ Genome coordinates of LTR10 elements were obtained from Dfam. LTR10A and LTR10F 
 
 Figure 1E: HCT116. 
 
-## Regulatory activity of LTR10 in colorectal cancer (maybe reprhase)
+## Regulatory activity of LTR10 in colorectal cancer
  
 
 ## Control of LTR10 activity by MAPK signaling
