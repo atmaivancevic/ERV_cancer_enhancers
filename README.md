@@ -7,7 +7,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 ### Programs used (add version numbers!!):
 - GIGGLE v0.6.3 (https://github.com/ryanlayer/giggle)
 - bedtools v2.28.0 (http://bedtools.readthedocs.io/en/latest/)
-- deepTools (https://deeptools.readthedocs.io/en/develop/index.html)
+- deepTools 3.0.1 (https://deeptools.readthedocs.io/en/develop/index.html)
 - MACS2 (https://pypi.org/project/MACS2/)
 - BWA (https://github.com/lh3/bwa)
 - Samtools (http://www.htslib.org/)
