@@ -50,7 +50,7 @@ GIGGLE was used to create a database of all TE families in the human genome, bas
 Figure 1D (ATACseq heatmap): add deeptools script for both Figure 1D and Figure 1D Supp (which includes all LRT10 subfamilies). Colon cancer only.
 Figure 1E: HCT116. 
 
-## Regulatory activity of LTR10 in colorectal cancer
+## Regulatory activity of LTR10 in colorectal cancer (maybe reprhase)
  
 
 ## Control of LTR10 activity by MAPK signaling
