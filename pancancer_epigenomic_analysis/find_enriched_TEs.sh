@@ -80,11 +80,11 @@ cat tcgaMinusRoadmap_vs_TEs_rankedByScore_noLowComplxRepeats.tab \
 # extract the giggle results for these 23 top TEs
 cat tcgaMinusRoadmap_vs_TEs_rankedByScore_noLowComplxRepeats.tab \
 | awk '{if ($2=="HERVE_a-int"|| $2=="Harlequin-int"|| $2=="LTR10A"|| $2=="LTR10C"|| $2=="LTR10F"|| $2=="LTR13"|| $2=="LTR13A"|| $2=="LTR2B"|| $2=="LTR3A"|| $2=="LTR3B"|| $2=="LTR5B"|| $2=="LTR5_Hs"|| $2=="LTR7Y"|| $2=="LTR9"|| $2=="MER11A"|| $2=="MER11B"|| $2=="MER11D"|| $2=="MER39B"|| $2=="MER41B"|| $2=="MER44B"|| $2=="MER51A"|| $2=="PABL_A"|| $2=="SVA_A") print}' \
-| sed 1i"cancer\trepeat\tfilesize\toverlaps\toddsratio\tgigglescore" \
-> tcgaMinusRoadmap_vs_TEs_23topTEs.tab
+| sed 1i"cancer_type\trepeat_family\trepeat_family_size\toverlaps\todds_ratio\tgiggle_score" \
+> SuppTable1_TCGA_giggle_results_top23TEs.tab
 
-# plot positive enrichment scores only (i.e. score > 0)
-cat tcgaMinusRoadmap_vs_TEs_23topTEs.tab \
+# plot positive enrichment scores only (i.e. giggle_score>0)
+cat SuppTable1_TCGA_giggle_results_top23TEs.tab \
 | awk '{if ($6>0) print}' \
 > tcgaMinusRoadmap_vs_TEs_23topTEs_giggle0.tab
 
