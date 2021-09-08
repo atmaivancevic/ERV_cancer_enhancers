@@ -75,6 +75,24 @@ Supp table 2: roadmap giggle results
 
 ## Control of LTR10 activity by MAPK signaling
 
+3a: MA plot Cobi. Redo with lfcShrink. 
+
+3b: MA plot TNF-alpha, also need to redo. Only need to provide script for one of them (since it's the same with diff input table). Upload input feature counts tables (raw counts), normalized count tables and Deseq2 results tables for each case. 
+
+3d: giggle volcano plot of treated C&R 
+
+3e: R script for Log2FC plot (genes and TEs)
+
+3f: shell script showing process to get to final list of gene/LTR10 enhancer. Table of final list.
+
+3g: R script pheatmap of genes with treatments. Also R script pheatmap of H3K27ac Cut&Run LTR10 elements
+
 ## CRISPR silencing & deletion of LTR10 elements
 
+Python coolbox scripts and R scripts for deseq2/genome distance plots. Need to redo with lfcShrink. Also python scripts for bargraphs. And MA plots for e.g. ATG12 LTR10F. 
+
 ## Human variation at AP1 sites within LTR10 elements
+
+Python scripts for AP1 count histogram/correlation plots. 
+
+Also python/jupyter scripts for gnomad deletions in human popn. 
