@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Script for running deeptools 
+## Script for running deeptools to generate a heatmap
 ##
 ## Example usage:
 ## outDir=. outFile=TCGA_ATACseq_over_LTR10AF sbatch deeptools_over_LTR10AF.q
