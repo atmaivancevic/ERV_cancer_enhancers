@@ -83,11 +83,6 @@ cat tcgaMinusRoadmap_vs_TEs_rankedByScore_noLowComplxRepeats.tab \
 | sed 1i"cancer_type\trepeat_family\trepeat_family_size\toverlaps\todds_ratio\tgiggle_score" \
 > SuppTable1_TCGA_giggle_results_top23TEs.tab
 
-# plot positive enrichment scores only (i.e. giggle_score>0)
-cat SuppTable1_TCGA_giggle_results_top23TEs.tab \
-| awk '{if ($6>0) print}' \
-> tcgaMinusRoadmap_vs_TEs_23topTEs_giggle0.tab
-
 # import and plot in python (Figure1_bubbles.py)
 
 ### 2. make volcano plots showing top enriched TEs for each cancer type
