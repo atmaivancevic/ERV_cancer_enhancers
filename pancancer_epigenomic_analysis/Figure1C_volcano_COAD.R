@@ -28,7 +28,7 @@ COAD_simple = as.data.frame(COAD_simple)
 COAD_simple$probename <- rownames(COAD_simple)
 head(COAD_simple)
 
-# This last subset will be for adding labels to the most enriched/depleted TEs
+# Subset the most enriched/depleted TEs (for labelling on the plot)
 labelsEnriched = subset(COAD_simple, fishers_two_tail_pval<0.00000000000000000000000005 & odds_ratio>30)
 nrow(labelsEnriched)
 rownames(labelsEnriched)
