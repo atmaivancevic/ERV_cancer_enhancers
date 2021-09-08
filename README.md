@@ -47,7 +47,7 @@ GIGGLE was used to create a database of all TE families in the hg38 human genome
 
 #### 3. Element-level TE analysis
 
-hg38 genome coordinates of LTR10 elements were obtained from Dfam. LTR10A and LTR10F elements were merged (within 2kb) and used to generate heatmaps from TCGA tumor ATACseq (e.g. [Fig1_deeptools_atacseq.sbatch](pancancer_epigenomic_analysis/Fig1_deeptools_atacseq.sbatch)). Similar heatmaps were plotted using other TEs and other LTR10 subfamilies (e.g. [deeptools_atacseq_allLTR10.sbatch](pancancer_epigenomic_analysis/deeptools_atacseq_allLTR10.sbatch)).   
+hg38 genome coordinates of LTR10 elements were obtained from Dfam. LTR10A and LTR10F elements were merged (within 2kb) and used to generate heatmaps from TCGA tumor ATACseq (e.g. [Fig1_deeptools_atacseq.sbatch](pancancer_epigenomic_analysis/Fig1_deeptools_atacseq.sbatch)). Similar heatmaps were plotted using other LTR10 subfamilies (e.g. [deeptools_atacseq_allLTR10.sbatch](pancancer_epigenomic_analysis/deeptools_atacseq_allLTR10.sbatch)) and other TEs families. 
 
 Figure 1E: HCT116. (e.g. [Fig1_deeptools_hct116.sbatch](pancancer_epigenomic_analysis/Fig1_deeptools_hct116.sbatch))
 
