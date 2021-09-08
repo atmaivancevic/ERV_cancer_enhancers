@@ -45,7 +45,7 @@ Predicted regulatory regions in healthy adult tissues were defined using Roadmap
 #### 2. Test for family-level enrichment of TEs
 GIGGLE was used to create a database of all TE families in the hg38 human genome, based on Dfam annotation. Cancer-specific regulatory regions were then searched against the repeat database (see [find_enriched_TEs.sh](pancancer_epigenomic_analysis/find_enriched_TEs.sh)). Results were ranked from highest to lowest enrichment score, and filtered based on odds ratio, score, and the number of overlaps ([SuppTable1_TCGA_giggle_results_top23TEs.tab](pancancer_epigenomic_analysis/SuppTable1_TCGA_giggle_results_top23TEs.tab)). Cancer-TE associations were visualized as bubble and volcano plots (e.g. [Fig1_bubbles.py](pancancer_epigenomic_analysis/Fig1_bubbles.py), [Fig1_volcano_COAD.R](pancancer_epigenomic_analysis/Fig1_volcano_COAD.R)). 
 
-#### 3. Element-level analysis of LTR10 elements
+#### 3. Element-level TE analysis
 
 Genome coordinates of LTR10 elements were obtained from Dfam. LTR10A and LTR10F elements were merged (within 2kb) and used to generate heatmaps from TCGA tumor ATACseq (e.g. [Fig1_deeptools_heatmap_over_LTR10AF.sbatch](pancancer_epigenomic_analysis/Fig1_deeptools_heatmap_over_LTR10AF.sbatch)). Similar heatmaps were plotted using other TEs and other LTR10 subfamilies (e.g. [deeptools_heatmap_allLTR10subfamilies.sbatch](pancancer_epigenomic_analysis/deeptools_heatmap_allLTR10subfamilies.sbatch)).   
 
