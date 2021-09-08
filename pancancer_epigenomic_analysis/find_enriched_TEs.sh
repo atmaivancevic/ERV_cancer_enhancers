@@ -83,7 +83,7 @@ cat tcgaMinusRoadmap_vs_TEs_rankedByScore_noLowComplxRepeats.tab \
 | sed 1i"cancer_type\trepeat_family\trepeat_family_size\toverlaps\todds_ratio\tgiggle_score" \
 > SuppTable1_TCGA_giggle_results_top23TEs.tab
 
-# import and plot in python (Figure1_bubbles.py)
+# import and plot in jupyter (Figure1_bubbles.py)
 
 ### 2. make volcano plots showing top enriched TEs for each cancer type
 # e.g. prepare the colon cancer (COAD) table for plotting in R
