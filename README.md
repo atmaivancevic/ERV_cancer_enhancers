@@ -4,7 +4,7 @@
 
 Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcriptional rewiring in response to oncogenic signaling in colorectal cancer" JOURNAL, ISSUE: PAGES. **[add link to paper]**
 
-### Programs used:
+### Programs used (add version numbers!!):
 - GIGGLE (https://github.com/ryanlayer/giggle)
 - bedtools (http://bedtools.readthedocs.io/en/latest/)
 - deepTools (https://deeptools.readthedocs.io/en/develop/index.html)
