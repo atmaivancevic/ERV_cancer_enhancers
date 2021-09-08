@@ -3,7 +3,7 @@
 ## Script for running deeptools to generate a heatmap
 ##
 ## Example usage:
-## outDir=. outFile=TCGA_ATACseq_over_LTR10AF sbatch Fig1_deeptools_heatmap_over_LTR10AF.sbatch
+## outDir=. outFile=TCGA_ATACseq_over_LTR10AF sbatch Fig1_deeptools_atacseq_over_LTR10AF.sbatch
 
 # General settings
 #SBATCH -p short
