@@ -52,7 +52,17 @@ hg38 genome coordinates of LTR10 elements were obtained from Dfam. LTR10A and LT
 We further assessed TE signal in public ChIPseq datasets from Cistrome, particularly looking at histone marks indicative of enhancer activity in cancer cell lines (e.g. HCT116 H3K27ac ChIPseq & H3K4me1 ChIPseq; see [Fig1_deeptools_hct116.sbatch](pancancer_epigenomic_analysis/Fig1_deeptools_hct116.sbatch)). 
 
 ## Regulatory activity of LTR10 in colorectal cancer
- 
+
+Fig2a: overall heatmap and deeptools signal heatmap of CEMT patient chipseq
+2b: Roadmap category giggle scores
+Supp table 2: roadmap giggle results
+2c: barchart top cistrome tfs (activators)
+2d: tf activators deeptools heatmap
+2e: barchart cistrome tf repressors 
+2f: tf repressors deeptools heatmap
+2g: python script coolbox screenshot
+2h: meme results and input files e.g. primary set H3K27ac-marked LTR10s vs control set non-H3K27ac-marked LTR10s (with shell script process of how generated those files). Also deeptools motif plot. And fimo script to get FOSL1 motif coordinates genome-wide. 
+2i: muscle/gblocks/fasttree scripts for LTR10 consensus tree
 
 ## Control of LTR10 activity by MAPK signaling
 
