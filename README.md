@@ -54,7 +54,11 @@ We further assessed TE signal in public ChIPseq datasets from Cistrome, particul
 ## Regulatory activity of LTR10 in colorectal cancer
 
 Fig2a: overall heatmap and deeptools signal heatmap of CEMT patient chipseq
+
+
 2b: Roadmap category giggle scores
+
+
 Supp table 2: roadmap giggle results
 2c: barchart top cistrome tfs (activators)
 2d: tf activators deeptools heatmap
