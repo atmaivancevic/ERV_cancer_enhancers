@@ -42,12 +42,16 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 
 Predicted regulatory regions in healthy adult tissues were defined using Roadmap categories 1_TssA, 6_EnhG & 7_Enh (see [Roadmap_healthy_adult_tissues_list.txt](pancancer_epigenomic_analysis/Roadmap_healthy_adult_tissues_list.txt)). Predicted regulatory regions for 21 different cancer types were obtained from TCGA ATACseq peaks (see [TCGA_cancers_list.txt](pancancer_epigenomic_analysis/TCGA_cancers_list.txt)). Cancer-specific regulatory regions were identified by subtracting "healthy" regulatory regions from each cancer peak set.
 
-#### 2. Test for enrichment of TEs in cancer-specific regulatory regions
+#### 2. Test for family-level enrichment of TEs
 GIGGLE was used to create a database of all TE families in the human genome, based on Dfam annotation. Cancer-specific regulatory regions were then searched against the repeat database (see [find_enriched_TEs.sh](pancancer_epigenomic_analysis/find_enriched_TEs.sh)). Results were ranked from highest to lowest enrichment score, and filtered based on odds ratio, score, and the number of overlaps ([SuppTable1_TCGA_giggle_results_top23TEs.tab](pancancer_epigenomic_analysis/SuppTable1_TCGA_giggle_results_top23TEs.tab)). Cancer-TE associations were visualized as bubble and volcano plots (e.g. [Figure1_bubbles.py](pancancer_epigenomic_analysis/Figure1_bubbles.py), [Figure1_volcano_COAD.R](pancancer_epigenomic_analysis/Figure1_volcano_COAD.R)). 
 
-## Regulatory activity of LTR10 in colorectal cancer
+#### 3. Element-level analysis of LTR10 elements
 
-Figure 1D (ATACseq heatmap): add deeptools script for both Figure 1D and Figure 1D Supp (which includes all LRT10 subfamilies). 
+Figure 1D (ATACseq heatmap): add deeptools script for both Figure 1D and Figure 1D Supp (which includes all LRT10 subfamilies). Colon cancer only.
+Figure 1E: HCT116. 
+
+## Regulatory activity of LTR10 in colorectal cancer
+ 
 
 ## Control of LTR10 activity by MAPK signaling
 
