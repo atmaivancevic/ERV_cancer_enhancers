@@ -39,7 +39,6 @@ fig.update_yaxes(title_standoff=12)
 fig.update_xaxes(title_standoff=12)
 fig.update_yaxes(tickfont_size=12, ticks="outside", tickangle=0, ticklen=4)
 fig.update_xaxes(tickfont_size=12, tickangle=45, ticks="outside", ticklen=4)
-
 fig.layout.font.family = 'Helvetica'
 
 # Show and save fig
