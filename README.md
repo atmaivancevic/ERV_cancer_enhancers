@@ -47,7 +47,8 @@ GIGGLE was used to create a database of all TE families in the human genome, bas
 
 #### 3. Element-level analysis of LTR10 elements
 
-Figure 1D (ATACseq heatmap): add deeptools script for both Figure 1D and Figure 1D Supp (which includes all LRT10 subfamilies). Colon cancer only.
+Genome coordinates of LTR10 elements were obtained from Dfam. LTR10A and LTR10F elements were merged (within 2kb) and used to generate a heatmap over ATACseq from TCGA colon adenocarcinomas ([deeptools_over_LTR10AF.q](pancancer_epigenomic_analysis/deeptools_over_LTR10AF.q)). A similar heatmap was plotted for all LTR10 subfamilies, A to G (([deeptools_over_allLTR10subfamilies.q](pancancer_epigenomic_analysis/deeptools_over_allLTR10subfamilies.q))).   
+
 Figure 1E: HCT116. 
 
 ## Regulatory activity of LTR10 in colorectal cancer (maybe reprhase)
