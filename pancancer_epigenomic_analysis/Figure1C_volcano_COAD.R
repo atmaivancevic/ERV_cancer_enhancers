@@ -37,7 +37,7 @@ labelsDepleted = subset(COAD_simple, fishers_two_tail_pval<0.0000000000000000000
 nrow(labelsDepleted)
 rownames(labelsDepleted)
 
-# Plot it
+# Plot volcano
 ggplot(COAD_simple, aes(log2(odds_ratio),-log10(fishers_two_tail_pval)), colour="grey") +
   scale_color_discrete(name='Labels') +
   theme_classic() +
