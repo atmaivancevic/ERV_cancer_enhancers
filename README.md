@@ -75,6 +75,21 @@ Supp table 2: roadmap giggle results
 
 ## Control of LTR10 activity by AP1/MAPK signaling
 
+Started with raw fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2). 
+List of files: 
+- Cobi_24_1_S54_R1.fastq.gz
+- Cobi_24_1_S54_R2.fastq.gz
+- Cobi_24_2_S55_R1.fastq.gz
+- Cobi_24_2_S55_R2.fastq.gz
+- TNF_24_1_S58_R1.fastq.gz
+- TNF_24_1_S58_R2.fastq.gz
+- TNF_24_2_S59_R1.fastq.gz
+- TNF_24_2_S59_R2.fastq.gz
+- UT_24_1_S52_R1.fastq.gz 
+- UT_24_1_S52_R2.fastq.gz
+- UT_24_2_S53_R1.fastq.gz
+* UT_24_2_S53_R2.fastq.gz
+
 Analysis scripts for Cut&Run and RNAseq (slurm scripts would be everything from fastq, peak calling with nacs2, etc; R scripts would be deseq2 and plottting)
 
 3a: MA plot Cobi. Redo with lfcShrink. 
