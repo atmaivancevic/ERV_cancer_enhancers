@@ -73,7 +73,7 @@ Supp table 2: roadmap giggle results
 
 2i: muscle/gblocks/fasttree scripts for LTR10 consensus tree
 
-## Control of LTR10 activity by MAPK signaling
+## Control of LTR10 activity by MAPK/AP1 signaling
 
 Analysis scripts for Cut&Run and RNAseq (slurm scripts would be everything from fastq, peak calling with nacs2, etc; R scripts would be deseq2 and plottting)
 
