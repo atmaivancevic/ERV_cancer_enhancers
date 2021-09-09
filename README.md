@@ -12,7 +12,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - BWA (https://github.com/lh3/bwa)
 - samtools v1.10 (http://www.htslib.org/)
 - hisat2 v2.1.0 (https://github.com/DaehwanKimLab/hisat2)
-- BBMap/BBduk (https://jgi.doe.gov/data-and-tools/bbtools/)
+- BBDuk/BBMap v38.05 (https://jgi.doe.gov/data-and-tools/bbtools/)
 - FastQC v0.11.8 (https://github.com/s-andrews/FastQC)
 - MultiQC (https://github.com/ewels/MultiQC)
 - DESeq2 (https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
@@ -25,7 +25,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - FastTree (http://www.microbesonline.org/fasttree/)
 
 ### Public databases:
-- The Cancer Genome Atlas (TCGA), via the Genome Data Commons (https://gdc.cancer.gov/)
+- The Cancer Genome Atlas (TCGA), via the Genomic Data Commons (https://gdc.cancer.gov/)
 - CEMT epigenomes (http://www.epigenomes.ca/data-release/)
 - Cistrome (http://cistrome.org/)
 - Roadmap Epigenomics Project (http://www.roadmapepigenomics.org/)
