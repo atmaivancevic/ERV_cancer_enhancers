@@ -91,16 +91,22 @@ List of files:
 - UT_24_2_S53_R1.fastq.gz
 - UT_24_2_S53_R2.fastq.gz
 
+*Put these files in --, for upload to GEO.* 
+
 1) fastqc.sbatch
 2) bbduk_PE.sbatch
 3) fastqc.sbatch (again)
-4) hisat2_PE.sbatch
-5) bam_to_bw.sbatch
-6) feature_counts.sbatch
+3b) multiqc.sbatch 
+5) hisat2_PE.sbatch
+6) bam_to_bw.sbatch
+7) feature_counts.sbatch
+8) deseq2.R for genes
 
 For TE-transcripts:
 8) hisat2_PE_k100.sbatch (required for TEtranscripts)
 9) tetranscripts.sbatch
+10) filter to only keep TEs (bash)
+11) deseq2.R for TEs only
 
 Analysis scripts for Cut&Run and RNAseq (slurm scripts would be everything from fastq, peak calling with nacs2, etc; R scripts would be deseq2 and plottting)
 
