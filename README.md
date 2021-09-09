@@ -92,7 +92,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 - UT_24_2_S53_R2.fastq.gz
 
 **Workflow:**
-1) bbduk_PE.sbatch
+1) [bbduk_PE.sbatch](MAPK_signaling/bbduk_PE.sbatch)
 2) fastqc.sbatch (again)
 3) multiqc.sbatch 
 4) hisat2_PE.sbatch
