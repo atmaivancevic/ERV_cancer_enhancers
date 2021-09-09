@@ -75,7 +75,8 @@ Supp table 2: roadmap giggle results
 
 ## Control of LTR10 activity by AP1/MAPK signaling
 
-Started with raw fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2). 
+Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2). 
+
 List of files: 
 - Cobi_24_1_S54_R1.fastq.gz
 - Cobi_24_1_S54_R2.fastq.gz
@@ -88,7 +89,18 @@ List of files:
 - UT_24_1_S52_R1.fastq.gz 
 - UT_24_1_S52_R2.fastq.gz
 - UT_24_2_S53_R1.fastq.gz
-* UT_24_2_S53_R2.fastq.gz
+- UT_24_2_S53_R2.fastq.gz
+
+1) fastqc.sbatch
+2) bbduk_PE.sbatch
+3) fastqc.sbatch (again)
+4) hisat2_PE.sbatch
+5) bam_to_bw.sbatch
+6) feature_counts.sbatch
+
+For TE-transcripts:
+8) hisat2_PE_k100.sbatch (required for TEtranscripts)
+9) tetranscripts.sbatch
 
 Analysis scripts for Cut&Run and RNAseq (slurm scripts would be everything from fastq, peak calling with nacs2, etc; R scripts would be deseq2 and plottting)
 
