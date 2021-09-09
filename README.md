@@ -101,7 +101,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 7) feature_counts.sbatch
 8) deseq2.R for genes
 
-For TE-transcripts:
+**For TE-transcripts:**
 8) hisat2_PE_k100.sbatch (required for TEtranscripts)
 9) tetranscripts.sbatch
 10) filter to only keep TEs (bash)
