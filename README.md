@@ -91,6 +91,7 @@ List of files:
 - UT_24_2_S53_R1.fastq.gz
 - UT_24_2_S53_R2.fastq.gz
 
+Workflow:
 1) fastqc.sbatch
 2) bbduk_PE.sbatch
 3) fastqc.sbatch (again)
