@@ -91,7 +91,7 @@ List of files:
 - UT_24_2_S53_R1.fastq.gz
 - UT_24_2_S53_R2.fastq.gz
 
-*Put these files in --, for upload to GEO.* 
+*Put these files in /scratch/Users/ativ2716/data/2_files_for_GEO_upload/MAPK_treated_RNAseq, for upload to GEO.* 
 
 1) fastqc.sbatch
 2) bbduk_PE.sbatch
