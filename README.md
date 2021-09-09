@@ -92,14 +92,13 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 - UT_24_2_S53_R2.fastq.gz
 
 **Workflow:**
-1) fastqc.sbatch
-2) bbduk_PE.sbatch
-3) fastqc.sbatch (again)
-3b) multiqc.sbatch 
-5) hisat2_PE.sbatch
-6) bam_to_bw.sbatch
-7) feature_counts.sbatch
-8) deseq2.R for genes
+1) bbduk_PE.sbatch
+2) fastqc.sbatch (again)
+3) multiqc.sbatch 
+4) hisat2_PE.sbatch
+5) bam_to_bw.sbatch
+6) feature_counts.sbatch
+7) deseq2.R for genes
 
 **For TE-transcripts:**
 1) hisat2_PE_k100.sbatch (required for TEtranscripts)
