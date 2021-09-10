@@ -22,7 +22,7 @@ Add a few of my UCSC sessions
 - TEtranscripts v2.1.4 (https://github.com/mhammell-laboratory/TEtranscripts)
 - MACS2 v2.1.1 (https://pypi.org/project/MACS2/)
 - BWA v0.7.15 (https://github.com/lh3/bwa)
-- DESeq2 (https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
+- DESeq2 v1.32.0 (https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 - fastq-dump v2.10.5 from SRA Toolkit (https://hpc.nih.gov/apps/sratoolkit.html)
 - MEME Suite v5.4.1 (https://meme-suite.org/meme/)
 - vsearch v2.14.1 (https://github.com/torognes/vsearch)
