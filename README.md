@@ -19,6 +19,7 @@ Add a few of my UCSC sessions e.g. for each section
 - MultiQC (https://github.com/ewels/MultiQC)
 - hisat2 v2.1.0 (https://github.com/DaehwanKimLab/hisat2)
 - subread/featureCounts v1.6.2 (http://subread.sourceforge.net/)
+- TEtranscripts v2.1.4 (https://github.com/mhammell-laboratory/TEtranscripts)
 - MACS2 (https://pypi.org/project/MACS2/)
 - BWA (https://github.com/lh3/bwa)
 - DESeq2 (https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
