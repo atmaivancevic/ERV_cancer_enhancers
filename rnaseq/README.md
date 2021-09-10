@@ -9,7 +9,7 @@ A typical RNAseq workflow might look like this:
 7) add_gene_names.sh, using gencode34_geneid_genename.txt
 8) deseq2_genes.R
 
-For TE-transcripts, re-align bams files to allow multiple alignments per read:
+For TE-transcripts, re-align bams to allow multiple alignments per read:
 
 9) hisat2_PE_k100.sbatch
 10) te_transcripts.sbatch
