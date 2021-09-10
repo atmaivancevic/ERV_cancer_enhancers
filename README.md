@@ -107,7 +107,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 4) [hisat2_PE.sbatch](rnaseq/hisat2_PE.sbatch)
 5) [bam_to_bw.sbatch](rnaseq/bam_to_bw.sbatch)
 6) [feature_counts.sbatch](rnaseq/feature_counts.sbatch)
-7) Add gene names to featureCounts table (shell script)
+7) Add gene names to feature counts, using [bash script]() with [gencode34_geneSymbol_geneName.txt](rnaseq/gencode34_geneSymbol_geneName.txt)
 8) [deseq2_genes.R](rnaseq/deseq2_genes.R)
 
 **For TE-transcripts:**
