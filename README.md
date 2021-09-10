@@ -23,7 +23,7 @@ Add a few of my UCSC sessions
 - MACS2 v2.1.1 (https://pypi.org/project/MACS2/)
 - BWA v0.7.15 (https://github.com/lh3/bwa)
 - DESeq2 (https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
-- fastq-dump v2.10.5 from the SRA Toolkit (https://hpc.nih.gov/apps/sratoolkit.html)
+- fastq-dump v2.10.5 from SRA Toolkit (https://hpc.nih.gov/apps/sratoolkit.html)
 - MEME Suite v5.4.1 (https://meme-suite.org/meme/)
 - vsearch v2.14.1 (https://github.com/torognes/vsearch)
 - MUSCLE (https://www.drive5.com/muscle/)
