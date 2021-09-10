@@ -110,7 +110,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 
 **For TE-transcripts:**
 1) [hisat2_PE_k100.sbatch](mapk_signaling/hisat2_PE_k100.sbatch)
-2) [tetranscripts.sbatch](mapk_signaling/tetranscripts.sbatch)
+2) [te_transcripts.sbatch](mapk_signaling/te_transcripts.sbatch)
 3) filter to only keep TEs (bash script)
 4) [deseq2_TEs.R](mapk_signaling/deseq2_TEs.R)
 
