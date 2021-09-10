@@ -93,18 +93,18 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 
 **Workflow:**
 1) [bbduk_PE.sbatch](MAPK_signaling/bbduk_PE.sbatch)
-2) fastqc.sbatch (again)
-3) multiqc.sbatch 
-4) hisat2_PE.sbatch
-5) bam_to_bw.sbatch
-6) feature_counts.sbatch
-7) deseq2_genes.R
+2) [fastqc.sbatch](MAPK_signaling/fastqc.sbatch)
+3) [multiqc.sbatch](MAPK_signaling/multiqc.sbatch) 
+4) [hisat2_PE.sbatch](MAPK_signaling/hisat2_PE.sbatch)
+5) [bam_to_bw.sbatch](MAPK_signaling/bam_to_bw.sbatch)
+6) [feature_counts.sbatch](MAPK_signaling/feature_counts.sbatch)
+7) [deseq2_genes.R](MAPK_signaling/deseq2_genes.R)
 
 **For TE-transcripts:**
-1) hisat2_PE_k100.sbatch (required for TEtranscripts)
-2) tetranscripts.sbatch
-3) filter to only keep TEs (bash)
-4) deseq2_TEs.R
+1) [hisat2_PE_k100.sbatch](MAPK_signaling/hisat2_PE_k100.sbatch)
+2) [tetranscripts.sbatch](MAPK_signaling/tetranscripts.sbatch)
+3) filter to only keep TEs (bash script)
+4) [deseq2_TEs.R](MAPK_signaling/deseq2_TEs.R)
 
 Analysis scripts for Cut&Run and RNAseq (slurm scripts would be everything from fastq, peak calling with nacs2, etc; R scripts would be deseq2 and plottting)
 
