@@ -16,7 +16,7 @@ Add a few of my UCSC sessions
 - samtools v1.10 (http://www.htslib.org/)
 - BBDuk/BBMap v38.05 (https://jgi.doe.gov/data-and-tools/bbtools/)
 - FastQC v0.11.8 (https://github.com/s-andrews/FastQC)
-- MultiQC (https://github.com/ewels/MultiQC)
+- MultiQC v1.7 (https://github.com/ewels/MultiQC)
 - hisat2 v2.1.0 (https://github.com/DaehwanKimLab/hisat2)
 - subread/featureCounts v1.6.2 (http://subread.sourceforge.net/)
 - TEtranscripts v2.1.4 (https://github.com/mhammell-laboratory/TEtranscripts)
