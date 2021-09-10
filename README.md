@@ -27,7 +27,7 @@ Add a few of my UCSC sessions
 - MEME Suite (https://meme-suite.org/meme/)
 - VSEARCH (https://github.com/torognes/vsearch)
 - MUSCLE (https://www.drive5.com/muscle/)
-- Jalview (https://www.jalview.org/)
+- Jalview v2.11.1.4 (https://www.jalview.org/)
 - Gblocks (https://ls23l.lscore.ucla.edu/MakeTree/documentation/gblocks.html)
 - FastTree (http://www.microbesonline.org/fasttree/)
 - singularity v3.1.1 (https://github.com/hpcng/singularity)
