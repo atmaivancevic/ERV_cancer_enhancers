@@ -24,7 +24,7 @@ Add a few of my UCSC sessions
 - BWA v0.7.15 (https://github.com/lh3/bwa)
 - DESeq2 (https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 - SRA Toolkit (https://hpc.nih.gov/apps/sratoolkit.html)
-- MEME Suite (https://meme-suite.org/meme/)
+- MEME Suite v5.4.1 (https://meme-suite.org/meme/)
 - vsearch v2.14.1 (https://github.com/torognes/vsearch)
 - MUSCLE (https://www.drive5.com/muscle/)
 - Jalview v2.11.1.4 (https://www.jalview.org/)
