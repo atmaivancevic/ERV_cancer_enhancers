@@ -35,7 +35,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - Dfam (https://dfam.org/home)
 - Human Endogenous Retrovirus Database (https://herv.img.cas.cz/)
 - UCSC (https://genome.ucsc.edu/)
-- GENCODE v34 (https://www.gencodegenes.org/human/)
+- GENCODE Release 34 (https://www.gencodegenes.org/human/)
 - JASPAR (http://jaspar.genereg.net/)
 - gnomAD (https://gnomad.broadinstitute.org/)
 
