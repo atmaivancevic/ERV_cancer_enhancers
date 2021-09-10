@@ -25,7 +25,7 @@ Add a few of my UCSC sessions
 - DESeq2 (https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 - SRA Toolkit (https://hpc.nih.gov/apps/sratoolkit.html)
 - MEME Suite (https://meme-suite.org/meme/)
-- VSEARCH (https://github.com/torognes/vsearch)
+- vsearch v2.14.1 (https://github.com/torognes/vsearch)
 - MUSCLE (https://www.drive5.com/muscle/)
 - Jalview v2.11.1.4 (https://www.jalview.org/)
 - Gblocks (https://ls23l.lscore.ucla.edu/MakeTree/documentation/gblocks.html)
