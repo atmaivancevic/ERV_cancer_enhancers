@@ -25,7 +25,7 @@ module load bbmap
 
 # Define query files
 # Removes R1/R2 to generate a unique identifier for each pair of files
-queries=($(ls $inDir/*fastq.gz | xargs -n 1 basename | sed 's/_R1.fastq.gz//g' | sed 's/_R2.fastq.gz//g' | uniq))
+queries=($(ls $inDir/*fastq.gz | xargs -n 1 basename | grep -v trimmed.fastq.gz | sed 's/_R1.fastq.gz//g' | sed 's/_R2.fastq.gz//g' | uniq))
 
 # define key variables
 adapterFile=/opt/bbmap/38.05/resources/adapters.fa
