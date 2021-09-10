@@ -80,7 +80,11 @@ Supp table 2: roadmap giggle results
 
 2h: meme results and input files e.g. primary set H3K27ac-marked LTR10s vs control set non-H3K27ac-marked LTR10s (with shell script process of how generated those files). Also deeptools motif plot. And fimo script to get FOSL1 motif coordinates genome-wide. 
 
+## Evolutionary history of LTR10 elements
+
 2i: muscle/gblocks/fasttree scripts for LTR10 consensus tree
+
+Fig 2 Supp: pca plot, alignment of all LTR10 sequences, etc. 
 
 ## Control of LTR10 activity by AP1/MAPK signaling
 
