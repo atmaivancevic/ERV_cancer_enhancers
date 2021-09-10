@@ -26,7 +26,7 @@ Add a few of my UCSC sessions
 - fastq-dump v2.10.5 from SRA Toolkit (https://hpc.nih.gov/apps/sratoolkit.html)
 - MEME Suite v5.4.1 (https://meme-suite.org/meme/)
 - vsearch v2.14.1 (https://github.com/torognes/vsearch)
-- MUSCLE (https://www.drive5.com/muscle/)
+- MUSCLE v3.8.1551 (https://www.drive5.com/muscle/)
 - Jalview v2.11.1.4 (https://www.jalview.org/)
 - Gblocks (https://ls23l.lscore.ucla.edu/MakeTree/documentation/gblocks.html)
 - FastTree (http://www.microbesonline.org/fasttree/)
