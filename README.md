@@ -23,6 +23,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 - Jalview (https://www.jalview.org/)
 - Gblocks (https://ls23l.lscore.ucla.edu/MakeTree/documentation/gblocks.html)
 - FastTree (http://www.microbesonline.org/fasttree/)
+- singularity v3.1.1 (https://github.com/hpcng/singularity)
 
 ### Public databases:
 - The Cancer Genome Atlas (TCGA), via the Genomic Data Commons (https://gdc.cancer.gov/)
