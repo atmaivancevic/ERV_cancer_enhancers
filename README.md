@@ -21,7 +21,7 @@ Add a few of my UCSC sessions e.g. for each section
 - subread/featureCounts v1.6.2 (http://subread.sourceforge.net/)
 - TEtranscripts v2.1.4 (https://github.com/mhammell-laboratory/TEtranscripts)
 - MACS2 (https://pypi.org/project/MACS2/)
-- BWA (https://github.com/lh3/bwa)
+- BWA v0.7.15 (https://github.com/lh3/bwa)
 - DESeq2 (https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 - SRA Toolkit (https://hpc.nih.gov/apps/sratoolkit.html)
 - MEME Suite (https://meme-suite.org/meme/)
