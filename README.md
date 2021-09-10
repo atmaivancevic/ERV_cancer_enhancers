@@ -86,7 +86,7 @@ Supp table 2: roadmap giggle results
 
 Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2). 
 
-**RNAseq files [will be uploaded to GEO, add link here]:** 
+**RNAseq files [add GEO link here]:** 
 - Cobi_24_1_S54_R1.fastq.gz
 - Cobi_24_1_S54_R2.fastq.gz
 - Cobi_24_2_S55_R1.fastq.gz
