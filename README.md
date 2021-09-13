@@ -115,7 +115,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 **For TE-transcripts, re-aligned bams to allow multiple alignments per read:**
 1) [hisat2_PE_k100.sbatch](rnaseq/hisat2_PE_k100.sbatch)
 2) [te_transcripts.sbatch](rnaseq/te_transcripts.sbatch)
-3) [extract_TEs.sh](rnaseq/te_transcripts.sbatch)
+3) [extract_TEs.sh](rnaseq/extract_TEs.sh)
 4) [deseq2_TEs.R](rnaseq/deseq2_TEs.R)
 
 Analysis scripts for Cut&Run and RNAseq (slurm scripts would be everything from fastq, peak calling with nacs2, etc; R scripts would be deseq2 and plottting)
