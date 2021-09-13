@@ -1,7 +1,7 @@
 # MA plot
 
 # Read table
-deseq2_results_cobi_vs_ctrl <- read.table("/scratch/Users/ativ2716/data/1_testing_github_code/deseq2_results_cobi_vs_ctrl.tab", sep="\t", header = TRUE)
+deseq2_results_cobi_vs_ctrl <- read.table("deseq2_results_cobi_vs_ctrl.tab", sep="\t", header = TRUE)
 head(deseq2_results_cobi_vs_ctrl)
 
 # Convert to data frame
