@@ -13,7 +13,7 @@ plot1 <- ggplot(deseq2_results_cobi_vs_ctrl, aes(baseMean, log2FoldChange), colo
   theme_bw() +
   ggtitle("MA plot: cobi_24hr vs ctrl_24hr") +
   theme(plot.title = element_text(hjust = 0.5)) +
-  labs(y="log2 fold change", x = "mean of normalized counts") +
+  labs(y="Log2 Fold Change", x = "Mean of Normalized Counts") +
   # Set all dots color to grey
   geom_point(data=deseq2_results_cobi_vs_ctrl, colour = "grey", alpha=0.5) +
   # If padj<0.05 and log2fc<0, change dot color to red
