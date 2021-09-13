@@ -9,6 +9,7 @@ cat featureCounts.txt \
 > featureCounts_noHeader.txt
 
 # Add gene names by matching gene ids
+# And add header back in
 awk 'NR==FNR{c[$1]++;next};c[$1] > 0' featureCounts_noHeader.txt gencode34_geneid_genename.txt \
 | paste - featureCounts_noHeader.txt \
 | awk '{print $1 "\t" $2 "\t" $3 "\t" $9 "\t" $10 "\t" $11 "\t" $12 "\t" $13 "\t" $14 "\t" $15}' \
