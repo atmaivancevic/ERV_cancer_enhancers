@@ -118,8 +118,6 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 3) [extract_TEs.sh](rnaseq/extract_TEs.sh)
 4) [deseq2_TEs.R](rnaseq/deseq2_TEs.R)
 
-Analysis scripts for Cut&Run and RNAseq (slurm scripts would be everything from fastq, peak calling with nacs2, etc; R scripts would be deseq2 and plottting)
-
 MA plot of genes for Cobi vs Ctrl: [MAplot_genes_cobi_vs_ctrl.R](4_mapk_signaling/MAplot_cobi_vs_ctrl.R)
 
 MA plot of genes for TNF-alpha vs Ctrl: [MAplot_genes_tnf_vs_ctrl.R](4_mapk_signaling/MAplot_tnf_vs_ctrl.R)
@@ -128,6 +126,8 @@ MA plot of TEs for Cobi vs Ctrl: [Fig3_MAplot_TEs_cobi_vs_ctrl.R](4_mapk_signali
 
 MA plot of TEs for TNF-alpha vs Ctrl: [Fig3_MAplot_TEs_tnf_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.R)
 
+
+Analysis scripts for Cut&Run and RNAseq (slurm scripts would be everything from fastq, peak calling with nacs2, etc; R scripts would be deseq2 and plottting).
 3b: MA plot TNF-alpha, also need to redo. Only need to provide script for one of them (since it's the same with diff input table). Upload input feature counts tables (raw counts), normalized count tables and Deseq2 results tables for each case. 
 
 3d: giggle volcano plot of treated C&R 
