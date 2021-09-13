@@ -122,10 +122,13 @@ MA plot of genes for Cobi vs Ctrl: [MAplot_genes_cobi_vs_ctrl.R](4_mapk_signalin
 
 MA plot of genes for TNF-alpha vs Ctrl: [MAplot_genes_tnf_vs_ctrl.R](4_mapk_signaling/MAplot_genes_tnf_vs_ctrl.R)
 
+Log2FC-Cobi vs Log2FC-TNF plot of genes: [Log2FCplot_genes_tnf_and_ctrl.R](4_mapk_signaling/Log2FCplot_genes_tnf_and_ctrl.R)
+
 MA plot of TEs for Cobi vs Ctrl: [Fig3_MAplot_TEs_cobi_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.R)
 
 MA plot of TEs for TNF-alpha vs Ctrl: [Fig3_MAplot_TEs_tnf_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.R)
 
+Log2FC-Cobi vs Log2FC-TNF plot of TEs: [Log2FCplot_TEs_tnf_and_ctrl.R](4_mapk_signaling/Log2FCplot_TEs_tnf_and_ctrl.R)
 
 Analysis scripts for Cut&Run and RNAseq (slurm scripts would be everything from fastq, peak calling with nacs2, etc; R scripts would be deseq2 and plottting).
 3b: MA plot TNF-alpha, also need to redo. Only need to provide script for one of them (since it's the same with diff input table). Upload input feature counts tables (raw counts), normalized count tables and Deseq2 results tables for each case. 
