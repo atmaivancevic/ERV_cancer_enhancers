@@ -1,8 +1,3 @@
-# Template script for running DEseq2
-
-# Clear workspace
-rm(list = ls())
-
 # Compare the TNF-alpha and Cobimetinib results directly
 # E.g. make a log2FC_Cobi vs log2FC_TNF graph
 
