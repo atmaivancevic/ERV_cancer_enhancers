@@ -122,6 +122,9 @@ Analysis scripts for Cut&Run and RNAseq (slurm scripts would be everything from 
 
 3a: MA plot Cobi. Redo with lfcShrink. 
 
+MA plot of genes for Cobi vs Ctrl: [deseq2_TEs.R](rnaseq/deseq2_TEs.R)
+MA plot of genes for TNF-alpha vs Ctrl: [deseq2_TEs.R](rnaseq/deseq2_TEs.R)
+
 3b: MA plot TNF-alpha, also need to redo. Only need to provide script for one of them (since it's the same with diff input table). Upload input feature counts tables (raw counts), normalized count tables and Deseq2 results tables for each case. 
 
 3d: giggle volcano plot of treated C&R 
