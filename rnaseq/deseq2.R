@@ -1,3 +1,5 @@
+# Template script for running DEseq2
+
 # Clear workspace
 rm(list = ls())
 
