@@ -44,9 +44,12 @@ resultsNames(dds)
 # Raw counts
 raw_counts_24hr = counts(dds)
 head(raw_counts_24hr)
-write.table(raw_counts_24hr, file="/scratch/Users/ativ2716/data/1_testing_github_code/raw_counts_24hr.tab", quote = FALSE, row.names = TRUE, sep = "\t")
+write.table(raw_counts_24hr, file="raw_counts_24hr.tab", quote = FALSE, row.names = TRUE, sep = "\t")
 
 # Normalized counts
 normalized_counts_24hr <- counts(dds, normalized=TRUE)
 tail(normalized_counts_24hr)
-write.table(normalized_counts_24hr, file="/scratch/Users/ativ2716/data/1_testing_github_code/normalized_counts_24hr.tab", quote = FALSE, row.names = TRUE, sep = "\t")
+write.table(normalized_counts_24hr, file="normalized_counts_24hr.tab", quote = FALSE, row.names = TRUE, sep = "\t")
+
+# Visualize comparisons e.g. using MA plots, count plots, volcanos
+# See other R scripts for more detail
