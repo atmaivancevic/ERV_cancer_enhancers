@@ -51,5 +51,50 @@ normalized_counts_24hr <- counts(dds, normalized=TRUE)
 tail(normalized_counts_24hr)
 write.table(normalized_counts_24hr, file="normalized_counts_24hr.tab", quote = FALSE, row.names = TRUE, sep = "\t")
 
-# Visualize comparisons e.g. using MA plots, count plots, volcanos
-# See other R scripts for more detail
+###########################################################################################################
+
+# 1. Compare Cobimetinib to control (untreated)
+
+resultsNames(dds)
+
+#BiocManager::install("apeglm")
+#library(apeglm)
+deseq2_results_cobi_vs_ctrl <- lfcShrink(dds, coef="condition_cobi_24_vs_ctrl_24",type="apeglm")
+head(deseq2_results_cobi_vs_ctrl)
+
+# Remove NAs (e.g. due to no reads in all samples)
+deseq2_results_cobi_vs_ctrl <- na.omit(deseq2_results_cobi_vs_ctrl)
+head(deseq2_results_cobi_vs_ctrl)
+dim(deseq2_results_cobi_vs_ctrl)
+#16553
+
+# Sort by lowest padj value
+deseq2_results_cobi_vs_ctrl <- deseq2_results_cobi_vs_ctrl[order(deseq2_results_cobi_vs_ctrl$padj),]
+head(deseq2_results_cobi_vs_ctrl, 20)
+
+# Save deseq-normalized table sorted by padj
+write.table(deseq2_results_cobi_vs_ctrl, file="deseq2_results_cobi_vs_ctrl.tab", quote = FALSE, row.names = TRUE, sep = "\t")
+
+###########################################################################################################
+
+# 2. Compare TNF-alpha to control (untreated)
+
+resultsNames(dds)
+deseq2_results_tnf_vs_ctrl <- lfcShrink(dds, coef="condition_tnf_24_vs_ctrl_24",type="apeglm")
+head(deseq2_results_tnf_vs_ctrl)
+
+# Remove NAs (e.g. due to no reads in all samples)
+deseq2_results_tnf_vs_ctrl <- na.omit(deseq2_results_tnf_vs_ctrl)
+head(deseq2_results_tnf_vs_ctrl)
+dim(deseq2_results_tnf_vs_ctrl)
+#14790
+
+# Sort by lowest padj value
+deseq2_results_tnf_vs_ctrl <- deseq2_results_tnf_vs_ctrl[order(deseq2_results_tnf_vs_ctrl$padj), ]
+head(deseq2_results_tnf_vs_ctrl, 10)
+
+# Save deseq-normalized table sorted by padj
+write.table(deseq2_results_tnf_vs_ctrl, file="deseq2_results_tnf_vs_ctrl.tab", quote = FALSE, row.names = TRUE, sep = "\t")
+
+# Visualize comparisons using MA plots, count plots, volcanos
+# See e.g. Figure 3 R-scripts
