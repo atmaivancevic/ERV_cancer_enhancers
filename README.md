@@ -136,6 +136,7 @@ SLURM scripts:
 2) Index both bam files: [bam_index.sbatch](4_mapk_signaling/abc_model/bam_index.sbatch) 
 3) Call peaks using the ATACseq file: [call_peaks_atacseq.sbatch:](4_mapk_signaling/abc_model/call_peaks_atacseq.sbatch) 
 4) Sort the narrowPeak file: [sort_narrowpeak.sh](4_mapk_signaling/abc_model/sort_narrowpeak.sh) 
+5) Call candidate regions: [call_candidate_regions.sbatch](4_mapk_signaling/abc_model/call_candidate_regions.sbatch) 
 
 Intersect MAPK genes with ABC model: bash script
 
