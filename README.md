@@ -102,7 +102,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 - UT_24_2_S53_R1.fastq.gz
 - UT_24_2_S53_R2.fastq.gz
 
-**Workflow:**
+**RNAseq Workflow:**
 1) [bbduk_PE.sbatch](rnaseq/bbduk_PE.sbatch)
 2) [fastqc.sbatch](rnaseq/fastqc.sbatch)
 3) [multiqc.sbatch](rnaseq/multiqc.sbatch) 
@@ -120,6 +120,11 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 
 **CUT&RUN files [add GEO link here]:** 
 - List them here
+- H3K27ac CUT&RUN Untreated (2 reps, second rep was resequenced but I guess we just call it Rep 2?), Cobi-treated (x2) and TNF-treated (x2).
+- Also have the FOSL1, JUN, H3K9me3, POL2 CUT&RUN, but not sure if we're including those in this paper?
+- Only list the ones that we're going to add to GEO
+
+**CUT&RUN Workflow:**
 
 ### 1. TE-transcripts section first, MA plots
 3a,b: MA plot TNF-alpha, also need to redo. Only need to provide script for one of them (since it's the same with diff input table). Upload input feature counts tables (raw counts), normalized count tables and Deseq2 results tables for each case. 
