@@ -141,7 +141,7 @@ SLURM scripts:
 7) Find ABC neighbourhoods by combining ATACseq and H3K27ac CUT&RUN: [find_neighborhoods.sbatch](4_mapk_signaling/abc_model/find_neighborhoods.sbatch)
 8) Predict enhancer regions by incorporating HiC: [predict_enhancers.sbatch](4_mapk_signaling/abc_model/predict_enhancers.sbatch)
 9) Liftover to hg38 genome coordinates: [liftover.sh](4_mapk_signaling/abc_model/liftover.sh)
-10) Intersect predicted enhancers with H3K27ac-marked LTR10 elements: [intersect_and_filter.sh](4_mapk_signaling/abc_model/intersect_and_filter.sh)
+10) Intersect predicted enhancers with H3K27ac-marked LTR10A/F elements: [intersect_and_filter.sh](4_mapk_signaling/abc_model/intersect_and_filter.sh)
 
 Intersect MAPK genes with ABC model: bash script
 
