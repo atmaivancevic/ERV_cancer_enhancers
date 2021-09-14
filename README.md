@@ -154,6 +154,7 @@ SLURM scripts:
 8) Predict enhancer regions by incorporating HiC: [predict_enhancers.sbatch](4_mapk_signaling/abc_model/predict_enhancers.sbatch)
 9) Liftover to hg38 genome coordinates: [liftover.sh](4_mapk_signaling/abc_model/liftover.sh)
 10) Intersect predicted enhancers with H3K27ac-marked LTR10A/F elements: [intersect_and_filter.sh](4_mapk_signaling/abc_model/intersect_and_filter.sh)
+Output: [EnhancerPredictionsAllPutativehg38_intersect_LTR10AF_scoreOver0.001.bed](4_mapk_signaling/abc_model/EnhancerPredictionsAllPutativehg38_intersect_LTR10AF_scoreOver0.001.bed)
 
 Intersect MAPK genes with ABC model: bash script
 
