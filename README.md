@@ -124,11 +124,11 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 ### 1. TE-transcripts section first, MA plots
 3a,b: MA plot TNF-alpha, also need to redo. Only need to provide script for one of them (since it's the same with diff input table). Upload input feature counts tables (raw counts), normalized count tables and Deseq2 results tables for each case. 
 
+MA plot of TEs for Cobi vs Ctrl: [Fig3_MAplot_TEs_cobi_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.R)
+
+MA plot of TEs for TNF-alpha vs Ctrl: [Fig3_MAplot_TEs_tnf_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.R)
+
 ### 2. MAPK RNAseq, MA plots and GO analysis
-
-### 3. MAPK treated H3K27ac CUT&RUN, MA plots and giggle enrichment
-
-### 4. Enhancer-gene predictions (combining MAPK-treated RNAseq, MAPK-treated H3K27ac CUT&RUN and ABC model)
 
 MA plot of genes for Cobi vs Ctrl: [MAplot_genes_cobi_vs_ctrl.R](4_mapk_signaling/MAplot_genes_cobi_vs_ctrl.R)
 
@@ -136,13 +136,18 @@ MA plot of genes for TNF-alpha vs Ctrl: [MAplot_genes_tnf_vs_ctrl.R](4_mapk_sign
 
 Merge TNF and Cobi results into one table/plot: [merge_genes_cobi_and_tnf.R](4_mapk_signaling/merge_genes_cobi_and_tnf.R)
 
-Activity by Contact model predictions (https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction/blob/master/README.md).
+### 3. MAPK treated H3K27ac CUT&RUN, MA plots and giggle enrichment
+
+### 4. Enhancer-gene predictions (combining MAPK-treated RNAseq, MAPK-treated H3K27ac CUT&RUN and ABC model)
+
+**Activity by Contact model predictions** (https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction/blob/master/README.md).
+
 Used the instructions and provided scripts to make enhancer-gene predictions in HCT116 cells, using as input:
 1) Publicly available HCT116 ATACseq, GEO accession GSM3593802 (https://www.ncbi.nlm.nih.gov/sra/?term=SRR8544480)
 2) In-house HCT116 H3K27ac CUT&RUN, GEO accession DUMMY (LINK)
 3) Average HiC file provided by the ABC model
 
-SLURM scripts:
+**Workflow:**
 
 1) Align ATACseq to hg19 genome: [bwa_SE_atacseq_hg19.sbatch](4_mapk_signaling/abc_model/bwa_SE_atacseq_hg19.sbatch)
 2) Index bam file: [bam_index.sbatch](4_mapk_signaling/abc_model/bam_index.sbatch) 
@@ -160,12 +165,6 @@ SLURM scripts:
 Intersect MAPK genes with ABC model: bash script
 
 Redo Log2FC plot to include final gene candidates as bigger bubbles: [Fig3_Log2FCplot_genes_treatments.R](4_mapk_signaling/Fig3_Log2FCplot_genes_treatments.R)
-
-MA plot of TEs for Cobi vs Ctrl: [Fig3_MAplot_TEs_cobi_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.R)
-
-MA plot of TEs for TNF-alpha vs Ctrl: [Fig3_MAplot_TEs_tnf_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.R)
-
-Log2FC-Cobi vs Log2FC-TNF plot of TEs: [Log2FCplot_TEs_tnf_and_ctrl.R](4_mapk_signaling/Log2FCplot_TEs_tnf_and_ctrl.R)
 
 Then the Cut&Run scripts. 
 
