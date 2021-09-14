@@ -122,7 +122,7 @@ MA plot of genes for Cobi vs Ctrl: [MAplot_genes_cobi_vs_ctrl.R](4_mapk_signalin
 
 MA plot of genes for TNF-alpha vs Ctrl: [MAplot_genes_tnf_vs_ctrl.R](4_mapk_signaling/MAplot_genes_tnf_vs_ctrl.R)
 
-Log2FC-Cobi vs Log2FC-TNF plot of genes: [Log2FCplot_genes_tnf_and_ctrl.R](4_mapk_signaling/Log2FCplot_genes_tnf_and_ctrl.R)
+Merge TNF and Cobi results into one table/plot: [merge_cobi_and_tnf.R](4_mapk_signaling/merge_cobi_and_tnf.R)
 
 Activity by Contact model predictions: [activity_by_contact.sh](4_mapk_signaling/activity_by_contact.sh)
 
