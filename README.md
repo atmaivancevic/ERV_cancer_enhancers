@@ -125,7 +125,7 @@ MA plot of genes for TNF-alpha vs Ctrl: [MAplot_genes_tnf_vs_ctrl.R](4_mapk_sign
 Merge TNF and Cobi results into one table/plot: [merge_genes_cobi_and_tnf.R](4_mapk_signaling/merge_genes_cobi_and_tnf.R)
 
 Activity by Contact model predictions (https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction/blob/master/README.md)
-1) Download hg19 from ucsc and prepare bwa indexes: bash script
+1) Download hg19 from ucsc and prepare bwa indexes: [download_hg19.sh](4_mapk_signaling/abc_model/download_hg19.sh)
 2) 
 
 Intersect MAPK genes with ABC model: bash script
