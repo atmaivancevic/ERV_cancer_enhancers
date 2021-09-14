@@ -131,7 +131,9 @@ Used the instructions and provided scripts to make enhancer-gene predictions in 
 3) Average HiC file provided by the ABC model
 
 SLURM scripts:
-1) 
+
+1) Re-align ATACseq and H3K27ac CUT&Run to hg19 genome: [bwa_SE_hg19.q](4_mapk_signaling/abc_model/bwa_SE_hg19.q)
+2)  
 
 Intersect MAPK genes with ABC model: bash script
 
