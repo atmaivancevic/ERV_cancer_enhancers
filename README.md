@@ -118,6 +118,16 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 3) [extract_TEs.sh](rnaseq/extract_TEs.sh)
 4) [deseq2_TEs.R](rnaseq/deseq2_TEs.R)
 
+**CUT&RUN files [add GEO link here]:** 
+- List them here
+
+#### 1. TE-transcripts section first, MA plots
+3a,b: MA plot TNF-alpha, also need to redo. Only need to provide script for one of them (since it's the same with diff input table). Upload input feature counts tables (raw counts), normalized count tables and Deseq2 results tables for each case. 
+
+#### 2. MAPK RNAseq, MA plots
+
+#### 3. Enhancer-gene predictions (including MAPK RNAseq, H3K27ac C&R and ABC model)
+
 MA plot of genes for Cobi vs Ctrl: [MAplot_genes_cobi_vs_ctrl.R](4_mapk_signaling/MAplot_genes_cobi_vs_ctrl.R)
 
 MA plot of genes for TNF-alpha vs Ctrl: [MAplot_genes_tnf_vs_ctrl.R](4_mapk_signaling/MAplot_genes_tnf_vs_ctrl.R)
