@@ -132,8 +132,8 @@ Used the instructions and provided scripts to make enhancer-gene predictions in 
 
 SLURM scripts:
 
-1) Re-align ATACseq and H3K27ac CUT&Run to hg19 genome: [bwa_SE_hg19.q](4_mapk_signaling/abc_model/bwa_SE_hg19.q)
-2)  
+1) Re-align ATACseq and H3K27ac CUT&Run to hg19 genome: [bwa_SE_hg19.q](4_mapk_signaling/abc_model/bwa_SE_hg19.sbatch)
+2) Index both bam files: [bam_index.q](4_mapk_signaling/abc_model/bam_index.sbatch) 
 
 Intersect MAPK genes with ABC model: bash script
 
