@@ -142,13 +142,12 @@ Merge TNF and Cobi results into one table/plot: [merge_genes_cobi_and_tnf.R](4_m
 
 **Activity by Contact model predictions** (https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction/blob/master/README.md).
 
-Used the instructions and provided scripts to make enhancer-gene predictions in HCT116 cells, using as input:
+Followed the GitHub instructions to make enhancer-gene predictions in HCT116 cells, using as input:
 1) Publicly available HCT116 ATACseq, GEO accession GSM3593802 (https://www.ncbi.nlm.nih.gov/sra/?term=SRR8544480)
 2) In-house HCT116 H3K27ac CUT&RUN, GEO accession DUMMY (LINK)
 3) Average HiC file provided by the ABC model
 
 **Workflow:**
-
 1) Align ATACseq to hg19 genome: [bwa_SE_atacseq_hg19.sbatch](4_mapk_signaling/abc_model/bwa_SE_atacseq_hg19.sbatch)
 2) Index bam file: [bam_index.sbatch](4_mapk_signaling/abc_model/bam_index.sbatch) 
 3) Call peaks using the ATACseq file: [call_peaks_atacseq.sbatch:](4_mapk_signaling/abc_model/call_peaks_atacseq.sbatch) 
