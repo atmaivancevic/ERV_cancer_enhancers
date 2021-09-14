@@ -122,7 +122,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 - List them here
 - H3K27ac CUT&RUN Untreated (2 reps, second rep was resequenced but I guess we just call it Rep 2?), Cobi-treated (x2) and TNF-treated (x2).
 - Also have the FOSL1, JUN, H3K9me3, POL2 CUT&RUN, but not sure if we're including those in this paper?
-- Only list the ones that we're going to add to GEO
+- Only list the ones that we're going to add to GEO, e.g. maybe only the H3K27ac for now
 
 **CUT&RUN Workflow:**
 
