@@ -45,14 +45,14 @@ Add a few of my UCSC sessions
 
 ## Pan-cancer epigenomic analysis of TE activity
 
-#### 1. Identify cancer-specific regulatory regions
+### 1. Identify cancer-specific regulatory regions
 
 Predicted regulatory regions in healthy adult tissues were defined using Roadmap categories 1_TssA, 6_EnhG & 7_Enh (see [Roadmap_healthy_adult_tissues_list.txt](1_pancancer_epigenomics/Roadmap_healthy_adult_tissues_list.txt)). Predicted regulatory regions for 21 different cancer types were obtained from TCGA ATACseq peaks (see [TCGA_cancers_list.txt](1_pancancer_epigenomics/TCGA_cancers_list.txt)). Cancer-specific regulatory regions were identified by subtracting "healthy" regulatory regions from each cancer peak set.
 
-#### 2. Test for family-level TE enrichment
+### 2. Test for family-level TE enrichment
 GIGGLE was used to create a database of all TE families in the hg38 human genome, based on Dfam annotation. Cancer-specific regulatory regions were then searched against the repeat database (see [find_enriched_TEs.sh](1_pancancer_epigenomics/find_enriched_TEs.sh)). Results were ranked from highest to lowest enrichment score, and filtered based on odds ratio, score, and the number of overlaps ([SuppTable1_TCGA_giggle_results_top23TEs.tab](1_pancancer_epigenomics/SuppTable1_TCGA_giggle_results_top23TEs.tab)). Cancer-TE associations were visualized as bubble and volcano plots (e.g. [Fig1_bubbles.py](1_pancancer_epigenomics/Fig1_bubbles.py), [Fig1_volcano.R](1_pancancer_epigenomics/Fig1_volcano.R)). 
 
-#### 3. Element-level TE analysis
+### 3. Element-level TE analysis
 
 hg38 genome coordinates of LTR10 elements were obtained from Dfam. LTR10A and LTR10F elements were merged (2kb window) and used to generate signal heatmaps over TCGA tumor ATACseq (e.g. [Fig1_deeptools_atacseq.sbatch](1_pancancer_epigenomics/Fig1_deeptools_atacseq.sbatch)). Similar heatmaps were plotted using other LTR10 subfamilies (e.g. [deeptools_atacseq_allLTR10.sbatch](1_pancancer_epigenomics/deeptools_atacseq_allLTR10.sbatch)) and other TEs. 
 
@@ -121,12 +121,12 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 **CUT&RUN files [add GEO link here]:** 
 - List them here
 
-#### 1. TE-transcripts section first, MA plots
+### 1. TE-transcripts section first, MA plots
 3a,b: MA plot TNF-alpha, also need to redo. Only need to provide script for one of them (since it's the same with diff input table). Upload input feature counts tables (raw counts), normalized count tables and Deseq2 results tables for each case. 
 
-#### 2. MAPK RNAseq, MA plots
+### 2. MAPK RNAseq, MA plots
 
-#### 3. Enhancer-gene predictions (including MAPK RNAseq, H3K27ac C&R and ABC model)
+### 3. Enhancer-gene predictions (including MAPK RNAseq, H3K27ac C&R and ABC model)
 
 MA plot of genes for Cobi vs Ctrl: [MAplot_genes_cobi_vs_ctrl.R](4_mapk_signaling/MAplot_genes_cobi_vs_ctrl.R)
 
