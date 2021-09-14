@@ -124,6 +124,10 @@ MA plot of genes for TNF-alpha vs Ctrl: [MAplot_genes_tnf_vs_ctrl.R](4_mapk_sign
 
 Log2FC-Cobi vs Log2FC-TNF plot of genes: [Log2FCplot_genes_tnf_and_ctrl.R](4_mapk_signaling/Log2FCplot_genes_tnf_and_ctrl.R)
 
+Activity by Contact model predictions: [activity_by_contact.sh](4_mapk_signaling/activity_by_contact.sh)
+
+Redo Log2FC plot to include final gene candidates as bigger bubbles: [Fig3_Log2FCplot_genes_treatments.R](4_mapk_signaling/Fig3_Log2FCplot_genes_treatments.R)
+
 MA plot of TEs for Cobi vs Ctrl: [Fig3_MAplot_TEs_cobi_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.R)
 
 MA plot of TEs for TNF-alpha vs Ctrl: [Fig3_MAplot_TEs_tnf_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.R)
