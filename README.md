@@ -138,6 +138,10 @@ Merge TNF and Cobi results into one table/plot: [merge_genes_cobi_and_tnf.R](4_m
 
 ### 3. MAPK treated H3K27ac CUT&RUN, MA plots and giggle enrichment
 
+Analysis scripts/workflow for Cut&Run.
+Then the Cut&Run scripts. 
+3d: giggle volcano plot of treated C&R 
+
 ### 4. Enhancer-gene predictions (combining MAPK-treated RNAseq, MAPK-treated H3K27ac CUT&RUN and ABC model)
 
 **Activity by Contact model predictions** (https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction/blob/master/README.md).
@@ -161,20 +165,9 @@ Followed the GitHub instructions to make enhancer-gene predictions in HCT116 cel
 
 **Output:** [EnhancerPredictionsAllPutativehg38_intersect_LTR10AF_scoreOver0.001.bed](4_mapk_signaling/abc_model/EnhancerPredictionsAllPutativehg38_intersect_LTR10AF_scoreOver0.001.bed)
 
-Intersect MAPK genes with ABC model: bash script
+Intersect MAPK genes with ABC model: shell script showing process to get to final list of gene/LTR10 enhancer. Table of final list.
 
-Redo Log2FC plot to include final gene candidates as bigger bubbles: [Fig3_Log2FCplot_genes_treatments.R](4_mapk_signaling/Fig3_Log2FCplot_genes_treatments.R)
-
-Then the Cut&Run scripts. 
-
-Analysis scripts for Cut&Run and RNAseq (slurm scripts would be everything from fastq, peak calling with nacs2, etc; R scripts would be deseq2 and plottting).
-3b: MA plot TNF-alpha, also need to redo. Only need to provide script for one of them (since it's the same with diff input table). Upload input feature counts tables (raw counts), normalized count tables and Deseq2 results tables for each case. 
-
-3d: giggle volcano plot of treated C&R 
-
-3e: R script for Log2FC plot (genes and TEs)
-
-3f: shell script showing process to get to final list of gene/LTR10 enhancer. Table of final list.
+3e: Redo Log2FC plot to include final gene candidates as bigger bubbles: [Fig3_Log2FCplot_genes_treatments.R](4_mapk_signaling/Fig3_Log2FCplot_genes_treatments.R)
 
 3g: R script pheatmap of genes with treatments. Also R script pheatmap of H3K27ac Cut&Run LTR10 elements
 
