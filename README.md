@@ -139,6 +139,7 @@ SLURM scripts:
 6) Call candidate regions: [call_candidate_regions.sbatch](4_mapk_signaling/abc_model/call_candidate_regions.sbatch) 
 7) Align H3K27ac CUT&RUN to hg19 genome: [bwa_PE_cutnrun_hg19.sbatch](4_mapk_signaling/abc_model/bwa_PE_cutnrun_hg19.sbatch)
 8) Find ABC neighbourhoods by combining ATACseq and H3K27ac CUT&RUN: [find_neighborhoods.sbatch](4_mapk_signaling/abc_model/find_neighborhoods.sbatch)
+9) Predict enhancer regions by incorporating HiC: [predict_enhancers.sbatch](4_mapk_signaling/abc_model/predict_enhancers.sbatch)
 
 Intersect MAPK genes with ABC model: bash script
 
