@@ -3,7 +3,7 @@
 ## Script for aligning single-ended fastq files to hg19
 ##
 ## Example usage:
-## inDir=. outDir=. sbatch --array 0-1 bwa_SE_hg19.sbatch
+## inDir=. outDir=. sbatch --array 0-0 bwa_SE_atacseq_hg19.sbatch
 
 # General settings
 #SBATCH -p short
