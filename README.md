@@ -124,9 +124,11 @@ MA plot of genes for TNF-alpha vs Ctrl: [MAplot_genes_tnf_vs_ctrl.R](4_mapk_sign
 
 Merge TNF and Cobi results into one table/plot: [merge_genes_cobi_and_tnf.R](4_mapk_signaling/merge_genes_cobi_and_tnf.R)
 
-Activity by Contact model predictions (https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction/blob/master/README.md)
-1) Download hg19 from ucsc and prepare bwa indexes: [download_hg19.sh](4_mapk_signaling/abc_model/download_hg19.sh)
-2) 
+Activity by Contact model predictions (https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction/blob/master/README.md).
+Used the instructions and provided scripts to make enhancer-gene predictions in HCT116 cells, using as input:
+1) Publicly available  HCT116 ATACseq, GEO accession GSM3593802 (https://www.ncbi.nlm.nih.gov/sra/?term=SRR8544480)
+2) In-house HCT116 H3K27ac CUT&RUN, GEO accession DUMMY (LINK)
+3) 
 
 Intersect MAPK genes with ABC model: bash script
 
