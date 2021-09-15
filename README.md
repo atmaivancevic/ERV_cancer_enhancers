@@ -126,7 +126,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 
 **CUT&RUN Workflow:**
 
-### 1. MAPK-treated RNAseq, TE transcripts analysis
+### 1. MAPK-treated HCT116 RNAseq, TE transcripts analysis
 
 - Raw counts table of TEs for Cobimetinib vs Ctrl: [raw_counts_tetranscripts_cobi_24hr.tab](4_mapk_signaling/raw_counts_tetranscripts_cobi_24hr.tab)
 - Raw counts table of TEs for TNF-alpha vs Ctrl: [raw_counts_tetranscripts_tnf_24hr.tab](4_mapk_signaling/raw_counts_tetranscripts_tnf_24hr.tab)
@@ -140,7 +140,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 - MA plot of TEs for Cobimetinib vs Ctrl: [Fig3_MAplot_TEs_cobi_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.R), [Fig3_MAplot_TEs_cobi_vs_ctrl.pdf](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.pdf)
 - MA plot of TEs for TNF-alpha vs Ctrl: [Fig3_MAplot_TEs_tnf_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.R), [Fig3_MAplot_TEs_tnf_vs_ctrl.pdf](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.pdf)
 
-### 2. MAPK-treated RNAseq, gene analysis
+### 2. MAPK-treated HCT116 RNAseq, gene analysis
 
 - Raw counts table of genes for Cobimetinib vs Ctrl: [raw_counts_genes_cobi_24hr.tab](4_mapk_signaling/raw_counts_genes_cobi_24hr.tab)
 - Raw counts table of genes for TNF-alpha vs Ctrl: [raw_counts_genes_tnf_24hr.tab](4_mapk_signaling/raw_counts_genes_tnf_24hr.tab)
@@ -156,7 +156,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 
 - Merged table of Cobimetinib and TNF-alpha results: [merge_genes_cobi_and_tnf.R](4_mapk_signaling/merge_genes_cobi_and_tnf.R), [merge_genes_cobi_and_tnf.tab](4_mapk_signaling/merge_genes_cobi_and_tnf.tab)
 
-### 3. MAPK-treated H3K27ac CUT&RUN
+### 3. MAPK-treated HCT116 H3K27ac CUT&RUN
 
 E.g. MA plots and giggle enrichment volcano showing LTR10A/F
 
@@ -164,7 +164,7 @@ Analysis scripts/workflow for Cut&Run.
 Then the Cut&Run scripts. 
 3d: giggle volcano plot of treated C&R 
 
-### 4. Enhancer-gene predictions (combining MAPK-treated RNAseq, MAPK-treated H3K27ac CUT&RUN and ABC model)
+### 4. Enhancer-gene predictions (combining MAPK-treated HCT116 RNAseq, HCT116 H3K27ac CUT&RUN and Activity-by-Contact model)
 
 **Activity by Contact model predictions** (https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction/blob/master/README.md).
 
