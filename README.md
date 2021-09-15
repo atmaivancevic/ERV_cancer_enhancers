@@ -127,11 +127,24 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 **CUT&RUN Workflow:**
 
 ### 1. TE-transcripts section first, MA plots
-3a,b: MA plot TNF-alpha, also need to redo. Only need to provide script for one of them (since it's the same with diff input table). Upload input feature counts tables (raw counts), normalized count tables and Deseq2 results tables for each case. 
 
-MA plot of TEs for Cobi vs Ctrl: [Fig3_MAplot_TEs_cobi_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.R)
+Raw counts table of TEs for Cobimetinib vs Ctrl: [raw_counts_tetranscripts_cobi_24hr.tab](4_mapk_signaling/raw_counts_tetranscripts_cobi_24hr.tab)
 
-MA plot of TEs for TNF-alpha vs Ctrl: [Fig3_MAplot_TEs_tnf_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.R)
+Raw counts table of TEs for TNF-alpha vs Ctrl: [raw_counts_tetranscripts_tnf_24hr.tab](4_mapk_signaling/raw_counts_tetranscripts_tnf_24hr.tab)
+
+Normalized counts table of TEs for Cobimetinib vs Ctrl: [normalized_counts_tetranscripts_cobi_24hr.tab](4_mapk_signaling/normalized_counts_tetranscripts_cobi_24hr.tab)
+
+Normalized counts table of TEs for TNF-alpha vs Ctrl: [normalized_counts_tetranscripts_tnf_24hr.tab](4_mapk_signaling/normalized_counts_tetranscripts_tnf_24hr.tab)
+
+DEseq2 results table of TEs for Cobimetinib vs Ctrl: [deseq2_results_tetranscripts_cobi_vs_ctrl.tab](4_mapk_signaling/deseq2_results_tetranscripts_cobi_vs_ctrl.tab)
+
+DEseq2 results table of TEs for TNF-alpha vs Ctrl: [deseq2_results_tetranscripts_tnf_vs_ctrl.tab](4_mapk_signaling/deseq2_results_tetranscripts_tnf_vs_ctrl.tab)
+
+MA plot of TEs for Cobimetinib vs Ctrl, R-script: [Fig3_MAplot_TEs_cobi_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.R)
+MA plot of TEs for Cobimetinib vs Ctrl, pdf: [Fig3_MAplot_TEs_cobi_vs_ctrl.pdf](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.pdf)
+
+MA plot of TEs for TNF-alpha vs Ctrl, R-script: [Fig3_MAplot_TEs_tnf_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.R)
+MA plot of TEs for TNF-alpha vs Ctrl, pdf: [Fig3_MAplot_TEs_tnf_vs_ctrl.pdf](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.pdf)
 
 ### 2. MAPK RNAseq, MA plots and GO analysis
 
