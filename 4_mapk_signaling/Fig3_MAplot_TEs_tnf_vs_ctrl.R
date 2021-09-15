@@ -1,3 +1,6 @@
+library(ggplot2)
+library(ggrepel)
+
 deseq2_results_tetranscripts_tnf_vs_ctrl <- read.table("deseq2_results_tetranscripts_tnf_vs_ctrl.tab", sep="\t", header=TRUE)
 head(deseq2_results_tetranscripts_tnf_vs_ctrl)
 
