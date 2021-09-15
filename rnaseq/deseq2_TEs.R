@@ -6,7 +6,7 @@ suppressPackageStartupMessages(library(DESeq2))
 rm(list = ls())
 
 # Read table
-TEdata <- read.table("/scratch/Users/ativ2716/data/1_testing_github_code/tetranscripts/Cobi_24hr_bothReps_strandedNo_TEsonly.counttab",header=T,row.names=1)
+TEdata <- read.table("Cobi_24hr_bothReps_strandedNo_TEsonly.counttab",header=T,row.names=1)
 head(TEdata)
 
 groups <- factor(c(rep("TGroup",2),rep("CGroup",2)))
@@ -25,12 +25,12 @@ dds <- DESeq(dds)
 # Raw counts
 raw_counts_tetranscripts_Cobi_24hr = counts(dds)
 head(raw_counts_tetranscripts_Cobi_24hr)
-write.table(raw_counts_tetranscripts_Cobi_24hr, file="/scratch/Users/ativ2716/data/1_testing_github_code/tetranscripts/raw_counts_tetranscripts_Cobi_24hr.tab", quote = FALSE, row.names = TRUE, sep = "\t")
+write.table(raw_counts_tetranscripts_Cobi_24hr, file="raw_counts_tetranscripts_Cobi_24hr.tab", quote = FALSE, row.names = TRUE, sep = "\t")
 
 # Normalized counts
 normalized_counts_tetranscripts_Cobi_24hr <- counts(dds, normalized=TRUE)
 tail(normalized_counts_tetranscripts_Cobi_24hr)
-write.table(normalized_counts_tetranscripts_Cobi_24hr, file="/scratch/Users/ativ2716/data/1_testing_github_code/tetranscripts/normalized_counts_tetranscripts_Cobi_24hr.tab", quote = FALSE, row.names = TRUE, sep = "\t")
+write.table(normalized_counts_tetranscripts_Cobi_24hr, file="normalized_counts_tetranscripts_Cobi_24hr.tab", quote = FALSE, row.names = TRUE, sep = "\t")
 
 # Save the deseq2 output
 
@@ -52,4 +52,4 @@ deseq2_results_tetranscripts_covi_vs_ctrl <- deseq2_results_tetranscripts_covi_v
 head(deseq2_results_tetranscripts_covi_vs_ctrl, 10)
 
 # Save deseq-normalized table sorted by padj
-write.table(deseq2_results_tetranscripts_covi_vs_ctrl, file="/scratch/Users/ativ2716/data/1_testing_github_code/tetranscripts/deseq2_results_tetranscripts_covi_vs_ctrl.tab", quote = FALSE, row.names = TRUE, sep = "\t")
+write.table(deseq2_results_tetranscripts_covi_vs_ctrl, file="deseq2_results_tetranscripts_covi_vs_ctrl.tab", quote = FALSE, row.names = TRUE, sep = "\t")
