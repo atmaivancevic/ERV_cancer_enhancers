@@ -142,11 +142,9 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 
 ### 2. MAPK-treated HCT116 RNAseq, gene analysis
 
-- Raw counts table of genes for Cobimetinib vs Ctrl: [raw_counts_genes_cobi_24hr.tab](4_mapk_signaling/raw_counts_genes_cobi_24hr.tab)
-- Raw counts table of genes for TNF-alpha vs Ctrl: [raw_counts_genes_tnf_24hr.tab](4_mapk_signaling/raw_counts_genes_tnf_24hr.tab)
+- Raw counts table of genes for all samples: [raw_counts_genes_24hr.tab](4_mapk_signaling/raw_counts_genes_24hr.tab)
 
-- Normalized counts table of genes for Cobimetinib vs Ctrl: [normalized_counts_genes_cobi_24hr.tab](4_mapk_signaling/normalized_counts_genes_cobi_24hr.tab)
-- Normalized counts table of genes for TNF-alpha vs Ctrl: [normalized_counts_genes_tnf_24hr.tab](4_mapk_signaling/normalized_counts_genes_tnf_24hr.tab)
+- Normalized counts table of genes for all samples: [normalized_counts_genes_24hr.tab](4_mapk_signaling/normalized_counts_genes_24hr.tab)
 
 - DEseq2 results table of genes for Cobimetinib vs Ctrl: [deseq2_results_genes_cobi_vs_ctrl.tab](4_mapk_signaling/deseq2_results_genes_cobi_vs_ctrl.tab)
 - DEseq2 results table of genes for TNF-alpha vs Ctrl: [deseq2_results_genes_tnf_vs_ctrl.tab](4_mapk_signaling/deseq2_results_genes_tnf_vs_ctrl.tab)
