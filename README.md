@@ -126,7 +126,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 
 **CUT&RUN Workflow:**
 
-### 1. MAPK-treated RNAseq, TE analysis
+### 1. MAPK-treated RNAseq, TE transcripts analysis
 
 - Raw counts table of TEs for Cobimetinib vs Ctrl: [raw_counts_tetranscripts_cobi_24hr.tab](4_mapk_signaling/raw_counts_tetranscripts_cobi_24hr.tab)
 - Raw counts table of TEs for TNF-alpha vs Ctrl: [raw_counts_tetranscripts_tnf_24hr.tab](4_mapk_signaling/raw_counts_tetranscripts_tnf_24hr.tab)
@@ -142,11 +142,19 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 
 ### 2. MAPK-treated RNAseq, gene analysis
 
-MA plot of genes for Cobi vs Ctrl: [MAplot_genes_cobi_vs_ctrl.R](4_mapk_signaling/MAplot_genes_cobi_vs_ctrl.R)
+- Raw counts table of genes for Cobimetinib vs Ctrl: [raw_counts_genes_cobi_24hr.tab](4_mapk_signaling/raw_counts_genes_cobi_24hr.tab)
+- Raw counts table of genes for TNF-alpha vs Ctrl: [raw_counts_genes_tnf_24hr.tab](4_mapk_signaling/raw_counts_genes_tnf_24hr.tab)
 
-MA plot of genes for TNF-alpha vs Ctrl: [MAplot_genes_tnf_vs_ctrl.R](4_mapk_signaling/MAplot_genes_tnf_vs_ctrl.R)
+- Normalized counts table of genes for Cobimetinib vs Ctrl: [normalized_counts_genes_cobi_24hr.tab](4_mapk_signaling/normalized_counts_genes_cobi_24hr.tab)
+- Normalized counts table of genes for TNF-alpha vs Ctrl: [normalized_counts_genes_tnf_24hr.tab](4_mapk_signaling/normalized_counts_genes_tnf_24hr.tab)
 
-Merge TNF and Cobi results into one table/plot: [merge_genes_cobi_and_tnf.R](4_mapk_signaling/merge_genes_cobi_and_tnf.R)
+- DEseq2 results table of genes for Cobimetinib vs Ctrl: [deseq2_results_genes_cobi_vs_ctrl.tab](4_mapk_signaling/deseq2_results_genes_cobi_vs_ctrl.tab)
+- DEseq2 results table of genes for TNF-alpha vs Ctrl: [deseq2_results_genes_tnf_vs_ctrl.tab](4_mapk_signaling/deseq2_results_genes_tnf_vs_ctrl.tab)
+
+- MA plot of genes for Cobimetinib vs Ctrl: [MAplot_genes_cobi_vs_ctrl.R](4_mapk_signaling/MAplot_genes_cobi_vs_ctrl.R), [MAplot_genes_cobi_vs_ctrl.pdf](4_mapk_signaling/MAplot_genes_cobi_vs_ctrl.pdf)
+- MA plot of genes for TNF-alpha vs Ctrl: [MAplot_genes_tnf_vs_ctrl.R](4_mapk_signaling/MAplot_genes_tnf_vs_ctrl.R), [MAplot_genes_tnf_vs_ctrl.pdf](4_mapk_signaling/MAplot_genes_tnf_vs_ctrl.pdf)
+
+- Merged table of Cobimetinib and TNF-alpha results: [merge_genes_cobi_and_tnf.R](4_mapk_signaling/merge_genes_cobi_and_tnf.R), [merge_genes_cobi_and_tnf.tab](4_mapk_signaling/merge_genes_cobi_and_tnf.tab)
 
 ### 3. MAPK-treated H3K27ac CUT&RUN
 
