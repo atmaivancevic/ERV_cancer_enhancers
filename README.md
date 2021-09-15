@@ -148,7 +148,9 @@ MA plot of genes for TNF-alpha vs Ctrl: [MAplot_genes_tnf_vs_ctrl.R](4_mapk_sign
 
 Merge TNF and Cobi results into one table/plot: [merge_genes_cobi_and_tnf.R](4_mapk_signaling/merge_genes_cobi_and_tnf.R)
 
-### 3. MAPK treated H3K27ac CUT&RUN, MA plots and giggle enrichment
+### 3. MAPK-treated H3K27ac CUT&RUN
+
+E.g. MA plots and giggle enrichment volcano showing LTR10A/F
 
 Analysis scripts/workflow for Cut&Run.
 Then the Cut&Run scripts. 
