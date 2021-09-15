@@ -10,6 +10,6 @@ for i in *.cntTable;
 	| grep -v "?" \
 	| awk -F ":" '{print $1 "\t" $3}' \
 	| sed 's#gene/TE#TE\tTE_family#' \
-	| awk '{print $1 "\t" $3 "\t" $4 "\t" $5 "\t" $6 "\t" $2}' \
+	| awk '{print $1 "\t" $3 "\t" $4 "\t" $5 "\t" $6}' \
 	> ${i%.cntTable}_TEsonly.counttab; 
 	done
