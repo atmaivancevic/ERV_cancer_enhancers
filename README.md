@@ -140,11 +140,8 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 - DEseq2 results table of TEs for TNF-alpha vs Ctrl: [deseq2_results_tetranscripts_tnf_vs_ctrl.tab](4_mapk_signaling/deseq2_results_tetranscripts_tnf_vs_ctrl.tab)
 
 
-- MA plot of TEs for Cobimetinib vs Ctrl, R-script: [Fig3_MAplot_TEs_cobi_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.R)
-- MA plot of TEs for Cobimetinib vs Ctrl, pdf: [Fig3_MAplot_TEs_cobi_vs_ctrl.pdf](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.pdf)
-
-- MA plot of TEs for TNF-alpha vs Ctrl, R-script: [Fig3_MAplot_TEs_tnf_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.R)
-- MA plot of TEs for TNF-alpha vs Ctrl, pdf: [Fig3_MAplot_TEs_tnf_vs_ctrl.pdf](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.pdf)
+- MA plot of TEs for Cobimetinib vs Ctrl: [Fig3_MAplot_TEs_cobi_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.R), [Fig3_MAplot_TEs_cobi_vs_ctrl.pdf](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.pdf)
+- MA plot of TEs for TNF-alpha vs Ctrl: [Fig3_MAplot_TEs_tnf_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.R), [Fig3_MAplot_TEs_tnf_vs_ctrl.pdf](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.pdf)
 
 ### 2. MAPK RNAseq, MA plots and GO analysis
 
