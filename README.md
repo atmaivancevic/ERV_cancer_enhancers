@@ -126,19 +126,19 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 
 **CUT&RUN Workflow:**
 
-### 1. TE-transcripts section first, MA plots
+### 1. TE-transcripts section first
 
-Raw counts table of TEs for Cobimetinib vs Ctrl: [raw_counts_tetranscripts_cobi_24hr.tab](4_mapk_signaling/raw_counts_tetranscripts_cobi_24hr.tab)
+- Raw counts table of TEs for Cobimetinib vs Ctrl: [raw_counts_tetranscripts_cobi_24hr.tab](4_mapk_signaling/raw_counts_tetranscripts_cobi_24hr.tab)
+- Raw counts table of TEs for TNF-alpha vs Ctrl: [raw_counts_tetranscripts_tnf_24hr.tab](4_mapk_signaling/raw_counts_tetranscripts_tnf_24hr.tab)
 
-Raw counts table of TEs for TNF-alpha vs Ctrl: [raw_counts_tetranscripts_tnf_24hr.tab](4_mapk_signaling/raw_counts_tetranscripts_tnf_24hr.tab)
 
-Normalized counts table of TEs for Cobimetinib vs Ctrl: [normalized_counts_tetranscripts_cobi_24hr.tab](4_mapk_signaling/normalized_counts_tetranscripts_cobi_24hr.tab)
+- Normalized counts table of TEs for Cobimetinib vs Ctrl: [normalized_counts_tetranscripts_cobi_24hr.tab](4_mapk_signaling/normalized_counts_tetranscripts_cobi_24hr.tab)
+- Normalized counts table of TEs for TNF-alpha vs Ctrl: [normalized_counts_tetranscripts_tnf_24hr.tab](4_mapk_signaling/normalized_counts_tetranscripts_tnf_24hr.tab)
 
-Normalized counts table of TEs for TNF-alpha vs Ctrl: [normalized_counts_tetranscripts_tnf_24hr.tab](4_mapk_signaling/normalized_counts_tetranscripts_tnf_24hr.tab)
 
-DEseq2 results table of TEs for Cobimetinib vs Ctrl: [deseq2_results_tetranscripts_cobi_vs_ctrl.tab](4_mapk_signaling/deseq2_results_tetranscripts_cobi_vs_ctrl.tab)
+- DEseq2 results table of TEs for Cobimetinib vs Ctrl: [deseq2_results_tetranscripts_cobi_vs_ctrl.tab](4_mapk_signaling/deseq2_results_tetranscripts_cobi_vs_ctrl.tab)
+- DEseq2 results table of TEs for TNF-alpha vs Ctrl: [deseq2_results_tetranscripts_tnf_vs_ctrl.tab](4_mapk_signaling/deseq2_results_tetranscripts_tnf_vs_ctrl.tab)
 
-DEseq2 results table of TEs for TNF-alpha vs Ctrl: [deseq2_results_tetranscripts_tnf_vs_ctrl.tab](4_mapk_signaling/deseq2_results_tetranscripts_tnf_vs_ctrl.tab)
 
 - MA plot of TEs for Cobimetinib vs Ctrl, R-script: [Fig3_MAplot_TEs_cobi_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.R)
 - MA plot of TEs for Cobimetinib vs Ctrl, pdf: [Fig3_MAplot_TEs_cobi_vs_ctrl.pdf](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.pdf)
