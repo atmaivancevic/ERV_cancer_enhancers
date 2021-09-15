@@ -21,10 +21,10 @@ maplot <- ggplot(deseq2_results_tetranscripts_tnf_vs_ctrl, aes(baseMean, log2Fol
   # Set all dots color to grey
   geom_point(data=deseq2_results_tetranscripts_tnf_vs_ctrl, colour = "grey", size = 2) + 
   # If pvalue<0.05, change dot color to green
-  geom_point(data=deseq2_results_tetranscripts_tnf_vs_ctrl[which(deseq2_results_tetranscripts_tnf_vs_ctrl $padj <0.05),], colour = "red", size = 2) +
+  geom_point(data=deseq2_results_tetranscripts_tnf_vs_ctrl[which(deseq2_results_tetranscripts_tnf_vs_ctrl$padj<0.05),], colour = "red", size = 2) +
   # Add text label for sig points
-  geom_text_repel(data = deseq2_results_tetranscripts_tnf_vs_ctrl[which(deseq2_results_tetranscripts_tnf_vs_ctrl $padj <0.05),], mapping = aes(baseMean, log2FoldChange, label = rownames(deseq2_results_tetranscripts_tnf_vs_ctrl[which(deseq2_results_tetranscripts_tnf_vs_ctrl $padj <0.05),])),size = 5,force = 1) +
-  ylim(-0.7, 0.7) + 
+  geom_text_repel(data = deseq2_results_tetranscripts_tnf_vs_ctrl[which(deseq2_results_tetranscripts_tnf_vs_ctrl$padj<0.05 & deseq2_results_tetranscripts_tnf_vs_ctrl$log2FoldChange>0),], mapping = aes(baseMean, log2FoldChange, label = rownames(deseq2_results_tetranscripts_tnf_vs_ctrl[which(deseq2_results_tetranscripts_tnf_vs_ctrl$padj<0.05 & deseq2_results_tetranscripts_tnf_vs_ctrl$log2FoldChange>0 ),])),size = 5,force = 1) +
+  ylim(-2.5, 2.5) + 
   theme(text=element_text(size=14,  family="Helvetica")) 
 
 maplot + scale_x_continuous(trans='log10')
