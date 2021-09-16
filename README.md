@@ -175,7 +175,6 @@ Rep2 resequenced (untreated H3K27ac only): 210723_A00405_0433_AHHYFCDSX2
 - DEseq2 results table of genes for TNF-alpha vs Ctrl: [deseq2_results_genes_tnf_vs_ctrl.tab](4_mapk_signaling/deseq2_results_genes_tnf_vs_ctrl.tab)
 - MA plot of genes for Cobimetinib vs Ctrl: [MAplot_genes_cobi_vs_ctrl.R](4_mapk_signaling/MAplot_genes_cobi_vs_ctrl.R), [MAplot_genes_cobi_vs_ctrl.pdf](4_mapk_signaling/MAplot_genes_cobi_vs_ctrl.pdf)
 - MA plot of genes for TNF-alpha vs Ctrl: [MAplot_genes_tnf_vs_ctrl.R](4_mapk_signaling/MAplot_genes_tnf_vs_ctrl.R), [MAplot_genes_tnf_vs_ctrl.pdf](4_mapk_signaling/MAplot_genes_tnf_vs_ctrl.pdf)
-
 - Merged table of Cobimetinib and TNF-alpha results: [merge_genes_cobi_and_tnf.R](4_mapk_signaling/merge_genes_cobi_and_tnf.R), [merge_genes_cobi_and_tnf.tab](4_mapk_signaling/merge_genes_cobi_and_tnf.tab)
 
 ### 3. MAPK-treated HCT116 H3K27ac CUT&RUN
