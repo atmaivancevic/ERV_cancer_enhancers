@@ -125,14 +125,26 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 - Only list the ones that we're going to add to GEO, e.g. maybe only the H3K27ac for now
 
 **CUT&RUN Workflow:**
-1) [bbduk_PE.sbatch](rnaseq/bbduk_PE.sbatch)
-2) [fastqc.sbatch](rnaseq/fastqc.sbatch)
-3) [multiqc.sbatch](rnaseq/multiqc.sbatch) 
-4) [hisat2_PE.sbatch](rnaseq/hisat2_PE.sbatch)
-5) [bam_to_bw.sbatch](rnaseq/bam_to_bw.sbatch)
-6) [feature_counts.sbatch](rnaseq/feature_counts.sbatch)
-7) [add_gene_names.sh](rnaseq/add_gene_names.sh), using [gencode34_geneid_genename.txt](rnaseq/gencode34_geneid_genename.txt)
-8) [deseq2_genes.R](rnaseq/deseq2_genes.R)
+
+may need to reorder some of these, just listing all the scripts first
+
+1) [bbduk_PE.sbatch](cutnrun/bbduk_PE.sbatch)
+2) [fastqc.sbatch](cutnrun/fastqc.sbatch)
+3) [multiqc.sbatch](cutnrun/multiqc.sbatch) 
+4) [bwa_PE.sbatch](cutnrun/bwa_PE.sbatch)
+5) [bam_to_bw.sbatch](cutnrun/bam_to_bw.sbatch)
+6) peak calling without igg
+7) [convert_bam_to_fragment_bdg.sbatch](cutnrun/convert_bam_to_fragment_bdg.sbatch)
+8) [bgzip_and_giggle.sbatch](cutnrun/bgzip_and_giggle.sbatch)
+9) [calculate_frip_score.sbatch](cutnrun/calculate_frip_score.sbatch)
+10) [convert_macs2_bdg_to_bigwig.sbatch](cutnrun/convert_macs2_bdg_to_bigwig.sbatch)
+11) [deeptools_heatmap_from_gencode_bed.sbatch](cutnrun/deeptools_heatmap_from_gencode_bed.sbatchh)
+12) [deeptools_heatmap_from_narrowPeak.sbatch](cutnrun/deeptools_heatmap_from_narrowPeak.sbatch)
+13) [get_fragment_size.sbatch](cutnrun/get_fragment_size.sbatch)
+14) [merge_peak_files.sbatch](cutnrun/merge_peak_files.sbatch)
+15) [subset_by_fragment_size.sbatch](cutnrun/subset_by_fragment_size.sbatch) Note that this one is for TFs only.
+
+
 
 ### 1. MAPK-treated HCT116 RNAseq, TE transcripts analysis
 
