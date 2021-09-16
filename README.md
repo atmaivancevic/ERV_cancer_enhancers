@@ -187,7 +187,7 @@ Peak files:
 - [TNF_K27ac_CnR_rep1_peaks.bed](4_mapk_signaling/TNF_K27ac_CnR_rep1_peaks.bed)
 - [TNF_K27ac_CnR_rep2_peaks.bed](4_mapk_signaling/TNF_K27ac_CnR_rep2_peaks.bed)
 
-The top 20k peaks were extracted from each sample (based on macs2 peak score) and merged: [ALL_CnR_top20k_peaks_merged.bed](4_mapk_signaling/ALL_CnR_top20k_peaks_merged.bed)
+The top 20k peaks were extracted from each sample (based on macs2 peak score) and merged: [ALL_K27ac_CnR_top20k_peaks.bed](4_mapk_signaling/ALL_K27ac_CnR_top20k_peaks.bed)
 
 Deeptools: 
 [deeptools_H3K27ac_CnR_over_LTR10AF.sbatch](4_mapk_signaling/deeptools_H3K27ac_CnR_over_LTR10AF.sbatch), [deeptools_H3K27ac_CnR_over_LTR10AF_CnR.pdf](4_mapk_signaling/deeptools_H3K27ac_CnR_over_LTR10AF_CnR.pdf)
