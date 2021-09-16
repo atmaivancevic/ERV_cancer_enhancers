@@ -133,17 +133,21 @@ may need to reorder some of these, just listing all the scripts first
 3) [fastqc.sbatch](cutnrun/fastqc.sbatch)
 4) [multiqc.sbatch](cutnrun/multiqc.sbatch) 
 5) [bwa_PE.sbatch](cutnrun/bwa_PE.sbatch)
-6) [bam_to_bw.sbatch](cutnrun/bam_to_bw.sbatch)
-7) peak calling without igg
-8) [convert_bam_to_fragment_bdg.sbatch](cutnrun/convert_bam_to_fragment_bdg.sbatch)
-9) [bgzip_and_giggle.sbatch](cutnrun/bgzip_and_giggle.sbatch)
-10) [calculate_frip_score.sbatch](cutnrun/calculate_frip_score.sbatch)
-11) [convert_macs2_bdg_to_bigwig.sbatch](cutnrun/convert_macs2_bdg_to_bigwig.sbatch)
-12) [deeptools_heatmap_from_gencode_bed.sbatch](cutnrun/deeptools_heatmap_from_gencode_bed.sbatchh)
-13) [deeptools_heatmap_from_narrowPeak.sbatch](cutnrun/deeptools_heatmap_from_narrowPeak.sbatch)
-14) [get_fragment_size.sbatch](cutnrun/get_fragment_size.sbatch)
-15) [merge_peak_files.sbatch](cutnrun/merge_peak_files.sbatch)
-16) [subset_by_fragment_size.sbatch](cutnrun/subset_by_fragment_size.sbatch) Note that this one is for TFs only.
+6) (for transcription factors only) [subset_by_fragment_size.sbatch](cutnrun/subset_by_fragment_size.sbatch)
+
+
+
+7) [bam_to_bw.sbatch](cutnrun/bam_to_bw.sbatch)
+8) peak calling without igg
+9) [convert_bam_to_fragment_bdg.sbatch](cutnrun/convert_bam_to_fragment_bdg.sbatch)
+10) [bgzip_and_giggle.sbatch](cutnrun/bgzip_and_giggle.sbatch)
+11) [calculate_frip_score.sbatch](cutnrun/calculate_frip_score.sbatch)
+12) [convert_macs2_bdg_to_bigwig.sbatch](cutnrun/convert_macs2_bdg_to_bigwig.sbatch)
+13) [deeptools_heatmap_from_gencode_bed.sbatch](cutnrun/deeptools_heatmap_from_gencode_bed.sbatchh)
+14) [deeptools_heatmap_from_narrowPeak.sbatch](cutnrun/deeptools_heatmap_from_narrowPeak.sbatch)
+15) [get_fragment_size.sbatch](cutnrun/get_fragment_size.sbatch)
+16) [merge_peak_files.sbatch](cutnrun/merge_peak_files.sbatch)
+17) [subset_by_fragment_size.sbatch](cutnrun/subset_by_fragment_size.sbatch) Note that this one is for TFs only.
 
 
 
