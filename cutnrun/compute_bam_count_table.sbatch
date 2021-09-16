@@ -28,7 +28,7 @@ echo $(date +"[%b %d %H:%M:%S] Computing matrix of bam read counts...")
 
 bedtools multicov \
 -bams UT_K27ac_rep1.sorted.bam UT_K27ac_rep2.sorted.bam Cobi_K27ac_rep1.sorted.bam Cobi_K27ac_rep2.sorted.bam TNF_K27ac_rep1.sorted.bam TNF_K27ac_rep2.sorted.bam \
--bed ALL_CnR_top20k_peaks_merged.bed \
+-bed ALL_K27ac_CnR_top20k_peaks.bed \
 > $outDir/H3K27ac_CnR_bam_counts_within_peaks.tab
 
 echo $(date +"[%b %d %H:%M:%S] Done!")
