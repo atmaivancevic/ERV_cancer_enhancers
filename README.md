@@ -151,11 +151,10 @@ Rep2 resequenced (untreated H3K27ac only): 210723_A00405_0433_AHHYFCDSX2
 13) [calculate_frip_score.sbatch](cutnrun/calculate_frip_score.sbatch)
 14) [deeptools_heatmap_from_gencode_bed.sbatch](cutnrun/deeptools_heatmap_from_gencode_bed.sbatch)
 15) [bgzip_and_giggle.sbatch](cutnrun/bgzip_and_giggle.sbatch)
-
-
-
-
-
+16) extractTopPeaks.sh
+17) computeBamCountTable.sbatch
+18) deseq2_CnR.sbatch
+19) giggle_deseq2_regions.sh
 
 ### 1. MAPK-treated HCT116 RNAseq, TE transcripts analysis
 
@@ -186,6 +185,17 @@ Rep2 resequenced (untreated H3K27ac only): 210723_A00405_0433_AHHYFCDSX2
 - Merged table of Cobimetinib and TNF-alpha results: [merge_genes_cobi_and_tnf.R](4_mapk_signaling/merge_genes_cobi_and_tnf.R), [merge_genes_cobi_and_tnf.tab](4_mapk_signaling/merge_genes_cobi_and_tnf.tab)
 
 ### 3. MAPK-treated HCT116 H3K27ac CUT&RUN
+
+Peak files:
+- [UT_K27ac_rep1_mergedpeaks.bed](4_mapk_signaling/UT_K27ac_rep1_mergedpeaks.bed)
+- [UT_K27ac_rep2_mergedAfterResequencing_mergedpeaks.bed](4_mapk_signaling/UT_K27ac_rep2_mergedAfterResequencing_mergedpeaks.bed)
+- [Cobi_K27ac_rep1_mergedpeaks.bed](4_mapk_signaling/Cobi_K27ac_rep1_mergedpeaks.bed)
+- [Cobi_K27ac_rep2_mergedpeaks.bed](4_mapk_signaling/Cobi_K27ac_rep2_mergedpeaks.bed)
+- [TNF_K27ac_rep1_mergedpeaks.bed](4_mapk_signaling/TNF_K27ac_rep1_mergedpeaks.bed)
+- [TNF_K27ac_rep2_mergedpeaks.bed](4_mapk_signaling/TNF_K27ac_rep2_mergedpeaks.bed)
+
+
+
 
 E.g. MA plots and giggle enrichment volcano showing LTR10A/F
 
