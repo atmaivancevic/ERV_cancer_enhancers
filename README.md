@@ -187,7 +187,7 @@ Peak files (all peaks):
 - [TNF_K27ac_CnR_rep1_peaks.bed](4_mapk_signaling/TNF_K27ac_CnR_rep1_peaks.bed)
 - [TNF_K27ac_CnR_rep2_peaks.bed](4_mapk_signaling/TNF_K27ac_CnR_rep2_peaks.bed)
 
-Filtered peaks (top 20k peaks in each sample according to score):
+Filtered peaks (top 20k peaks in each sample based on macs2 score):
 - [UT_K27ac_CnR_rep1_peaks_top20k.bed](4_mapk_signaling/UT_K27ac_CnR_rep1_peaks_top20k.bed)
 - [UT_K27ac_CnR_rep2_peaks_top20k.bed](4_mapk_signaling/UT_K27ac_CnR_rep2_peaks_top20k.bed)
 - [Cobi_K27ac_CnR_rep1_peaks_top20k.bed](4_mapk_signaling/Cobi_K27ac_CnR_rep1_peaks_top20k.bed)
