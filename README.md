@@ -189,13 +189,11 @@ Peak files:
 
 The top 20k peaks were extracted from each sample (based on macs2 peak score) and merged: [ALL_CnR_top20k_peaks_merged.bed](4_mapk_signaling/ALL_CnR_top20k_peaks_merged.bed)
 
-Deeptools_over_LTR10AF.sbatch, and pdf
+Deeptools_over_LTR10AF.sbatch, and pdf image
 
-MA plots
+deseq2 output e.g. raw counts, normalized counts, MA plot R scripts and pdfs for each treatment
 
-raw counts, normalized counts, MA plots for each treatments
-
-giggle volcano of DEseq2 peaks, R script and pdfs (Fig3).
+giggle volcano of DEseq2 peaks, R script and pdf (Fig3).
 
 ### 4. Enhancer-gene predictions (combining MAPK-treated HCT116 RNAseq, HCT116 H3K27ac CUT&RUN and Activity-by-Contact model)
 
