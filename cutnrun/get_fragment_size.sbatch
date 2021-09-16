@@ -3,7 +3,7 @@
 ## Script for running deeptools 
 ##
 ## Example usage:
-## inDir=. outDir=. sbatch --array 0-0 get_fragment_size.q
+## inDir=. outDir=. sbatch --array 0-0 get_fragment_size.sbatch
 
 ## General settings
 #SBATCH -p short
