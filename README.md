@@ -128,21 +128,22 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 
 may need to reorder some of these, just listing all the scripts first
 
-1) [bbduk_PE.sbatch](cutnrun/bbduk_PE.sbatch)
-2) [fastqc.sbatch](cutnrun/fastqc.sbatch)
-3) [multiqc.sbatch](cutnrun/multiqc.sbatch) 
-4) [bwa_PE.sbatch](cutnrun/bwa_PE.sbatch)
-5) [bam_to_bw.sbatch](cutnrun/bam_to_bw.sbatch)
-6) peak calling without igg
-7) [convert_bam_to_fragment_bdg.sbatch](cutnrun/convert_bam_to_fragment_bdg.sbatch)
-8) [bgzip_and_giggle.sbatch](cutnrun/bgzip_and_giggle.sbatch)
-9) [calculate_frip_score.sbatch](cutnrun/calculate_frip_score.sbatch)
-10) [convert_macs2_bdg_to_bigwig.sbatch](cutnrun/convert_macs2_bdg_to_bigwig.sbatch)
-11) [deeptools_heatmap_from_gencode_bed.sbatch](cutnrun/deeptools_heatmap_from_gencode_bed.sbatchh)
-12) [deeptools_heatmap_from_narrowPeak.sbatch](cutnrun/deeptools_heatmap_from_narrowPeak.sbatch)
-13) [get_fragment_size.sbatch](cutnrun/get_fragment_size.sbatch)
-14) [merge_peak_files.sbatch](cutnrun/merge_peak_files.sbatch)
-15) [subset_by_fragment_size.sbatch](cutnrun/subset_by_fragment_size.sbatch) Note that this one is for TFs only.
+1) [setup_workspace.sbatch](cutnrun/setup_workspace.sbatch)
+2) [bbduk_PE.sbatch](cutnrun/bbduk_PE.sbatch)
+3) [fastqc.sbatch](cutnrun/fastqc.sbatch)
+4) [multiqc.sbatch](cutnrun/multiqc.sbatch) 
+5) [bwa_PE.sbatch](cutnrun/bwa_PE.sbatch)
+6) [bam_to_bw.sbatch](cutnrun/bam_to_bw.sbatch)
+7) peak calling without igg
+8) [convert_bam_to_fragment_bdg.sbatch](cutnrun/convert_bam_to_fragment_bdg.sbatch)
+9) [bgzip_and_giggle.sbatch](cutnrun/bgzip_and_giggle.sbatch)
+10) [calculate_frip_score.sbatch](cutnrun/calculate_frip_score.sbatch)
+11) [convert_macs2_bdg_to_bigwig.sbatch](cutnrun/convert_macs2_bdg_to_bigwig.sbatch)
+12) [deeptools_heatmap_from_gencode_bed.sbatch](cutnrun/deeptools_heatmap_from_gencode_bed.sbatchh)
+13) [deeptools_heatmap_from_narrowPeak.sbatch](cutnrun/deeptools_heatmap_from_narrowPeak.sbatch)
+14) [get_fragment_size.sbatch](cutnrun/get_fragment_size.sbatch)
+15) [merge_peak_files.sbatch](cutnrun/merge_peak_files.sbatch)
+16) [subset_by_fragment_size.sbatch](cutnrun/subset_by_fragment_size.sbatch) Note that this one is for TFs only.
 
 
 
