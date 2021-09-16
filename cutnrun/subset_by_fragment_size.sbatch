@@ -3,7 +3,7 @@
 ## Script for subsetting bams by fragment size
 ##
 ## Example usage:
-## inDir=. outDir=. sbatch --array 0-3 subset_by_fragment_size.q
+## inDir=. outDir=. sbatch --array 0-3 subset_by_fragment_size.sbatch
 
 # General settings
 #SBATCH -p short
