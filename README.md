@@ -151,8 +151,8 @@ Rep2 resequenced (untreated H3K27ac only): 210723_A00405_0433_AHHYFCDSX2
 13) [calculate_frip_score.sbatch](cutnrun/calculate_frip_score.sbatch)
 14) [deeptools_heatmap_from_gencode_bed.sbatch](cutnrun/deeptools_heatmap_from_gencode_bed.sbatch)
 15) [bgzip_and_giggle.sbatch](cutnrun/bgzip_and_giggle.sbatch)
-16) extractTopPeaks.sh
-17) computeBamCountTable.sbatch
+16) [extract_top_peaks.sh](cutnrun/extract_top_peaks.sh)
+17) [compute_bam_count_table.sbatch](cutnrun/compute_bam_count_table.sbatch)
 18) deseq2_CnR.sbatch
 19) giggle_deseq2_regions.sh
 
