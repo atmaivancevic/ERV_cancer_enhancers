@@ -3,7 +3,7 @@
 ## Script for running deeptools 
 ##
 ## Example usage:
-## outDir=. outFile=LTR10AF_CnR_H3K27ac sbatch deeptools_H3K27ac_CnR_over_LTR10AF.sbatch
+## outDir=. outFile=deeptools_H3K27ac_CnR_over_LTR10AF_CnR sbatch deeptools_H3K27ac_CnR_over_LTR10AF.sbatch
 
 # General settings
 #SBATCH -p short
