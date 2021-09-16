@@ -3,7 +3,7 @@
 ## Script to generate a fastq quality control report
 ##
 ## Example usage:
-## inDir=. outDir=. sbatch --array 0-1 fastqc.q
+## inDir=. outDir=. sbatch --array 0-1 fastqc.sbatch
 
 # General settings
 #SBATCH -p short
