@@ -119,10 +119,21 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 4) [deseq2_TEs.R](rnaseq/deseq2_TEs.R)
 
 **CUT&RUN files [add GEO link here]:** 
-- List them here
-- H3K27ac CUT&RUN Untreated (2 reps, second rep was resequenced but I guess we just call it Rep 2?), Cobi-treated (x2) and TNF-treated (x2).
-- Also have the FOSL1, JUN, H3K9me3, POL2 CUT&RUN, but not sure if we're including those in this paper?
-- Only list the ones that we're going to add to GEO, e.g. maybe only the H3K27ac for now
+Temporarily put them in /scratch/Users/ativ2716/data/2_files_for_GEO_upload/MAPK_treated_H3K27ac_CutnRun
+
+- Untreated rep 1: Untreated_H3K27ac_rep1_R1.fastq.gz, Untreated_H3K27ac_rep1_R2.fastq.gz
+- Untreated rep 2:
+- Untreated rep 2, resequenced (and merged with above at the bam step): 
+- Cobi-treated rep1: Cobimetinib_H3K27ac_rep1_R1.fastq.gz, Cobimetinib_H3K27ac_rep1_R2.fastq.gz
+- Cobi-treated rep2:
+- Tnf-treated rep1: TNFalpha_H3K27ac_rep1_R1.fastq.gz, TNFalpha_H3K27ac_rep1_R2.fastq.gz
+- Tnf-treated rep2: 
+- Untreated IgG control rep1: Untreated_IgG_rep1_R1.fastq.gz, Untreated_IgG_rep1_R2.fastq.gz
+- Untreated IgG control rep2:   
+- Cobi-treated IgG control rep1: Cobimetinib_IgG_rep1_R1.fastq.gz, Cobimetinib_IgG_rep1_R2.fastq.gz
+- Cobi-treated IgG control rep2:
+- Tnf-treated IgG control rep1: TNFalpha_IgG_rep1_R1.fastq.gz, TNFalpha_IgG_rep1_R2.fastq.gz
+- Tnf-treated IgG control rep2:
 
 **CUT&RUN Workflow:**
 
