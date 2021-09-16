@@ -190,6 +190,7 @@ Peak files:
 The top 20k peaks were extracted from each sample (based on macs2 peak score) and merged: [ALL_CnR_top20k_peaks_merged.bed](4_mapk_signaling/ALL_CnR_top20k_peaks_merged.bed)
 
 Deeptools_over_LTR10AF.sbatch, and pdf image
+[deeptools_H3K27ac_CnR_over_LTR10AF.sbatch](4_mapk_signaling/deeptools_H3K27ac_CnR_over_LTR10AF.sbatch)
 
 deseq2 output e.g. raw counts, normalized counts, MA plot R scripts and pdfs for each treatment
 
