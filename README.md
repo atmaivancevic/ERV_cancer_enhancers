@@ -137,6 +137,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 10) [call_peaks_with_macs2_SEmode_noIgGControl.sbatch](cutnrun/call_peaks_with_macs2_SEmode_noIgGControl.sbatch)
 11) [merge_peak_files.sbatch](cutnrun/merge_peak_files.sbatch)
 12) [convert_macs2_bdg_to_bigwig.sbatch](cutnrun/convert_macs2_bdg_to_bigwig.sbatch)
+13) [calculate_frip_score.sbatch](cutnrun/calculate_frip_score.sbatch)
 
 
 
@@ -144,12 +145,11 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 peak calling without igg
 [convert_bam_to_fragment_bdg.sbatch](cutnrun/convert_bam_to_fragment_bdg.sbatch)
 [bgzip_and_giggle.sbatch](cutnrun/bgzip_and_giggle.sbatch)
-[calculate_frip_score.sbatch](cutnrun/calculate_frip_score.sbatch)
-[convert_macs2_bdg_to_bigwig.sbatch](cutnrun/convert_macs2_bdg_to_bigwig.sbatch)
+
 [deeptools_heatmap_from_gencode_bed.sbatch](cutnrun/deeptools_heatmap_from_gencode_bed.sbatchh)
 [deeptools_heatmap_from_narrowPeak.sbatch](cutnrun/deeptools_heatmap_from_narrowPeak.sbatch)
-[get_fragment_size.sbatch](cutnrun/get_fragment_size.sbatch)
-[merge_peak_files.sbatch](cutnrun/merge_peak_files.sbatch)
+
+
 
 
 
