@@ -132,20 +132,21 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 4) [multiqc.sbatch](cutnrun/multiqc.sbatch) 
 5) [bwa_PE.sbatch](cutnrun/bwa_PE.sbatch)
 6) [subset_by_fragment_size.sbatch](cutnrun/subset_by_fragment_size.sbatch) (for transcription factors only) 
+7) [get_fragment_size.sbatch](cutnrun/get_fragment_size.sbatch)
 
 
 
-7) [bam_to_bw.sbatch](cutnrun/bam_to_bw.sbatch)
-8) peak calling without igg
-9) [convert_bam_to_fragment_bdg.sbatch](cutnrun/convert_bam_to_fragment_bdg.sbatch)
-10) [bgzip_and_giggle.sbatch](cutnrun/bgzip_and_giggle.sbatch)
-11) [calculate_frip_score.sbatch](cutnrun/calculate_frip_score.sbatch)
-12) [convert_macs2_bdg_to_bigwig.sbatch](cutnrun/convert_macs2_bdg_to_bigwig.sbatch)
-13) [deeptools_heatmap_from_gencode_bed.sbatch](cutnrun/deeptools_heatmap_from_gencode_bed.sbatchh)
-14) [deeptools_heatmap_from_narrowPeak.sbatch](cutnrun/deeptools_heatmap_from_narrowPeak.sbatch)
-15) [get_fragment_size.sbatch](cutnrun/get_fragment_size.sbatch)
-16) [merge_peak_files.sbatch](cutnrun/merge_peak_files.sbatch)
-17) [subset_by_fragment_size.sbatch](cutnrun/subset_by_fragment_size.sbatch) Note that this one is for TFs only.
+[bam_to_bw.sbatch](cutnrun/bam_to_bw.sbatch)
+peak calling without igg
+[convert_bam_to_fragment_bdg.sbatch](cutnrun/convert_bam_to_fragment_bdg.sbatch)
+[bgzip_and_giggle.sbatch](cutnrun/bgzip_and_giggle.sbatch)
+[calculate_frip_score.sbatch](cutnrun/calculate_frip_score.sbatch)
+[convert_macs2_bdg_to_bigwig.sbatch](cutnrun/convert_macs2_bdg_to_bigwig.sbatch)
+[deeptools_heatmap_from_gencode_bed.sbatch](cutnrun/deeptools_heatmap_from_gencode_bed.sbatchh)
+[deeptools_heatmap_from_narrowPeak.sbatch](cutnrun/deeptools_heatmap_from_narrowPeak.sbatch)
+[get_fragment_size.sbatch](cutnrun/get_fragment_size.sbatch)
+[merge_peak_files.sbatch](cutnrun/merge_peak_files.sbatch)
+[subset_by_fragment_size.sbatch](cutnrun/subset_by_fragment_size.sbatch) Note that this one is for TFs only.
 
 
 
