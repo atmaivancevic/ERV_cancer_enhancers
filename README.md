@@ -134,8 +134,9 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 6) [subset_by_fragment_size.sbatch](cutnrun/subset_by_fragment_size.sbatch) (for transcription factors only) 
 7) [get_fragment_size.sbatch](cutnrun/get_fragment_size.sbatch)
 8) [call_peaks_with_macs2_PEmode_noIgGControl.sbatch](cutnrun/call_peaks_with_macs2_PEmode_noIgGControl.sbatch)
-9) [call_peaks_with_macs2_SEmode_noIgGControl.sbatch](cutnrun/call_peaks_with_macs2_SEmode_noIgGControl.sbatch)
-10) [merge_peak_files.sbatch](cutnrun/merge_peak_files.sbatch)
+10) [call_peaks_with_macs2_SEmode_noIgGControl.sbatch](cutnrun/call_peaks_with_macs2_SEmode_noIgGControl.sbatch)
+11) [merge_peak_files.sbatch](cutnrun/merge_peak_files.sbatch)
+12) [convert_macs2_bdg_to_bigwig.sbatch](cutnrun/convert_macs2_bdg_to_bigwig.sbatch)
 
 
 
