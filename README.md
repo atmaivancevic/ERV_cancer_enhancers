@@ -125,6 +125,14 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 - Only list the ones that we're going to add to GEO, e.g. maybe only the H3K27ac for now
 
 **CUT&RUN Workflow:**
+1) [bbduk_PE.sbatch](rnaseq/bbduk_PE.sbatch)
+2) [fastqc.sbatch](rnaseq/fastqc.sbatch)
+3) [multiqc.sbatch](rnaseq/multiqc.sbatch) 
+4) [hisat2_PE.sbatch](rnaseq/hisat2_PE.sbatch)
+5) [bam_to_bw.sbatch](rnaseq/bam_to_bw.sbatch)
+6) [feature_counts.sbatch](rnaseq/feature_counts.sbatch)
+7) [add_gene_names.sh](rnaseq/add_gene_names.sh), using [gencode34_geneid_genename.txt](rnaseq/gencode34_geneid_genename.txt)
+8) [deseq2_genes.R](rnaseq/deseq2_genes.R)
 
 ### 1. MAPK-treated HCT116 RNAseq, TE transcripts analysis
 
