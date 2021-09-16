@@ -196,7 +196,9 @@ deseq2 output e.g. raw counts, normalized counts, MA plot R scripts and pdfs for
 
 giggle volcano of DEseq2 peaks, R script and pdf (Fig3).
 
-### 4. Enhancer-gene predictions (combining MAPK-treated HCT116 RNAseq, HCT116 H3K27ac CUT&RUN and Activity-by-Contact model)
+### 4. Enhancer-gene predictions 
+
+Combining MAPK-treated HCT116 RNAseq, HCT116 H3K27ac CUT&RUN and Activity-by-Contact model.
 
 **Activity by Contact model predictions** (https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction/blob/master/README.md).
 
