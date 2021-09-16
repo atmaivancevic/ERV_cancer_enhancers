@@ -194,14 +194,13 @@ Peak files:
 - [TNF_K27ac_rep1_mergedpeaks.bed](4_mapk_signaling/TNF_K27ac_rep1_mergedpeaks.bed)
 - [TNF_K27ac_rep2_mergedpeaks.bed](4_mapk_signaling/TNF_K27ac_rep2_mergedpeaks.bed)
 
+Deeptools_over_LTR10AF.sbatch, and pdf
 
+MA plots
 
+raw counts, normalized counts, MA plots for each treatments
 
-E.g. MA plots and giggle enrichment volcano showing LTR10A/F
-
-Analysis scripts/workflow for Cut&Run.
-Then the Cut&Run scripts. 
-3d: giggle volcano plot of treated C&R 
+giggle volcano of DEseq2 peaks, R script and pdfs (Fig3).
 
 ### 4. Enhancer-gene predictions (combining MAPK-treated HCT116 RNAseq, HCT116 H3K27ac CUT&RUN and Activity-by-Contact model)
 
