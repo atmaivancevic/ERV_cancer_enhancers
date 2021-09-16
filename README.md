@@ -146,7 +146,6 @@ peak calling without igg
 [deeptools_heatmap_from_narrowPeak.sbatch](cutnrun/deeptools_heatmap_from_narrowPeak.sbatch)
 [get_fragment_size.sbatch](cutnrun/get_fragment_size.sbatch)
 [merge_peak_files.sbatch](cutnrun/merge_peak_files.sbatch)
-[subset_by_fragment_size.sbatch](cutnrun/subset_by_fragment_size.sbatch) Note that this one is for TFs only.
 
 
 
