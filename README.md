@@ -179,13 +179,22 @@ Rep2 resequenced (untreated H3K27ac only): 210723_A00405_0433_AHHYFCDSX2
 
 ### 3. MAPK-treated HCT116 H3K27ac CUT&RUN
 
-Peak files:
+Peak files (all peaks):
 - [UT_K27ac_CnR_rep1_peaks.bed](4_mapk_signaling/UT_K27ac_CnR_rep1_peaks.bed)
 - [UT_K27ac_CnR_rep2_peaks.bed](4_mapk_signaling/UT_K27ac_CnR_rep2_peaks.bed)
 - [Cobi_K27ac_CnR_rep1_peaks.bed](4_mapk_signaling/Cobi_K27ac_CnR_rep1_peaks.bed)
 - [Cobi_K27ac_CnR_rep2_peaks.bed](4_mapk_signaling/Cobi_K27ac_CnR_rep2_peaks.bed)
 - [TNF_K27ac_CnR_rep1_peaks.bed](4_mapk_signaling/TNF_K27ac_CnR_rep1_peaks.bed)
 - [TNF_K27ac_CnR_rep2_peaks.bed](4_mapk_signaling/TNF_K27ac_CnR_rep2_peaks.bed)
+
+Peak files (top 20k peaks in each sample according to score):
+- [UT_K27ac_CnR_rep1_peaks_top20k.bed](4_mapk_signaling/UT_K27ac_CnR_rep1_peaks_top20k.bed)
+- [UT_K27ac_CnR_rep2_peaks_top20k.bed](4_mapk_signaling/UT_K27ac_CnR_rep2_peaks_top20k.bed)
+- [Cobi_K27ac_CnR_rep1_peaks_top20k.bed](4_mapk_signaling/Cobi_K27ac_CnR_rep1_peaks_top20k.bed)
+- [Cobi_K27ac_CnR_rep2_peaks_top20k.bed](4_mapk_signaling/Cobi_K27ac_CnR_rep2_peaks_top20k.bed)
+- [TNF_K27ac_CnR_rep1_peaks_top20k.bed](4_mapk_signaling/TNF_K27ac_CnR_rep1_peaks_top20k.bed)
+- [TNF_K27ac_CnR_rep2_peaks_top20k.bed](4_mapk_signaling/TNF_K27ac_CnR_rep2_peaks_top20k.bed)
+
 
 Deeptools_over_LTR10AF.sbatch, and pdf
 
