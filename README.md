@@ -89,18 +89,12 @@ Fig 2 Supp: pca plot, alignment of all LTR10 sequences, etc.
 Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2). 
 
 **RNAseq files [add GEO link here]:** 
-- Cobi_24_1_S54_R1.fastq.gz
-- Cobi_24_1_S54_R2.fastq.gz
-- Cobi_24_2_S55_R1.fastq.gz
-- Cobi_24_2_S55_R2.fastq.gz
-- TNF_24_1_S58_R1.fastq.gz
-- TNF_24_1_S58_R2.fastq.gz
-- TNF_24_2_S59_R1.fastq.gz
-- TNF_24_2_S59_R2.fastq.gz
-- UT_24_1_S52_R1.fastq.gz 
-- UT_24_1_S52_R2.fastq.gz
-- UT_24_2_S53_R1.fastq.gz
-- UT_24_2_S53_R2.fastq.gz
+- Cobi_24_1_S54_R1.fastq.gz, Cobi_24_1_S54_R2.fastq.gz
+- Cobi_24_2_S55_R1.fastq.gz, Cobi_24_2_S55_R2.fastq.gz
+- TNF_24_1_S58_R1.fastq.gz, TNF_24_1_S58_R2.fastq.gz
+- TNF_24_2_S59_R1.fastq.gz, TNF_24_2_S59_R2.fastq.gz
+- UT_24_1_S52_R1.fastq.gz, UT_24_1_S52_R2.fastq.gz
+- UT_24_2_S53_R1.fastq.gz, UT_24_2_S53_R2.fastq.gz
 
 **RNAseq Workflow:**
 1) [bbduk_PE.sbatch](rnaseq/bbduk_PE.sbatch)
