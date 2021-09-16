@@ -126,14 +126,12 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 
 **CUT&RUN Workflow:**
 
-may need to reorder some of these, just listing all the scripts first
-
 1) [setup_workspace.sbatch](cutnrun/setup_workspace.sbatch)
 2) [bbduk_PE.sbatch](cutnrun/bbduk_PE.sbatch)
 3) [fastqc.sbatch](cutnrun/fastqc.sbatch)
 4) [multiqc.sbatch](cutnrun/multiqc.sbatch) 
 5) [bwa_PE.sbatch](cutnrun/bwa_PE.sbatch)
-6) (for transcription factors only) [subset_by_fragment_size.sbatch](cutnrun/subset_by_fragment_size.sbatch)
+6) [subset_by_fragment_size.sbatch](cutnrun/subset_by_fragment_size.sbatch) (for transcription factors only) 
 
 
 
