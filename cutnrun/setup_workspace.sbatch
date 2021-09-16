@@ -3,7 +3,7 @@
 ## Script to set up directory layout 
 ##
 ## Example usage:
-## projectDir=. sbatch setup_workspace.q
+## projectDir=. sbatch setup_workspace.sbatch
 
 # General settings
 #SBATCH -p short
