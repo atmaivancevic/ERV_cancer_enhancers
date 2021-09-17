@@ -192,9 +192,15 @@ The top 20k peaks were extracted from each sample (based on macs2 peak score) an
 Deeptools: 
 [deeptools_H3K27ac_CnR_over_LTR10AF.sbatch](4_mapk_signaling/deeptools_H3K27ac_CnR_over_LTR10AF.sbatch), [deeptools_H3K27ac_CnR_over_LTR10AF_CnR.pdf](4_mapk_signaling/deeptools_H3K27ac_CnR_over_LTR10AF_CnR.pdf)
 
-deseq2 output e.g. raw counts, normalized counts, MA plot R scripts and pdfs for each treatment
+- Raw counts table of H3K27ac-marked regions for all samples: [raw_counts_H3K27ac_CnR.tab](4_mapk_signaling/raw_counts_H3K27ac_CnR.tab)
+- Normalized counts table of H3K27ac-marked regions for all samples: [normalized_counts_H3K27ac_CnR.tab](4_mapk_signaling/normalized_counts_H3K27ac_CnR.tab)
+- DEseq2 results table of H3K27ac-marked regions for Cobimetinib vs Ctrl: [deseq2_results_H3K27ac_CnR_cobi_vs_ctrl.tab](4_mapk_signaling/deseq2_results_H3K27ac_CnR_cobi_vs_ctrl.tab)
+- DEseq2 results table of H3K27ac-marked regions for TNF-alpha vs Ctrl: [deseq2_results_H3K27ac_CnR_tnf_vs_ctrl.tab](4_mapk_signaling/deseq2_results_H3K27ac_CnR_tnf_vs_ctrl.tab)
+- MA plot of H3K27ac-marked regions for Cobimetinib vs Ctrl: [MAplot_H3K27ac_CnR_cobi_vs_ctrl.R](4_mapk_signaling/MAplot_H3K27ac_CnR_cobi_vs_ctrl.R), [MAplot_H3K27ac_CnR_cobi_vs_ctrl.pdf](4_mapk_signaling/MAplot_H3K27ac_CnR_cobi_vs_ctrl.pdf)
+- MA plot of H3K27ac-marked regions for TNF-alpha vs Ctrl: [MAplot_H3K27ac_CnR_tnf_vs_ctrl.R](4_mapk_signaling/MAplot_H3K27ac_CnR_tnf_vs_ctrl.R), [MAplot_H3K27ac_CnR_tnf_vs_ctrl.pdf](4_mapk_signaling/MAplot_H3K27ac_CnR_tnf_vs_ctrl.pdf)
 
-giggle volcano of DEseq2 peaks, R script and pdf (Fig3).
+
+Giggle volcano of DEseq2 peaks, R script and pdf (Fig3).
 
 ### 4. Enhancer-gene predictions 
 
