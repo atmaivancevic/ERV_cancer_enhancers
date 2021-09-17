@@ -199,6 +199,9 @@ Deeptools:
 - MA plot of H3K27ac-marked regions for Cobimetinib vs Ctrl: [MAplot_H3K27ac_CnR_cobi_vs_ctrl.R](4_mapk_signaling/MAplot_H3K27ac_CnR_cobi_vs_ctrl.R), [MAplot_H3K27ac_CnR_cobi_vs_ctrl.pdf](4_mapk_signaling/MAplot_H3K27ac_CnR_cobi_vs_ctrl.pdf)
 - MA plot of H3K27ac-marked regions for TNF-alpha vs Ctrl: [MAplot_H3K27ac_CnR_tnf_vs_ctrl.R](4_mapk_signaling/MAplot_H3K27ac_CnR_tnf_vs_ctrl.R), [MAplot_H3K27ac_CnR_tnf_vs_ctrl.pdf](4_mapk_signaling/MAplot_H3K27ac_CnR_tnf_vs_ctrl.pdf)
 
+Giggle tables: 
+- [DE_regions_H3K27ac_CnR_cobimetinib_giggle_results.tab](4_mapk_signaling/DE_regions_H3K27ac_CnR_cobimetinib_giggle_results.tab)
+- [DE_regions_H3K27ac_CnR_tnfalpha_giggle_results.tab](4_mapk_signaling/DE_regions_H3K27ac_CnR_tnfalpha_giggle_results.tab)
 
 Giggle volcano of DEseq2 peaks, R script and pdf (Fig3).
 
