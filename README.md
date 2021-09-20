@@ -25,6 +25,7 @@ Add a few of my UCSC sessions
 - DESeq2 v1.32.0 (https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 - fastq-dump v2.10.5 from SRA Toolkit (https://hpc.nih.gov/apps/sratoolkit.html)
 - MEME Suite v5.4.1 (https://meme-suite.org/meme/)
+- FIMO v5.1.0 (https://meme-suite.org/meme/doc/fimo.html?man_type=web)
 - vsearch v2.14.1 (https://github.com/torognes/vsearch)
 - MUSCLE v3.8.1551 (https://www.drive5.com/muscle/)
 - Jalview v2.11.1.4 (https://www.jalview.org/)
