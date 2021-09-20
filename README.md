@@ -36,7 +36,7 @@ Add a few of my UCSC sessions
 - Cistrome (http://cistrome.org/)
 - Roadmap Epigenomics Project (http://www.roadmapepigenomics.org/)
 - ENCODE (https://www.encodeproject.org/)
-- Dfam (https://dfam.org/home)
+- Dfam 2.0 (https://dfam.org/home)
 - Human Endogenous Retrovirus Database (https://herv.img.cas.cz/)
 - UCSC (https://genome.ucsc.edu/)
 - GENCODE Release 34 (https://www.gencodegenes.org/human/)
