@@ -6,7 +6,7 @@ suppressPackageStartupMessages(library(DESeq2))
 rm(list = ls())
 
 # Read table
-TEdata <- read.table("TNF_24hr_bothReps_strandedNo_TEsonly.counttab",header=T,row.names=1)
+TEdata <- read.table("TNF_24hr_bothReps_TEsonly.counttab",header=T,row.names=1)
 head(TEdata)
 
 groups <- factor(c(rep("TGroup",2),rep("CGroup",2)))
