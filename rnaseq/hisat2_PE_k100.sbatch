@@ -46,7 +46,6 @@ hisat2 --no-softclip \
 -x ${hisatIdxDir}/${hisatIdx} \
 -1 $inDir/${queries[$SLURM_ARRAY_TASK_ID]}_R1_trimmed.fastq.gz \
 -2 $inDir/${queries[$SLURM_ARRAY_TASK_ID]}_R2_trimmed.fastq.gz \
-| samtools view -q 10 -Sb - \
 | samtools sort -@ ${numThreads} - -o $outDir/${queries[$SLURM_ARRAY_TASK_ID]%.fastq.gz}.k100.bam
 
 # Create a bai index file for upload to UCSC browser
