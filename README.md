@@ -204,7 +204,9 @@ Giggle tables:
 - [DE_regions_H3K27ac_CnR_cobimetinib_giggle_results.tab](4_mapk_signaling/DE_regions_H3K27ac_CnR_cobimetinib_giggle_results.tab)
 - [DE_regions_H3K27ac_CnR_tnfalpha_giggle_results.tab](4_mapk_signaling/DE_regions_H3K27ac_CnR_tnfalpha_giggle_results.tab)
 
-Giggle volcano of DEseq2 peaks, R script and pdf (Fig3).
+Giggle plots:
+- Volcano plot of giggle enrichment for H3K27ac-marked DE regions for Cobimetinib vs Ctrl: [giggle_volcano_H3K27ac_CnR_DE_cobi_vs_ctrl.R](4_mapk_signaling/giggle_volcano_H3K27ac_CnR_DE_cobi_vs_ctrl.R), [giggle_volcano_H3K27ac_CnR_DE_cobi_vs_ctrl.pdf](4_mapk_signaling/giggle_volcano_H3K27ac_CnR_DE_cobi_vs_ctrl.pdf)
+- Volcano plot of giggle enrichment for H3K27ac-marked DE regions for TNF-alpha vs Ctrl: [giggle_volcano_H3K27ac_CnR_DE_tnf_vs_ctrl.R](4_mapk_signaling/giggle_volcano_H3K27ac_CnR_DE_tnf_vs_ctrl.R), [giggle_volcano_H3K27ac_CnR_DE_tnf_vs_ctrl.pdf](4_mapk_signaling/giggle_volcano_H3K27ac_CnR_DE_tnf_vs_ctrl.pdf)
 
 ### 4. Enhancer-gene predictions 
 
