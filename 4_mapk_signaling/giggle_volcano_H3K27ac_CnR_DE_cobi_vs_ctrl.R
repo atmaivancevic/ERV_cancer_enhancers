@@ -24,7 +24,7 @@ ggplot(giggle_CnR_cobi, aes(log2(odds_ratio),-log10(fishers_two_tail)), colour="
   scale_color_discrete(name='Labels') +
   theme_classic() +
   labs(y="-Log10 P-value", x="Log2 Odds Ratio") +
-  ggtitle("TEs enriched in H3K27ac-marked C&R DE regions (Cobimetinib)") +
+  ggtitle("TEs enriched in H3K27ac C&R DE regions (Cobimetinib)") +
   # Set all dots to grey
   geom_point(data=giggle_CnR_cobi, colour="grey", size=1) +
   # Change dot colour to red (enriched) or blue (depleted) based on odds ratio and pval cutoffs
