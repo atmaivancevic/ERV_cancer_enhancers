@@ -25,22 +25,22 @@ module load python/2.7.14/tetranscripts/2.1.4
 # (1) Cobimetinib vs Untreated
 TEtranscripts --format BAM \
 --sortByPos --mode multi \
--i 100 --stranded no \
+-i 100 --stranded R \
 --DESeq -n DESeq_default \
 --GTF gencode.v34.annotation.gtf \
 --TE GRCh38_GENCODE_rmsk_TE.gtf \
---project Cobi_24hr_bothReps_strandedNo \
+--project Cobi_24hr_bothReps \
 -t Cobi_24_1_S54.k100.bam Cobi_24_2_S55.k100.bam \
 -c UT_24_1_S52.k100.bam UT_24_2_S53.k100.bam
 
 # (2) TNF-alpha vs Untreated
 TEtranscripts --format BAM \
 --sortByPos --mode multi \
--i 100 --stranded no \
+-i 100 --stranded R \
 --DESeq -n DESeq_default \
 --GTF gencode.v34.annotation.gtf \
 --TE GRCh38_GENCODE_rmsk_TE.gtf \
---project TNF_24hr_bothReps_strandedNo \
+--project TNF_24hr_bothReps \
 -t TNF_24_1_S58.k100.bam TNF_24_2_S59.k100.bam \
 -c UT_24_1_S52.k100.bam UT_24_2_S53.k100.bam
 
