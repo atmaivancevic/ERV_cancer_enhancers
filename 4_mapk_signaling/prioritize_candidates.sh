@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # ABC output file:
 # 1) enhancer predictions: EnhancerPredictionsAllPutativehg38_intersect_LTR10AF_scoreOver0.001.bed
 
