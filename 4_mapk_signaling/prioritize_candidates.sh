@@ -45,4 +45,4 @@ bedtools window -a 98_LTR10_derived_enhancers.bed -b merge_genes_cobi_and_tnf_wi
 # 57 distinct LTR10 enhancers
 
 # make a candidate list containing these final enhancer-gene pairs
-bedtools window -a 98_LTR10_derived_enhancers.bed -b merge_genes_cobi_and_tnf_with_genecoords_noheader.bed -w 1500000 | awk '{if (($10<0 && $13<0.05) && ($15>0 && $18<0.05)) print}' | awk '{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $8}' | bedtools merge -i - -c 5 -o distinct > LTR10_predicted_enhancer_gene_pairs.bed
+bedtools window -a 98_LTR10_derived_enhancers.bed -b merge_genes_cobi_and_tnf_with_genecoords_noheader.bed -w 1500000 | awk '{if (($10<0 && $13<0.05) && ($15>0 && $18<0.05)) print}' | awk '{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $8}' | bedtools merge -i - -c 4,5 -o distinct > LTR10_predicted_enhancer_gene_pairs.bed
