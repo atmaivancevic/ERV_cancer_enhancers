@@ -241,9 +241,18 @@ Finally, prioritize LTR10 predicted enhancers based on proximity to MAPK-regulat
 
 Plot the candidates! 
 
-3e: Redo Log2FC plot to include final gene candidates as bigger bubbles: [Fig3_Log2FCplot_genes_treatments.R](4_mapk_signaling/Fig3_Log2FCplot_genes_treatments.R)
+Gene heatmap across treatments:
+- [74_genes_normalized_counts_rnaseq.tab](4_mapk_signaling/74_genes_normalized_counts_rnaseq.tab)
+- [Rscript](4_mapk_signaling/dummy.R)
+- [Pdf.bed](4_mapk_signaling/dummy.pdf)
 
-3g: R script pheatmap of genes with treatments. Also R script pheatmap of H3K27ac Cut&Run LTR10 elements
+LTR10 heatmap across treatments:
+- [57_LTR10_enhancers_normalized_counts_h3K27ac_cutnrun.tab](4_mapk_signaling/57_LTR10_enhancers_normalized_counts_h3K27ac_cutnrun.tab)
+- [Rscript](4_mapk_signaling/dummy.R)
+- [Pdf.bed](4_mapk_signaling/dummy.pdf)
+
+Log2FC plot with the final gene candidates as bigger bubbles: [Fig3_Log2FCplot_genes_treatments.R](4_mapk_signaling/Fig3_Log2FCplot_genes_treatments.R)
+
 
 ## CRISPR silencing & deletion of LTR10 elements
 
