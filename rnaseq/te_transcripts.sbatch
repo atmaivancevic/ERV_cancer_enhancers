@@ -25,7 +25,7 @@ module load python/2.7.14/tetranscripts/2.1.4
 # (1) Cobimetinib vs Untreated
 TEtranscripts --format BAM \
 --sortByPos --mode multi \
--i 100 --stranded R \
+-i 100 --stranded reverse \
 --DESeq -n DESeq_default \
 --GTF gencode.v34.annotation.gtf \
 --TE GRCh38_GENCODE_rmsk_TE.gtf \
@@ -36,7 +36,7 @@ TEtranscripts --format BAM \
 # (2) TNF-alpha vs Untreated
 TEtranscripts --format BAM \
 --sortByPos --mode multi \
--i 100 --stranded R \
+-i 100 --stranded reverse \
 --DESeq -n DESeq_default \
 --GTF gencode.v34.annotation.gtf \
 --TE GRCh38_GENCODE_rmsk_TE.gtf \
