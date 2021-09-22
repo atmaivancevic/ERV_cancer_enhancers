@@ -233,7 +233,11 @@ Followed the GitHub instructions to make enhancer-gene predictions in HCT116 cel
 
 **Output:** [EnhancerPredictionsAllPutativehg38_intersect_LTR10AF_scoreOver0.001.bed](4_mapk_signaling/abc_model/EnhancerPredictionsAllPutativehg38_intersect_LTR10AF_scoreOver0.001.bed)
 
-Prioritize LTR10 predicted enhancers based on proximity to MAPK-regulated genes: [prioritize_candidates.sh](4_mapk_signaling/prioritize_candidates.sh), using [gencode34_genename_genecoords.txt](rnaseq/gencode34_genename_genecoords.txt)
+Finally, prioritize LTR10 predicted enhancers based on proximity to MAPK-regulated genes: [prioritize_candidates.sh](4_mapk_signaling/prioritize_candidates.sh), using [gencode34_genename_genecoords.txt](rnaseq/gencode34_genename_genecoords.txt)
+
+**Output:** [LTR10_predicted_enhancer_gene_pairs.bed](4_mapk_signaling/LTR10_predicted_enhancer_gene_pairs.bed)
+
+Plot the candidates! 
 
 3e: Redo Log2FC plot to include final gene candidates as bigger bubbles: [Fig3_Log2FCplot_genes_treatments.R](4_mapk_signaling/Fig3_Log2FCplot_genes_treatments.R)
 
