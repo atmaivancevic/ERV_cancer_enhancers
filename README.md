@@ -251,7 +251,7 @@ LTR10 heatmap across treatments:
 - [57_LTR10_enhancers_k27acCnR_heatmap.R](4_mapk_signaling/57_LTR10_enhancers_k27acCnR_heatmap.R)
 - [57_LTR10_enhancers_k27acCnR_heatmap.pdf](4_mapk_signaling/57_LTR10_enhancers_k27acCnR_heatmap.pdf)
 
-Log2FC plot with the final gene candidates as bigger bubbles: 
+Log2FC plot with the final 74 gene candidates as bigger bubbles: 
 - [merge_genes_cobi_and_tnf_annotated.tab](4_mapk_signaling/merge_genes_cobi_and_tnf_annotated.tab)
 - [Log2FCplot_genes_treatments.R](4_mapk_signaling/Log2FCplot_genes_treatments.R)
 - [Log2FCplot_genes_treatments.pdf](4_mapk_signaling/Log2FCplot_genes_treatments.pdf)
