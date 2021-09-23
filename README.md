@@ -243,13 +243,13 @@ Plot the candidates!
 
 Gene heatmap across treatments:
 - [74_genes_normalized_counts_rnaseq.tab](4_mapk_signaling/74_genes_normalized_counts_rnaseq.tab)
-- [Rscript](4_mapk_signaling/dummy.R)
-- [Pdf.bed](4_mapk_signaling/dummy.pdf)
+- [74_genes_rnaseq_heatmap.R](4_mapk_signaling/74_genes_rnaseq_heatmap.R)
+- [74_genes_rnaseq_heatmap.pdf](4_mapk_signaling/74_genes_rnaseq_heatmap.pdf)
 
 LTR10 heatmap across treatments:
 - [57_LTR10_enhancers_normalized_counts_h3K27ac_cutnrun.tab](4_mapk_signaling/57_LTR10_enhancers_normalized_counts_h3K27ac_cutnrun.tab)
-- [Rscript](4_mapk_signaling/dummy.R)
-- [Pdf.bed](4_mapk_signaling/dummy.pdf)
+- [57_LTR10_enhancers_k27acCnR_heatmap.R](4_mapk_signaling/57_LTR10_enhancers_k27acCnR_heatmap.R)
+- [57_LTR10_enhancers_k27acCnR_heatmap.pdf](4_mapk_signaling/57_LTR10_enhancers_k27acCnR_heatmap.pdf)
 
 Log2FC plot with the final gene candidates as bigger bubbles: [Fig3_Log2FCplot_genes_treatments.R](4_mapk_signaling/Fig3_Log2FCplot_genes_treatments.R)
 
