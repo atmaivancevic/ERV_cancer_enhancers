@@ -24,7 +24,7 @@ maplot <- ggplot(deseq2_results_tetranscripts_tnf_vs_ctrl, aes(baseMean, log2Fol
   geom_point(data=deseq2_results_tetranscripts_tnf_vs_ctrl[which(deseq2_results_tetranscripts_tnf_vs_ctrl$padj<0.05),], colour = "red", size = 2) +
   # Add text label for sig points
   geom_text_repel(data = deseq2_results_tetranscripts_tnf_vs_ctrl[which(deseq2_results_tetranscripts_tnf_vs_ctrl$padj<0.05 & deseq2_results_tetranscripts_tnf_vs_ctrl$log2FoldChange>0),], mapping = aes(baseMean, log2FoldChange, label = rownames(deseq2_results_tetranscripts_tnf_vs_ctrl[which(deseq2_results_tetranscripts_tnf_vs_ctrl$padj<0.05 & deseq2_results_tetranscripts_tnf_vs_ctrl$log2FoldChange>0 ),])),size = 5,force = 1) +
-  ylim(-0.8, 0.8) + 
+  ylim(-0.8,0.8) + 
   theme(text=element_text(size=14,  family="Helvetica")) 
 
 maplot + scale_x_continuous(trans='log10')
