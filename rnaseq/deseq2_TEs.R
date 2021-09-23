@@ -40,12 +40,10 @@ resultsNames(dds)
 deseq2_results_tetranscripts_tnf_vs_ctrl <- lfcShrink(dds, coef="groups_TGroup_vs_CGroup",type="apeglm")
 head(deseq2_results_tetranscripts_tnf_vs_ctrl)
 dim(deseq2_results_tetranscripts_tnf_vs_ctrl)
-#1021
 
 # Remove NAs (e.g. due to no reads in all samples)
 deseq2_results_tetranscripts_tnf_vs_ctrl <- na.omit(deseq2_results_tetranscripts_tnf_vs_ctrl)
 dim(deseq2_results_tetranscripts_tnf_vs_ctrl)
-#1021
 
 # Sort by lowest padj value
 deseq2_results_tetranscripts_tnf_vs_ctrl <- deseq2_results_tetranscripts_tnf_vs_ctrl[order(deseq2_results_tetranscripts_tnf_vs_ctrl$padj), ]
