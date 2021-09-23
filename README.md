@@ -253,8 +253,8 @@ LTR10 heatmap across treatments:
 
 Log2FC plot with the final 74 gene candidates as bigger bubbles: 
 - [merge_genes_cobi_and_tnf_annotated.tab](4_mapk_signaling/merge_genes_cobi_and_tnf_annotated.tab)
-- [Log2FCplot_genes_treatments.R](4_mapk_signaling/Log2FCplot_genes_treatments.R)
-- [Log2FCplot_genes_treatments.pdf](4_mapk_signaling/Log2FCplot_genes_treatments.pdf)
+- [log2FCplot_genes_treatments.R](4_mapk_signaling/log2FCplot_genes_treatments.R)
+- [log2FCplot_genes_treatments.pdf](4_mapk_signaling/log2FCplot_genes_treatments.pdf)
 
 
 ## CRISPR silencing & deletion of LTR10 elements
