@@ -259,9 +259,24 @@ Log2FC plot with the final 74 gene candidates as bigger bubbles:
 
 ## CRISPR silencing & deletion of LTR10 elements
 
-Analysis scripts for RNAseq, like above. 
+Just give one example e.g. ATG12 
 
-Python coolbox scripts and R scripts for deseq2/genome distance plots. Need to redo with lfcShrink. Also python scripts for bargraphs. And MA plots for e.g. ATG12 LTR10F. 
+1) Coolbox python script
+
+2) DEseq2 analysis of ATG12_LTR10i vs GFP control
+
+**Redo with lfcShrink!**
+
+- Raw counts table: [raw_counts_H3K27ac_CnR.tab](4_mapk_signaling/raw_counts_H3K27ac_CnR.tab)
+- Normalized counts table: [normalized_counts_H3K27ac_CnR.tab](4_mapk_signaling/normalized_counts_H3K27ac_CnR.tab)
+- DEseq2 results table for ATG12_TSSi vs Ctrl: [deseq2_results_H3K27ac_CnR_cobi_vs_ctrl.tab](4_mapk_signaling/deseq2_results_H3K27ac_CnR_cobi_vs_ctrl.tab)
+- DEseq2 results table for ATG12_LTR10i vs Ctrl: [deseq2_results_H3K27ac_CnR_tnf_vs_ctrl.tab](4_mapk_signaling/deseq2_results_H3K27ac_CnR_tnf_vs_ctrl.tab)
+- MA plot of ATG12_TSSi vs Ctrl: [MAplot_H3K27ac_CnR_cobi_vs_ctrl.R](4_mapk_signaling/MAplot_H3K27ac_CnR_cobi_vs_ctrl.R), [MAplot_H3K27ac_CnR_cobi_vs_ctrl.pdf](4_mapk_signaling/MAplot_H3K27ac_CnR_cobi_vs_ctrl.pdf)
+- MA plot of ATG12_LTR10i vs Ctrl: [MAplot_H3K27ac_CnR_tnf_vs_ctrl.R](4_mapk_signaling/MAplot_H3K27ac_CnR_tnf_vs_ctrl.R), [MAplot_H3K27ac_CnR_tnf_vs_ctrl.pdf](4_mapk_signaling/MAplot_H3K27ac_CnR_tnf_vs_ctrl.pdf)
+- Manhattan-like genomic distance plot of ATG12_TSSi vs Ctrl on chr5:
+- Manhattan-like genomic distance plot of ATG12_LTR10i vs Ctrl on chr5:
+
+3) Python scripts for bagraphs showing norm counts e.g. for genes ATG12 and AP3S1. 
 
 ## Human variation at AP1 sites within LTR10 elements
 
