@@ -3,6 +3,7 @@ library("pheatmap")
 library("ggplot2")
 library("ggrepel")
 library("reshape2")
+library("apeglm")
 
 # Read in the output from featureCounts
 countdata <- read.table("feature_counts_crispri.tab", header = TRUE, sep="\t")
@@ -93,3 +94,27 @@ colData(vsd)
 # Make a PCA plot (plotPCA is part of the deseq2 package)
 nudge <- position_nudge(y = 1.5)
 plotPCA(vsd, returnData=FALSE, ntop=20000) + geom_text(aes(label = name), position = nudge) + xlim(-22,28)
+
+# Make deseq2 results tables
+# e.g. Compare ATG12_LTR10i to control (untreated)
+
+resultsNames(dds)
+
+deseq2_results_genes_atg12ltr10i_vs_ctrl <- lfcShrink(dds, coef="condition_ATG12_LTR10i_vs_GFPi",type="apeglm")
+head(deseq2_results_genes_atg12ltr10i_vs_ctrl)
+
+# Remove NAs
+deseq2_results_genes_atg12ltr10i_vs_ctrl <- na.omit(deseq2_results_genes_atg12ltr10i_vs_ctrl)
+head(deseq2_results_genes_atg12ltr10i_vs_ctrl)
+dim(deseq2_results_genes_atg12ltr10i_vs_ctrl)
+#14772
+
+# Sort by lowest padj value
+deseq2_results_genes_atg12ltr10i_vs_ctrl <- deseq2_results_genes_atg12ltr10i_vs_ctrl[order(deseq2_results_genes_atg12ltr10i_vs_ctrl$padj),]
+head(deseq2_results_genes_atg12ltr10i_vs_ctrl, 20)
+# ATG12 and AP3S1 are the top two genes! Yass
+
+# Save deseq-normalized table sorted by padj
+write.table(deseq2_results_genes_atg12ltr10i_vs_ctrl, file="deseq2_results_genes_atg12ltr10i_vs_ctrl.tab", quote = FALSE, row.names = TRUE, sep = "\t")
+
+# Repeat for other comparisons
