@@ -286,7 +286,7 @@ Processed each sample using the same RNAseq workflow as above.
 - MA plots for all comparisons (template R script, then separate pdfs):
 - Manhattan-like genomic distance plots for all candidates (template R script, then separate pdfs):
 
-2) DEseq2 analysis of CRISPR-KO candidates vs untreated HCT116 cells
+3) DEseq2 analysis of CRISPR-KO candidates vs untreated HCT116 cells
 - Mainly the feature counts, deseq2 output tables, and plots. 
 KDM6A KO: don't need to provide all the scripts but specify which samples we used as controls (will need to upload those to GEO). Put them all in a dir for easy access. Maybe include the date sequenced? Same for all the other crispri candidates, maybe make a table of all the samples that will need to be uploaded to GEO. 
 
