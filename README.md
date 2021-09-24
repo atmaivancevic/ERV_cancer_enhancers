@@ -273,8 +273,9 @@ Processed each sample using the same RNAseq workflow as above.
 - Normalized counts table of all CRISPRi candidates: [normalized_counts_crispri.tab](5_crispr_results/normalized_counts_crispri.tab)
 - PCA of all CRISPRi and control samples: [deseq2_and_pca_crispri.R](5_crispr_results/deseq2_and_pca_crispri.R), [pca_crispri.pdf](5_crispr_results/pca_crispri.pdf)
 - Count plot bargraphs (python scripts) showing norm counts e.g. for genes ATG12 and AP3S1. 
-- DEseq2 results table for ATG12_TSSi vs Ctrl: [deseq2_results__crispri_atg12tssi_vs_ctrl.tab](5_crispr_results/deseq2_results__crispri_atg12tssi_vs_ctrl.tab)
-- DEseq2 results table for ATG12_LTR10i vs Ctrl: [deseq2_results__crispri_atg12ltr10i_vs_ctrl.tab](5_crispr_results/deseq2_results__crispri_atg12ltr10i_vs_ctrl.tab)
+- DEseq2 results table for all comparisons:
+1. ATG12_TSSi vs Ctrl: [deseq2_results__crispri_atg12tssi_vs_ctrl.tab](5_crispr_results/deseq2_results__crispri_atg12tssi_vs_ctrl.tab)
+2. ATG12_LTR10i vs Ctrl: [deseq2_results__crispri_atg12ltr10i_vs_ctrl.tab](5_crispr_results/deseq2_results__crispri_atg12ltr10i_vs_ctrl.tab)
 - MA plot of ATG12_TSSi vs Ctrl: [MAplot_crispri_atg12tssi_vs_ctrl.R](5_crispr_results/MAplot_crispri_tg12tssi_vs_ctrl.R), [MAplot_crispri_atg12tssi_vs_ctrl.pdf](5_crispr_results/MAplot_crispri_atg12tssi_vs_ctrl.pdf)
 - MA plot of ATG12_LTR10i vs Ctrl: [MAplot_crispri_atg12ltr10i_vs_ctrl.R](5_crispr_results/MAplot_crispri_atg12ltr10i_vs_ctrl.R), [MAplot_crispri_atg12ltr10i_vs_ctrl.pdf](5_crispr_results/MAplot_crispri_atg12ltr10i_vs_ctrl.pdf)
 - Manhattan-like genomic distance plot of ATG12_TSSi vs Ctrl on chr5:
