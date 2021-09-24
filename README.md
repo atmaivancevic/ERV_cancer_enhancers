@@ -276,6 +276,8 @@ Just give one example e.g. ATG12
 - Manhattan-like genomic distance plot of ATG12_TSSi vs Ctrl on chr5:
 - Manhattan-like genomic distance plot of ATG12_LTR10i vs Ctrl on chr5:
 
+Also pdfs for the other CRISPRi but don't bother with scripts (since it's the same script). 
+
 3) Python scripts for bagraphs showing norm counts e.g. for genes ATG12 and AP3S1. 
 
 ## Human variation at AP1 sites within LTR10 elements
