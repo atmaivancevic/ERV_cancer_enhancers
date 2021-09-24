@@ -272,16 +272,14 @@ Processed each sample using the same RNAseq workflow as above.
 - PCA of all CRISPRi and control samples: [deseq2_and_pca_crispri.R](5_crispr_results/deseq2_and_pca_crispri.R), [pca_crispri.pdf](5_crispr_results/pca_crispri.pdf)
 - Count plot bargraphs (python scripts) showing norm counts e.g. for genes ATG12 and AP3S1. 
 - DEseq2 results table for all comparisons:
-1. ATG12_TSSi vs Ctrl: [deseq2_results_genes_atg12tssi_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_atg12tssi_vs_ctrl.tab)
-2. ATG12_LTR10i vs Ctrl: [deseq2_results_genes_atg12ltr10i_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_atg12ltr10i_vs_ctrl.tab)
-3. blah
-4. blah
-5. blah
-6. blah
-7. blah
-8. blah
-9. blah
-10. blah
+1. ATG12_LTR10i vs Ctrl: [deseq2_results_genes_atg12ltr10i_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_atg12ltr10i_vs_ctrl.tab)
+2. XRCC4_LTR10i vs Ctrl: [deseq2_results_genes_xrcc4ltr10i_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_xrcc4ltr10i_vs_ctrl.tab)
+3. MEF2D_LTR10i vs Ctrl: [deseq2_results_genes_mef2dltr10i_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_mef2dltr10i_vs_ctrl.tab)
+4. FGF2_LTR10i vs Ctrl: [deseq2_results_genes_fgf2ltr10i_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_fgf2ltr10i_vs_ctrl.tab)
+5. MCPH1_LTR10i vs Ctrl: [deseq2_results_genes_mcph1ltr10i_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_mcph1ltr10i_vs_ctrl.tab)
+6. ATG12_TSSi vs Ctrl: [deseq2_results_genes_atg12i_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_atg12i_vs_ctrl.tab)
+7. FOSL1_TSSi vs Ctrl: [deseq2_results_genes_fosli_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_fosli_vs_ctrl.tab)
+8. JUN_TSSi vs Ctrl: [deseq2_results_genes_cjuni_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_atg12ltr10i_vs_ctrl.tab)
 
 - MA plots for all comparisons (template R script, then separate pdfs):
 - Manhattan-like genomic distance plots for all candidates (template R script, then separate pdfs):
