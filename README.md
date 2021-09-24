@@ -263,9 +263,7 @@ Just give one example e.g. ATG12
 
 1) Coolbox python script
 
-2) DEseq2 analysis of ATG12_LTR10i vs GFP control
-
-**Redo with lfcShrink!**
+2) DEseq2 analysis of CRISPRi candidates vs GFP control
 
 Processed each sample using the same RNAseq workflow as above.
 
@@ -284,13 +282,12 @@ Processed each sample using the same RNAseq workflow as above.
 8. blah
 9. blah
 10. blah
-- MA plot of ATG12_TSSi vs Ctrl: [MAplot_crispri_atg12tssi_vs_ctrl.R](5_crispr_results/MAplot_crispri_tg12tssi_vs_ctrl.R), [MAplot_crispri_atg12tssi_vs_ctrl.pdf](5_crispr_results/MAplot_crispri_atg12tssi_vs_ctrl.pdf)
-- MA plot of ATG12_LTR10i vs Ctrl: [MAplot_crispri_atg12ltr10i_vs_ctrl.R](5_crispr_results/MAplot_crispri_atg12ltr10i_vs_ctrl.R), [MAplot_crispri_atg12ltr10i_vs_ctrl.pdf](5_crispr_results/MAplot_crispri_atg12ltr10i_vs_ctrl.pdf)
-- Manhattan-like genomic distance plot of ATG12_TSSi vs Ctrl on chr5:
-- Manhattan-like genomic distance plot of ATG12_LTR10i vs Ctrl on chr5:
 
-Also pdfs for the other CRISPRi but don't bother with scripts (since it's the same script). 
+- MA plots for all comparisons (template R script, then separate pdfs):
+- Manhattan-like genomic distance plots for all candidates (template R script, then separate pdfs):
 
+2) DEseq2 analysis of CRISPR-KO candidates vs untreated HCT116 cells
+- Mainly the feature counts, deseq2 output tables, and plots. 
 KDM6A KO: don't need to provide all the scripts but specify which samples we used as controls (will need to upload those to GEO). Put them all in a dir for easy access. Maybe include the date sequenced? Same for all the other crispri candidates, maybe make a table of all the samples that will need to be uploaded to GEO. 
 
 ## Human variation at AP1 sites within LTR10 elements
