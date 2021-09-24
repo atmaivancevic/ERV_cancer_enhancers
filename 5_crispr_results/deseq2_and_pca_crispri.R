@@ -47,9 +47,9 @@ dds$condition
 # Run deseq2
 dds <- DESeq(dds) 
 resultsNames(dds)
-[1] "Intercept"                      "condition_ATG12_LTR10i_vs_GFPi" "condition_ATG12_TSSi_vs_GFPi"  
-[4] "condition_cJun_TSSi_vs_GFPi"    "condition_FGF2_LTR10i_vs_GFPi"  "condition_FOSL_TSSi_vs_GFPi"   
-[7] "condition_MCPH1_LTR10i_vs_GFPi" "condition_MEF2D_LTR10i_vs_GFPi" "condition_XRCC4_LTR10i_vs_GFPi"
+#[1] "Intercept"                      "condition_ATG12_LTR10i_vs_GFPi" "condition_ATG12_TSSi_vs_GFPi"  
+#[4] "condition_cJun_TSSi_vs_GFPi"    "condition_FGF2_LTR10i_vs_GFPi"  "condition_FOSL_TSSi_vs_GFPi"   
+#[7] "condition_MCPH1_LTR10i_vs_GFPi" "condition_MEF2D_LTR10i_vs_GFPi" "condition_XRCC4_LTR10i_vs_GFPi"
 
 # Save normalized counts table
 normalized_counts <- counts(dds, normalized=TRUE)
