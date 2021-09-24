@@ -267,7 +267,7 @@ Just give one example e.g. ATG12
 
 **Redo with lfcShrink!**
 
-- Raw counts table of all CRISPRi candidates: [raw_counts_crispri.tab](5_crispr_results/raw_counts_crispri.tab)
+- Feature counts table of all CRISPRi candidates: [feature_counts_crispri.tab](5_crispr_results/feature_counts_crispri.tab)
 - Normalized counts table of all CRISPRi candidates: [normalized_counts_crispri.tab](5_crispr_results/normalized_counts_crispri.tab)
 - PCA of all of them (script + pdf). 
 - Count plot bargraphs (python scripts) showing norm counts e.g. for genes ATG12 and AP3S1. 
