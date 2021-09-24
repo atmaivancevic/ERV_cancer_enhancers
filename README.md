@@ -267,21 +267,20 @@ Just give one example e.g. ATG12
 
 **Redo with lfcShrink!**
 
-- Raw counts table of all CRISPRi candidates: [raw_counts_H3K27ac_CnR.tab](5_crispr_results/raw_counts_crispri.tab)
-- Normalized counts table of all CRISPRi candidates: [normalized_counts_H3K27ac_CnR.tab](5_crispr_results/normalized_counts_H3K27ac_CnR.tab)
+- Raw counts table of all CRISPRi candidates: [raw_counts_crispri.tab](5_crispr_results/raw_counts_crispri.tab)
+- Normalized counts table of all CRISPRi candidates: [normalized_counts_crispri.tab](5_crispr_results/normalized_counts_crispri.tab)
 - PCA of all of them (script + pdf). 
-- DEseq2 results table for ATG12_TSSi vs Ctrl: [deseq2_results_H3K27ac_CnR_cobi_vs_ctrl.tab](5_crispr_results/deseq2_results_H3K27ac_CnR_cobi_vs_ctrl.tab)
-- DEseq2 results table for ATG12_LTR10i vs Ctrl: [deseq2_results_H3K27ac_CnR_tnf_vs_ctrl.tab](5_crispr_results/deseq2_results_H3K27ac_CnR_tnf_vs_ctrl.tab)
-- MA plot of ATG12_TSSi vs Ctrl: [MAplot_H3K27ac_CnR_cobi_vs_ctrl.R](5_crispr_results/MAplot_H3K27ac_CnR_cobi_vs_ctrl.R), [MAplot_H3K27ac_CnR_cobi_vs_ctrl.pdf](5_crispr_results/MAplot_H3K27ac_CnR_cobi_vs_ctrl.pdf)
-- MA plot of ATG12_LTR10i vs Ctrl: [MAplot_H3K27ac_CnR_tnf_vs_ctrl.R](5_crispr_results/MAplot_H3K27ac_CnR_tnf_vs_ctrl.R), [MAplot_H3K27ac_CnR_tnf_vs_ctrl.pdf](5_crispr_results/MAplot_H3K27ac_CnR_tnf_vs_ctrl.pdf)
+- Count plot bargraphs (python scripts) showing norm counts e.g. for genes ATG12 and AP3S1. 
+- DEseq2 results table for ATG12_TSSi vs Ctrl: [deseq2_results__crispri_atg12tssi_vs_ctrl.tab](5_crispr_results/deseq2_results__crispri_atg12tssi_vs_ctrl.tab)
+- DEseq2 results table for ATG12_LTR10i vs Ctrl: [deseq2_results__crispri_atg12ltr10i_vs_ctrl.tab](5_crispr_results/deseq2_results__crispri_atg12ltr10i_vs_ctrl.tab)
+- MA plot of ATG12_TSSi vs Ctrl: [MAplot_crispri_atg12tssi_vs_ctrl.R](5_crispr_results/MAplot_crispri_tg12tssi_vs_ctrl.R), [MAplot_crispri_atg12tssi_vs_ctrl.pdf](5_crispr_results/MAplot_crispri_atg12tssi_vs_ctrl.pdf)
+- MA plot of ATG12_LTR10i vs Ctrl: [MAplot_crispri_atg12ltr10i_vs_ctrl.R](5_crispr_results/MAplot_crispri_atg12ltr10i_vs_ctrl.R), [MAplot_crispri_atg12ltr10i_vs_ctrl.pdf](5_crispr_results/MAplot_crispri_atg12ltr10i_vs_ctrl.pdf)
 - Manhattan-like genomic distance plot of ATG12_TSSi vs Ctrl on chr5:
 - Manhattan-like genomic distance plot of ATG12_LTR10i vs Ctrl on chr5:
 
 Also pdfs for the other CRISPRi but don't bother with scripts (since it's the same script). 
 
-KDM6A KO: don't need to provide all the scripts but specify which samples we used as controls (will need to upload those to GEO). Put them all in a dir for easy access. Maybe include the date sequenced?
-
-3) Python scripts for bagraphs showing norm counts e.g. for genes ATG12 and AP3S1. 
+KDM6A KO: don't need to provide all the scripts but specify which samples we used as controls (will need to upload those to GEO). Put them all in a dir for easy access. Maybe include the date sequenced? Same for all the other crispri candidates, maybe make a table of all the samples that will need to be uploaded to GEO. 
 
 ## Human variation at AP1 sites within LTR10 elements
 
