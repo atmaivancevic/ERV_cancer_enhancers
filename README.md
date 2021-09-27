@@ -282,7 +282,24 @@ Processed each sample using the same RNAseq workflow as above.
 8. JUN_TSSi vs Ctrl: [deseq2_results_genes_cjuni_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_atg12ltr10i_vs_ctrl.tab)
 
 - MA plots for all comparisons (template R script, then separate pdfs):
+1. ATG12_LTR10i vs Ctrl: [MAplot_genes_atg12ltr10i_vs_ctrl.pdf](5_crispr_results/MAplot_genes_atg12ltr10i_vs_ctrl.pdf)
+2. XRCC4_LTR10i vs Ctrl: [MAplot_genes_xrcc4ltr10i_vs_ctrl.pdf](5_crispr_results/MAplot_genes_xrcc4ltr10i_vs_ctrl.pdf)
+3. MEF2D_LTR10i vs Ctrl: [MAplot_genes_mef2dltr10i_vs_ctrl.pdf](5_crispr_results/MAplot_genes_mef2dltr10i_vs_ctrl.pdf)
+4. FGF2_LTR10i vs Ctrl: [MAplot_genes_fgf2ltr10i_vs_ctrl.pdf](5_crispr_results/MAplot_genes_fgf2ltr10i_vs_ctrl.pdf)
+5. MCPH1_LTR10i vs Ctrl: [MAplot_genes_mcph1ltr10i_vs_ctrl.pdf](5_crispr_results/MAplot_genes_mcph1ltr10i_vs_ctrl.pdf)
+6. ATG12_TSSi vs Ctrl: [MAplot_genes_atg12i_vs_ctrl.pdf](5_crispr_results/MAplot_genes_atg12i_vs_ctrl.pdf)
+7. FOSL1_TSSi vs Ctrl: [MAplot_genes_fosli_vs_ctrl.pdf](5_crispr_results/MAplot_genes_fosli_vs_ctrl.pdf)
+8. JUN_TSSi vs Ctrl: [MAplot_genes_cjuni_vs_ctrl.pdf](5_crispr_results/MAplot_genes_atg12ltr10i_vs_ctrl.pdf)
+
 - Manhattan-like genomic distance plots for all candidates (template R script, then separate pdfs):
+1. ATG12_LTR10i vs Ctrl: [chrplot_genes_atg12ltr10i_vs_ctrl.pdf](5_crispr_results/chrplot_genes_atg12ltr10i_vs_ctrl.pdf)
+2. XRCC4_LTR10i vs Ctrl: [chrplot_genes_xrcc4ltr10i_vs_ctrl.pdf](5_crispr_results/chrplot_genes_xrcc4ltr10i_vs_ctrl.pdf)
+3. MEF2D_LTR10i vs Ctrl: [chrplot_genes_mef2dltr10i_vs_ctrl.pdf](5_crispr_results/chrplot_genes_mef2dltr10i_vs_ctrl.pdf)
+4. FGF2_LTR10i vs Ctrl: [chrplot_genes_fgf2ltr10i_vs_ctrl.pdf](5_crispr_results/chrplot_genes_fgf2ltr10i_vs_ctrl.pdf)
+5. MCPH1_LTR10i vs Ctrl: [chrplot_genes_mcph1ltr10i_vs_ctrl.pdf](5_crispr_results/chrplot_genes_mcph1ltr10i_vs_ctrl.pdf)
+6. ATG12_TSSi vs Ctrl: [chrplot_genes_atg12i_vs_ctrl.pdf](5_crispr_results/chrplot_genes_atg12i_vs_ctrl.pdf)
+7. FOSL1_TSSi vs Ctrl: [chrplot_genes_fosli_vs_ctrl.pdf](5_crispr_results/chrplot_genes_fosli_vs_ctrl.pdf)
+8. JUN_TSSi vs Ctrl: [chrplot_genes_cjuni_vs_ctrl.pdf](5_crispr_results/chrplot_genes_atg12ltr10i_vs_ctrl.pdf)
 
 3) DEseq2 analysis of CRISPR-KO candidates vs untreated HCT116 cells
 - Mainly the feature counts, deseq2 output tables, and plots. 
