@@ -8,6 +8,7 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 
 ### UCSC sessions:
 Add a few of my UCSC sessions
+Esp. important to add the data we created. 
 
 ### Programs used:
 - GIGGLE v0.6.3 (https://github.com/ryanlayer/giggle)
