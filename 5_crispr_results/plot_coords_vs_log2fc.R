@@ -4,12 +4,6 @@ rm(list = ls())
 library(ggplot2)
 library(ggrepel)
 
-# LTR10.ATG12 enhancer located at chr5 115928578
-# LTR10.XRCC4 enhancer located at chr5 82969145
-# LTR10.MEF2D enhancer located at chr1 156398365
-# LTR10.FGF2 enhancer located at chr4 122786289
-# LTR10.MCPH1 enhancer located at chr8 6648824
-
 # Read in the deseq2 table
 deseq_table_atg12ltr10i <- read.table("deseq2_results_genes_atg12ltr10i_vs_ctrl.tab", header = TRUE, sep="\t")
 head(deseq_table_atg12ltr10i)
@@ -61,3 +55,15 @@ ggplot(deseq_with_gene_coords, aes(geneStart, log2FoldChange), colour="grey") +
   theme(text=element_text(size=12,family="Helvetica"))
 
 # export pdf 5.5 by 6 inches
+
+# Coordinates of enhancers and genes:
+# LTR10.ATG12 enhancer at chr5 115928578
+# LTR10.XRCC4 enhancer at chr5 82969145
+# LTR10.MEF2D enhancer at chr1 156398365
+# LTR10.FGF2 enhancer at chr4 122786289
+# LTR10.MCPH1 enhancer at chr8 6648824
+# LTR10.KDM6A enhancer at chrX 45005875
+
+# ATG12 gene at chr5 115828199
+# FOSL1 gene at chr11 65892048
+# JUN gene at chr1 58780790
