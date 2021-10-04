@@ -31,6 +31,7 @@ Esp. important to add the data we created.
 - MUSCLE v3.8.1551 (https://www.drive5.com/muscle/)
 - Jalview v2.11.1.4 (https://www.jalview.org/)
 - singularity v3.1.1 (https://github.com/hpcng/singularity)
+- FigTree v1.4.4 (https://github.com/rambaut/figtree/releases)
 
 ### Public databases:
 - The Cancer Genome Atlas (TCGA), via the Genomic Data Commons (https://gdc.cancer.gov/)
