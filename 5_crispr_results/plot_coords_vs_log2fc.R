@@ -60,4 +60,4 @@ ggplot(deseq_with_gene_coords, aes(geneStart, log2FoldChange), colour="grey") +
   scale_y_continuous(expand = c(0,0),  limits = c(-3.5,3.5)) +
   theme(text=element_text(size=12,family="Helvetica"))
 
-# export pdf 5.5 by 6 
+# export pdf 5.5 by 6 inches
