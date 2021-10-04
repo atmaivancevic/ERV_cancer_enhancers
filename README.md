@@ -301,7 +301,7 @@ Processed each sample using the same RNAseq workflow as above.
 5. MCPH1_LTR10i vs Ctrl: [chrplot_genes_mcph1ltr10i_vs_ctrl.pdf](5_crispr_results/chrplot_genes_mcph1ltr10i_vs_ctrl.pdf)
 6. ATG12_TSSi vs Ctrl: [chrplot_genes_atg12i_vs_ctrl.pdf](5_crispr_results/chrplot_genes_atg12i_vs_ctrl.pdf)
 7. FOSL1_TSSi vs Ctrl: [chrplot_genes_fosli_vs_ctrl.pdf](5_crispr_results/chrplot_genes_fosli_vs_ctrl.pdf)
-8. JUN_TSSi vs Ctrl: [chrplot_genes_cjuni_vs_ctrl.pdf](5_crispr_results/chrplot_genes_atg12ltr10i_vs_ctrl.pdf)
+8. JUN_TSSi vs Ctrl: [chrplot_genes_cjuni_vs_ctrl.pdf](5_crispr_results/chrplot_genes_cjuni_vs_ctrl.pdf)
 
 3) DEseq2 analysis of CRISPR-KO candidates vs untreated HCT116 cells
 - Mainly the feature counts, deseq2 output tables, and plots. 
