@@ -291,7 +291,7 @@ Processed each sample using the same RNAseq workflow as above.
 5. MCPH1_LTR10i vs Ctrl: [MAplot_genes_mcph1ltr10i_vs_ctrl.pdf](5_crispr_results/MAplot_genes_mcph1ltr10i_vs_ctrl.pdf)
 6. ATG12_TSSi vs Ctrl: [MAplot_genes_atg12i_vs_ctrl.pdf](5_crispr_results/MAplot_genes_atg12i_vs_ctrl.pdf)
 7. FOSL1_TSSi vs Ctrl: [MAplot_genes_fosli_vs_ctrl.pdf](5_crispr_results/MAplot_genes_fosli_vs_ctrl.pdf)
-8. JUN_TSSi vs Ctrl: [MAplot_genes_cjuni_vs_ctrl.pdf](5_crispr_results/MAplot_genes_atg12ltr10i_vs_ctrl.pdf)
+8. JUN_TSSi vs Ctrl: [MAplot_genes_cjuni_vs_ctrl.pdf](5_crispr_results/MAplot_genes_cjuni_vs_ctrl.pdf)
 
 - Manhattan-like genomic distance plots for all candidates (template R script [plot_coords_vs_log2fc.R](5_crispr_results/plot_coords_vs_log2fc.R)):
 1. ATG12_LTR10i vs Ctrl: [chrplot_genes_atg12ltr10i_vs_ctrl.pdf](5_crispr_results/chrplot_genes_atg12ltr10i_vs_ctrl.pdf)
