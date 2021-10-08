@@ -42,10 +42,10 @@ ggplot(deseq_with_gene_coords, aes(geneStart, log2FoldChange), colour="grey") +
   geom_point(data=deseq_with_gene_coords[which(deseq_with_gene_coords$geneChr=="chr5"),], colour = "grey", size = 1.5) + 
   # add annotation for the targeted LTR10 element
   annotate("rect", xmin=115928578-300000, xmax=115928578+300000, ymin=-0.09, ymax=0.09, alpha=0.99, fill="black") +
-  annotate("text", x=115928578, y=0.4, label = "LTR10.ATG12", size=4.5, family="Helvetica") +
+  annotate("text", x=115928578, y=0.3, label = "LTR10.ATG12", size=4.5, family="Helvetica") +
   # add annotation for the scale bar
-  annotate("rect", xmin=115928578-5000000, xmax=115928578-5000000+1500000, ymin=1.3, ymax=1.32, alpha=0.99, fill="black") +
-  annotate("text", x=115928578-5000000+750000, y=1.1, label = "1.5Mb", size=4.5, family="Helvetica") +
+  annotate("rect", xmin=115928578-5000000, xmax=115928578-5000000+1500000, ymin=-3, ymax=-3.02, alpha=0.99, fill="black") +
+  annotate("text", x=115928578-5000000+750000, y=-3.2, label = "1.5Mb", size=4.5, family="Helvetica") +
   # If pvalue<0.05, change dot color to blue
   geom_point(data=deseq_with_gene_coords[which(deseq_with_gene_coords$geneChr=="chr5" & deseq_with_gene_coords $padj <0.05 & deseq_with_gene_coords $log2FoldChange>0),],  colour = "blue", size = 3) +
   # Highlight in red genes within 1Mb of targeted LTR10 (still requiring pval<0.05 and log2fc<0)
