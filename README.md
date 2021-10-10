@@ -303,9 +303,14 @@ Processed each sample using the same RNAseq workflow as above.
 7. FOSL1_TSSi vs Ctrl: [chrplot_genes_fosli_vs_ctrl.pdf](5_crispr_results/chrplot_genes_fosli_vs_ctrl.pdf)
 8. JUN_TSSi vs Ctrl: [chrplot_genes_cjuni_vs_ctrl.pdf](5_crispr_results/chrplot_genes_cjuni_vs_ctrl.pdf)
 
-3) DEseq2 analysis of CRISPR-KO candidates vs untreated HCT116 cells
-- Mainly the feature counts, deseq2 output tables, and plots. 
-KDM6A KO: don't need to provide all the scripts but specify which samples we used as controls (will need to upload those to GEO). Put them all in a dir for easy access. Maybe include the date sequenced? Same for all the other crispri candidates, maybe make a table of all the samples that will need to be uploaded to GEO. 
+3) DEseq2 analysis of KDM6A CRISPR-KO candidates vs untreated HCT116 cells
+
+- Raw feature counts table: [feature_counts_crisprko.tab](5_crispr_results/feature_counts_crisprko.tab)
+- Normalized counts table: [normalized_counts_crisprko.tab](5_crispr_results/normalized_counts_crisprko.tab)
+- PCA of CRISPR-KO and wildtype samples: [pca_crisprko.pdf](5_crispr_results/pca_crisprko.pdf)
+- DEseq2 results table: [deseq2_results_genes_kdm6ako_vs_wildtype.tab](5_crispr_results/deseq2_results_genes_kdm6ako_vs_wildtype.tab)
+- MA plot: [MAplot_genes_kdm6ako_vs_wildtype.pdf](5_crispr_results/MAplot_genes_kdm6ako_vs_wildtype.pdf)
+- Genomic distance plot: [chrplot_genes_kdm6ako_vs_wildtype.pdf](5_crispr_results/chrplot_genes_kdm6ako_vs_wildtype.pdf)
 
 ## Human variation at AP1 sites within LTR10 elements
 
