@@ -18,12 +18,12 @@ ggplot(mergedTable, aes(log2FoldChange.tnf, log2FoldChange.cobi), colour="grey")
   # If the genes are not affected by any treatments, colour them grey
   geom_point(data=mergedTable, alpha=0.2, color="grey") +
   # If the genes are affected by Cobi (padj.x<0.05 and log2FoldChange.x<0), change dot color to green
-  geom_point(data=mergedTable[which(mergedTable$log2FoldChange.cobi<0 & mergedTable$padj.cobi<0.05),], color="seagreen", alpha=0.2) +
+  geom_point(data=mergedTable[which(mergedTable$log2FoldChange.cobi<0 & mergedTable$padj.cobi<0.05),], color="dodgerblue4", alpha=0.2) +
   # If the genes are affected by TNF (padj.y<0.05 and log2FoldChange.y>0), change dot color to red
   geom_point(data=mergedTable[which(mergedTable$log2FoldChange.tnf>0 & mergedTable$padj.tnf<0.05),], color="red3", alpha=0.2) +
   # If the genes are affected by both treatments, colour them blue
-  geom_point(data=mergedTable[which(mergedTable$log2FoldChange.tnf>0 & mergedTable$padj.tnf<0.05 & mergedTable$log2FoldChange.cobi<0 & mergedTable$padj.cobi<0.05 & mergedTable$bubbleSize==1),], aes(size=bubbleSize), alpha=0.25, color="midnightblue") +
-  geom_point(data=mergedTable[which(mergedTable$log2FoldChange.tnf>0 & mergedTable$padj.tnf<0.05 & mergedTable$log2FoldChange.cobi<0 & mergedTable$padj.cobi<0.05 & mergedTable$bubbleSize==3),], aes(size=bubbleSize), alpha=0.99, fill="midnightblue", pch=21, colour="grey") +
+  geom_point(data=mergedTable[which(mergedTable$log2FoldChange.tnf>0 & mergedTable$padj.tnf<0.05 & mergedTable$log2FoldChange.cobi<0 & mergedTable$padj.cobi<0.05 & mergedTable$bubbleSize==1),], aes(size=bubbleSize), alpha=0.25, color="seagreen") +
+  geom_point(data=mergedTable[which(mergedTable$log2FoldChange.tnf>0 & mergedTable$padj.tnf<0.05 & mergedTable$log2FoldChange.cobi<0 & mergedTable$padj.cobi<0.05 & mergedTable$bubbleSize==3),], aes(size=bubbleSize), alpha=0.99, fill="seagreen", pch=21, colour="black") +
   # Add x and y limits so that 0,0 is in the center
   #xlim(-5, 10) + ylim(-7,10) +
   scale_x_continuous(limits=c(-5, 5), expand = c(0, 0)) +
