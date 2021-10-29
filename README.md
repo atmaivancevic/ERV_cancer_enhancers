@@ -39,12 +39,12 @@ Accession code GSE186619 **[add link]**
 - Cistrome (http://cistrome.org/)
 - Roadmap Epigenomics Project (http://www.roadmapepigenomics.org/)
 - ENCODE (https://www.encodeproject.org/)
-- Dfam 2.0 (https://dfam.org/home)
+- JASPAR (http://jaspar.genereg.net/)
 - Human Endogenous Retrovirus Database (https://herv.img.cas.cz/)
 - UCSC (https://genome.ucsc.edu/)
 - GENCODE Release 34 (https://www.gencodegenes.org/human/)
-- JASPAR (http://jaspar.genereg.net/)
-- gnomAD (https://gnomad.broadinstitute.org/)
+- Dfam v2.0 (https://dfam.org/home)
+- gnomAD v3.1 (https://gnomad.broadinstitute.org/)
 
 ## Pan-cancer epigenomic analysis of TE activity
 
