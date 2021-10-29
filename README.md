@@ -6,9 +6,8 @@ Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcr
 
 ### GEO links:
 
-### UCSC sessions:
-Add a few of my UCSC sessions
-Esp. important to add the data we created. 
+### UCSC session:
+[https://genome.ucsc.edu/s/Atma/Dave_RNAseq_CRISPRi](https://genome.ucsc.edu/s/Atma/CRISPR_tracks)
 
 ### Programs used:
 - GIGGLE v0.6.3 (https://github.com/ryanlayer/giggle)
