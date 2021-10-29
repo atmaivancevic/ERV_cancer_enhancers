@@ -91,14 +91,6 @@ Fig 2 Supp: pca plot, alignment of all LTR10 sequences, etc.
 
 Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2). 
 
-**RNAseq files [add GEO link here]:** 
-- Cobi_24_1_S54_R1.fastq.gz, Cobi_24_1_S54_R2.fastq.gz
-- Cobi_24_2_S55_R1.fastq.gz, Cobi_24_2_S55_R2.fastq.gz
-- TNF_24_1_S58_R1.fastq.gz, TNF_24_1_S58_R2.fastq.gz
-- TNF_24_2_S59_R1.fastq.gz, TNF_24_2_S59_R2.fastq.gz
-- UT_24_1_S52_R1.fastq.gz, UT_24_1_S52_R2.fastq.gz
-- UT_24_2_S53_R1.fastq.gz, UT_24_2_S53_R2.fastq.gz
-
 **RNAseq Workflow:**
 1) [bbduk_PE.sbatch](rnaseq/bbduk_PE.sbatch)
 2) [fastqc.sbatch](rnaseq/fastqc.sbatch)
@@ -114,29 +106,6 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 2) [te_transcripts.sbatch](rnaseq/te_transcripts.sbatch)
 3) [extract_TEs.sh](rnaseq/extract_TEs.sh)
 4) [deseq2_TEs.R](rnaseq/deseq2_TEs.R)
-
-**CUT&RUN files [add GEO link here]:** 
-Temporarily put them in /scratch/Users/ativ2716/data/2_files_for_GEO_upload/MAPK_treated_H3K27ac_CutnRun
-
-Rep1: 210205_A00405_0345_BHT2K3DSXY
-
-Rep2: 210409_A00405_0379_AH2YHCDSX2
-
-Rep2 resequenced (untreated H3K27ac only): 210723_A00405_0433_AHHYFCDSX2
-
-- Untreated rep 1: Untreated_H3K27ac_rep1_R1.fastq.gz, Untreated_H3K27ac_rep1_R2.fastq.gz
-- Untreated rep 2: Untreated_H3K27ac_rep2_R1.fastq.gz, Untreated_H3K27ac_rep2_R2.fastq.gz
-- Untreated rep 2, resequenced (merged with above at the bam stage): Untreated_H3K27ac_rep2_reseq_R1.fastq.gz, Untreated_H3K27ac_rep2_reseq_R2.fastq.gz
-- Cobi-treated rep1: Cobimetinib_H3K27ac_rep1_R1.fastq.gz, Cobimetinib_H3K27ac_rep1_R2.fastq.gz
-- Cobi-treated rep2: Cobimetinib_H3K27ac_rep2_R1.fastq.gz, Cobimetinib_H3K27ac_rep2_R2.fastq.gz
-- Tnf-treated rep1: TNFalpha_H3K27ac_rep1_R1.fastq.gz, TNFalpha_H3K27ac_rep1_R2.fastq.gz
-- Tnf-treated rep2: TNFalpha_H3K27ac_rep2_R1.fastq.gz, TNFalpha_H3K27ac_rep2_R2.fastq.gz
-- Untreated IgG control rep1: Untreated_IgG_rep1_R1.fastq.gz, Untreated_IgG_rep1_R2.fastq.gz
-- Untreated IgG control rep2: Untreated_IgG_rep2_R1.fastq.gz, Untreated_IgG_rep2_R2.fastq.gz  
-- Cobi-treated IgG control rep1: Cobimetinib_IgG_rep1_R1.fastq.gz, Cobimetinib_IgG_rep1_R2.fastq.gz
-- Cobi-treated IgG control rep2: Cobimetinib_IgG_rep2_R1.fastq.gz, Cobimetinib_IgG_rep2_R2.fastq.gz 
-- Tnf-treated IgG control rep1: TNFalpha_IgG_rep1_R1.fastq.gz, TNFalpha_IgG_rep1_R2.fastq.gz
-- Tnf-treated IgG control rep2: TNFalpha_IgG_rep2_R1.fastq.gz, TNFalpha_IgG_rep2_R2.fastq.gz
 
 **CUT&RUN Workflow:**
 
