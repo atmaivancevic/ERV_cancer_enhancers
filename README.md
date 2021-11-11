@@ -5,7 +5,7 @@
 Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcriptional rewiring in response to oncogenic signaling in colorectal cancer" JOURNAL, ISSUE: PAGES. **[add biorxiv link]**
 
 ### GEO:
-Accession code GSE186619 **[add link]**
+Accession code [GSE186619](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186619)
 
 ### UCSC session:
 [https://genome.ucsc.edu/s/Atma/ERVs_in_cancer](https://genome.ucsc.edu/s/Atma/Dave_RNAseq_CRISPRi)
