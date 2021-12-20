@@ -65,7 +65,7 @@ We further assessed TE signal in public ChIPseq datasets from Cistrome, particul
 
 ### 1. LTR10A/F enrichment in patient H3K27ac ChIPseq
 
-Processed patient H3K27ac ChIPseq bed files (tumor + matched normal samples) were downloaded from Orouji et al. 2021 ([GSE136889](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE136889)) and CEMT ([https://epigenomesportal.ca/](https://epigenomesportal.ca/ihec)). hg19 files were lifted over to hg38. Samples with fewer than 20,000 H3K27ac peaks were discarded. GIGGLE was used to assess LTR10 enrichment within H3K27ac peaks for each sample and the GIGGLE enrichment scores were plotted as heatmaps for each dataset (TABLE1, TABLE2, jupyter code for both). 
+Processed patient H3K27ac ChIPseq peaks (tumor + matched normal samples) were downloaded from Orouji et al. 2021 ([GSE136889](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE136889)) and CEMT ([https://epigenomesportal.ca/](https://epigenomesportal.ca/ihec)). hg19 files were lifted over to hg38. Samples with fewer than 20,000 H3K27ac peaks were discarded. GIGGLE was used to assess LTR10 enrichment within H3K27ac peaks for each sample and the GIGGLE enrichment scores were plotted as heatmaps for each dataset (TABLE1, TABLE2, jupyter code for both). 
 
 Fig2a: overall heatmap and deeptools signal heatmap of CEMT patient chipseq
 
