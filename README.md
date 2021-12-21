@@ -65,7 +65,7 @@ We further assessed TE signal in public ChIPseq datasets from Cistrome, particul
 
 ### 1. Tumor-specific LTR10A/F enrichment in patient H3K27ac ChIPseq
 
-Processed patient H3K27ac ChIPseq peaks (tumor + matched normal colon samples) were downloaded from Orouji et al. 2021 ([GSE136889](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE136889)) and CEMT ([epigenomesportal.ca](https://epigenomesportal.ca/ihec/download.html#)). hg19 files were lifted over to hg38. Samples with fewer than 20,000 H3K27ac peaks were discarded. GIGGLE was used to assess LTR10 enrichment within H3K27ac peaks for each sample, as above, and the GIGGLE enrichment scores were plotted as heatmaps for each dataset (TABLE1, TABLE2, jupyter code for both). 
+Processed patient H3K27ac ChIPseq peaks (tumor + matched normal colon samples) were downloaded from Orouji et al. 2021 ([GSE136889](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE136889)) and CEMT ([epigenomesportal.ca](https://epigenomesportal.ca/ihec/download.html#)). hg19 files were lifted over to hg38. Samples with fewer than 20,000 H3K27ac peaks were discarded. GIGGLE was used to assess LTR10 enrichment within H3K27ac peaks for each sample, as above, and the GIGGLE enrichment scores were plotted as heatmaps for each dataset ([Orouji_H3K27ac_giggle_results.tab](2_regulatory_activity/Orouji_H3K27ac_giggle_results.tab), [CEMT_H3K27ac_giggle_results.tab](2_regulatory_activity/CEMT_H3K27ac_giggle_results.tab), jupyter code for both). 
 
 Fig2a: overall heatmap and deeptools signal heatmap of CEMT patient chipseq
 
