@@ -63,12 +63,9 @@ We further assessed TE signal in public ChIPseq datasets from Cistrome, particul
 
 ## Regulatory activity of LTR10 in colorectal cancer
 
-### 1. Tumor-specific LTR10 enrichment in patient H3K27ac ChIPseq
+### 1. Tumor-specific LTR10 enrichment in patient H3K27ac/H3K4me1 ChIPseq
 
-Processed patient H3K27ac ChIPseq peaks (tumor + matched normal colon samples) were downloaded from Orouji et al. 2021 ([GSE136889](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE136889)) and CEMT ([epigenomesportal.ca](https://epigenomesportal.ca/ihec/download.html#)). hg19 files were lifted over to hg38. Samples with fewer than 20,000 H3K27ac peaks were discarded. GIGGLE was used to assess LTR10 enrichment within H3K27ac peaks for each sample, as above, and the GIGGLE enrichment scores were plotted as heatmaps for each dataset ([Orouji_H3K27ac_giggle_results.tab](2_regulatory_activity/Orouji_H3K27ac_giggle_results.tab), [CEMT_H3K27ac_giggle_results.tab](2_regulatory_activity/CEMT_H3K27ac_giggle_results.tab), [Fig2_heatmaps.py](2_regulatory_activity/Fig2_heatmaps.py)). 
-
-Deeptools script. 
-
+Processed patient H3K27ac ChIPseq peaks (tumor + matched normal colon samples) were downloaded from Orouji et al. 2021 ([GSE136889](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE136889)) and CEMT ([epigenomesportal.ca](https://epigenomesportal.ca/ihec/download.html#)). hg19 files were lifted over to hg38. Samples with fewer than 20,000 H3K27ac peaks were discarded. GIGGLE was used to assess LTR10 enrichment within H3K27ac peaks for each sample, as above, and the GIGGLE enrichment scores were plotted as heatmaps for each dataset ([Orouji_H3K27ac_giggle_results.tab](2_regulatory_activity/Orouji_H3K27ac_giggle_results.tab), [CEMT_H3K27ac_giggle_results.tab](2_regulatory_activity/CEMT_H3K27ac_giggle_results.tab), [Fig2_heatmaps.py](2_regulatory_activity/Fig2_heatmaps.py)). Deeptools was used to generate additional heatmaps of H3K27ac/H3K4me1 ChIP-seq signal from tumor and normal samples (derived from CEMT patients), over LTR10A/F elements (e.g. [Fig2_patient_deeptools.sbatch](2_regulatory_activity/Fig2_patient_deeptools.sbatch)).
 
 ### 2. LTR10 enrichment in Roadmap regulatory states 
 
