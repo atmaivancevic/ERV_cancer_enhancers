@@ -73,6 +73,8 @@ Processed patient H3K27ac ChIPseq peaks (tumor + matched normal colon samples) w
 
 Supp table 2: roadmap giggle results
 
+### 3. Cistrome tfs (activators & repressors)
+
 2c: barchart top cistrome tfs (activators)
 
 2d: tf activators deeptools heatmap
@@ -81,7 +83,11 @@ Supp table 2: roadmap giggle results
 
 2f: tf repressors deeptools heatmap
 
+# 4. Coolbox close-up
+
 2g: python script coolbox screenshot
+
+# 5. MEME analysis
 
 2h: meme results and input files e.g. primary set H3K27ac-marked LTR10s vs control set non-H3K27ac-marked LTR10s (with shell script process of how generated those files). Also deeptools motif plot. And fimo script to get FOSL1 motif coordinates genome-wide. 
 
