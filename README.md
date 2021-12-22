@@ -71,11 +71,7 @@ Processed patient H3K27ac ChIPseq peaks (tumor + matched normal colon samples) w
 
 The merged bed file of LTR10A/F elements was queried (using GIGGLE) against numerous public databases, including the 127 regulatory states defined by Roadmap  ([SuppTable2_LTR10AF_enriched_in_Roadmap_giggle_results.tsv](2_regulatory_activity/SuppTable2_LTR10AF_enriched_in_Roadmap_giggle_results.tsv), [Fig2_roadmap.py](2_regulatory_activity/Fig2_roadmap.py)), and transcription factor ChIPseq from Cistrome ([SuppTable3_LTR10AF_enriched_in_CistromeTFs_giggle_results.tsv](2_regulatory_activity/SuppTable3_LTR10AF_enriched_in_CistromeTFs_giggle_results.tsv)), including both transcriptional activators and repressors ([Top_Cistrome_Activators.tab](2_regulatory_activity/Top_Cistrome_Activators.tab), [Top_Cistrome_Repressors.tab](2_regulatory_activity/Top_Cistrome_Repressors.tab), [Fig2_cistrome_activators.py](2_regulatory_activity/Fig2_cistrome_activators.py), [Fig2_cistrome_repressors.py](2_regulatory_activity/Fig2_cistrome_repressors.py)).
 
-#### 4. Coolbox close-up
-
-2g: python script coolbox screenshot
-
-#### 5. MEME analysis
+#### 3. MEME motif analysis
 
 2h: meme results and input files e.g. primary set H3K27ac-marked LTR10s vs control set non-H3K27ac-marked LTR10s (with shell script process of how generated those files). Also deeptools motif plot. And fimo script to get FOSL1 motif coordinates genome-wide. 
 
@@ -126,7 +122,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 18) [deseq2_CnR.R](cutnrun/deseq2_CnR.R)
 19) [giggle_de_regions.sh](cutnrun/giggle_de_regions.sh)
 
-### 1. MAPK-treated HCT116 RNAseq, TE transcripts analysis
+#### 1. MAPK-treated HCT116 RNAseq, TE transcripts analysis
 
 - Raw counts table of TEs for Cobimetinib vs Ctrl: [raw_counts_tetranscripts_cobi_24hr.tab](4_mapk_signaling/raw_counts_tetranscripts_cobi_24hr.tab)
 - Raw counts table of TEs for TNF-alpha vs Ctrl: [raw_counts_tetranscripts_tnf_24hr.tab](4_mapk_signaling/raw_counts_tetranscripts_tnf_24hr.tab)
@@ -137,7 +133,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 - MA plot of TEs for Cobimetinib vs Ctrl: [Fig3_MAplot_TEs_cobi_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.R), [Fig3_MAplot_TEs_cobi_vs_ctrl.pdf](4_mapk_signaling/Fig3_MAplot_TEs_cobi_vs_ctrl.pdf)
 - MA plot of TEs for TNF-alpha vs Ctrl: [Fig3_MAplot_TEs_tnf_vs_ctrl.R](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.R), [Fig3_MAplot_TEs_tnf_vs_ctrl.pdf](4_mapk_signaling/Fig3_MAplot_TEs_tnf_vs_ctrl.pdf)
 
-### 2. MAPK-treated HCT116 RNAseq, gene analysis
+#### 2. MAPK-treated HCT116 RNAseq, gene analysis
 
 - Raw counts table of genes for all samples: [raw_counts_genes_24hr.tab](4_mapk_signaling/raw_counts_genes_24hr.tab)
 - Normalized counts table of genes for all samples: [normalized_counts_genes_24hr.tab](4_mapk_signaling/normalized_counts_genes_24hr.tab)
@@ -147,7 +143,7 @@ Started with RNAseq fastq files (Cobi_24hr x2, TNF_24hr x2, Untreated_24hr x2).
 - MA plot of genes for TNF-alpha vs Ctrl: [MAplot_genes_tnf_vs_ctrl.R](4_mapk_signaling/MAplot_genes_tnf_vs_ctrl.R), [MAplot_genes_tnf_vs_ctrl.pdf](4_mapk_signaling/MAplot_genes_tnf_vs_ctrl.pdf)
 - Merged table of Cobimetinib and TNF-alpha results: [merge_genes_cobi_and_tnf.R](4_mapk_signaling/merge_genes_cobi_and_tnf.R), [merge_genes_cobi_and_tnf.tab](4_mapk_signaling/merge_genes_cobi_and_tnf.tab)
 
-### 3. MAPK-treated HCT116 H3K27ac CUT&RUN
+#### 3. MAPK-treated HCT116 H3K27ac CUT&RUN
 
 Peak files:
 - [UT_K27ac_CnR_rep1_peaks.bed](4_mapk_signaling/UT_K27ac_CnR_rep1_peaks.bed)
@@ -177,7 +173,7 @@ Giggle plots:
 - Volcano plot of giggle enrichment for H3K27ac-marked DE regions for Cobimetinib vs Ctrl: [giggle_volcano_H3K27ac_CnR_DE_cobi_vs_ctrl.R](4_mapk_signaling/giggle_volcano_H3K27ac_CnR_DE_cobi_vs_ctrl.R), [giggle_volcano_H3K27ac_CnR_DE_cobi_vs_ctrl.pdf](4_mapk_signaling/giggle_volcano_H3K27ac_CnR_DE_cobi_vs_ctrl.pdf)
 - Volcano plot of giggle enrichment for H3K27ac-marked DE regions for TNF-alpha vs Ctrl: [giggle_volcano_H3K27ac_CnR_DE_tnf_vs_ctrl.R](4_mapk_signaling/giggle_volcano_H3K27ac_CnR_DE_tnf_vs_ctrl.R), [giggle_volcano_H3K27ac_CnR_DE_tnf_vs_ctrl.pdf](4_mapk_signaling/giggle_volcano_H3K27ac_CnR_DE_tnf_vs_ctrl.pdf)
 
-### 4. Enhancer-gene predictions 
+#### 4. Enhancer-gene predictions 
 
 Combining MAPK-treated HCT116 RNAseq, HCT116 H3K27ac CUT&RUN and Activity-by-Contact model.
 
