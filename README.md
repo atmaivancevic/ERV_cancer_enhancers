@@ -71,16 +71,6 @@ Processed patient H3K27ac ChIPseq peaks (tumor + matched normal colon samples) w
 
 The merged bed file of LTR10A/F elements was queried (using GIGGLE) against numerous public databases, including the 127 regulatory states defined by Roadmap  ([SuppTable2_LTR10AF_enriched_in_Roadmap_giggle_results.tsv](2_regulatory_activity/SuppTable2_LTR10AF_enriched_in_Roadmap_giggle_results.tsv), [Fig2_roadmap.py](2_regulatory_activity/Fig2_roadmap.py)), and transcription factor ChIPseq from Cistrome ([SuppTable3_LTR10AF_enriched_in_CistromeTFs_giggle_results.tsv](2_regulatory_activity/SuppTable3_LTR10AF_enriched_in_CistromeTFs_giggle_results.tsv)), including both transcriptional activators and repressors ([Top_Cistrome_Activators.tab](2_regulatory_activity/Top_Cistrome_Activators.tab), [Top_Cistrome_Repressors.tab](2_regulatory_activity/Top_Cistrome_Repressors.tab), [Fig2_cistrome_activators.py](2_regulatory_activity/Fig2_cistrome_activators.py), [Fig2_cistrome_repressors.py](2_regulatory_activity/Fig2_cistrome_repressors.py)).
 
-Supp table 2: roadmap giggle results
-
-2c: barchart top cistrome tfs (activators)
-
-2d: tf activators deeptools heatmap
-
-2e: barchart cistrome tf repressors 
-
-2f: tf repressors deeptools heatmap
-
 #### 4. Coolbox close-up
 
 2g: python script coolbox screenshot
