@@ -7,7 +7,7 @@ import pandas as pd
 import os
 
 # Read table
-df = pd.read_csv('SuppTable1_TCGA_giggle_results_top23TEs.tab', sep='\t')
+df = pd.read_csv('SuppTable1_TEs_enriched_in_TCGA_giggle_results_top23TEs.tsv', sep='\t')
 #print(df)
 
 # Filter table to keep positive scores only (i.e. giggle_score>0)
