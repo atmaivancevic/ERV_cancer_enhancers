@@ -69,7 +69,7 @@ Processed patient H3K27ac ChIPseq peaks (tumor + matched normal colon samples) w
 
 #### 2. LTR10 enrichment in Roadmap regulatory states and Cistrome TFs
 
-The merged bed file of LTR10A/F elements was queried (using GIGGLE) against numerous public databases, including the 127 regulatory states defined by Roadmap  ([SuppTable2_LTR10AF_enriched_in_Roadmap_giggle_results.tsv](2_regulatory_activity/SuppTable2_LTR10AF_enriched_in_Roadmap_giggle_results.tsv), python), and ...Cistrome.
+The merged bed file of LTR10A/F elements was queried (using GIGGLE) against numerous public databases, including the 127 regulatory states defined by Roadmap  ([SuppTable2_LTR10AF_enriched_in_Roadmap_giggle_results.tsv](2_regulatory_activity/SuppTable2_LTR10AF_enriched_in_Roadmap_giggle_results.tsv), python), and transcription factor ChIPseq from Cistrome (([SuppTable3_LTR10AF_enriched_in_CistromeTFs_giggle_results](2_regulatory_activity/SuppTable3_LTR10AF_enriched_in_CistromeTFs_giggle_results.tsv), python)).
 
 Supp table 2: roadmap giggle results
 
