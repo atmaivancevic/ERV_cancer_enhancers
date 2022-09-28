@@ -14,8 +14,8 @@
 
 # Job name and output
 #SBATCH -J TEtranscripts
-#SBATCH -o /Users/%u/slurmOut/slurm-%j.out
-#SBATCH -e /Users/%u/slurmErr/slurm-%j.err
+#SBATCH -o /scratch/Users/%u/data/slurmOut/slurm-%A_%a.out
+#SBATCH -e /scratch/Users/%u/data/slurmErr/slurm-%A_%a.err
 
 # Load TEtranscripts
 module load python/2.7.14/tetranscripts/2.1.4
