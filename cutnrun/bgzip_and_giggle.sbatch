@@ -20,7 +20,7 @@
 # important note: make sure the giggle executable is in your PATH
 
 # load modules
-module load samtools
+module load samtools/1.10
 
 # define query files
 queries=($(ls $inDir/*_mergedpeaks.bed | xargs -n 1 basename))
