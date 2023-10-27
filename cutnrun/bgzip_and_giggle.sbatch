@@ -38,7 +38,7 @@ echo $(date +"[%b %d %H:%M:%S] Starting giggle...")
 
 giggle search -i ${gigIdx} -q ${inDir}/${queries[$SLURM_ARRAY_TASK_ID]}.gz -s -g 3209286105 \
 | sed 's#sorted/##g' \
-| sed 's/.gz//g' \
+| sed 's/.bed.gz//g' \
 | grep -v "#" \
 | sort -nrk8 \
 | sed '1i#file\tfile_size\toverlaps\todds_ratio\tfishers_two_tail\tfishers_left_tail\tfishers_right_tail\tcombo_score' \
