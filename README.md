@@ -244,7 +244,7 @@ Processed each sample using the same RNAseq workflow as above.
 5. MCPH1_LTR10i vs Ctrl: [deseq2_results_genes_mcph1ltr10i_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_mcph1ltr10i_vs_ctrl.tab)
 6. ATG12_TSSi vs Ctrl: [deseq2_results_genes_atg12i_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_atg12i_vs_ctrl.tab)
 7. FOSL1_TSSi vs Ctrl: [deseq2_results_genes_fosli_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_fosli_vs_ctrl.tab)
-8. JUN_TSSi vs Ctrl: [deseq2_results_genes_cjuni_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_atg12ltr10i_vs_ctrl.tab)
+8. JUN_TSSi vs Ctrl: [deseq2_results_genes_cjuni_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_cjuni_vs_ctrl.tab)
 
 - MA plots for all comparisons (template R script [MAplot_genes.R](5_crispr_results/MAplot_genes.R)):
 1. ATG12_LTR10i vs Ctrl: [MAplot_genes_atg12ltr10i_vs_ctrl.pdf](5_crispr_results/MAplot_genes_atg12ltr10i_vs_ctrl.pdf)
