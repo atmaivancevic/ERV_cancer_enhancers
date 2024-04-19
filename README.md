@@ -214,12 +214,6 @@ Log2FC plot with the final 74 gene candidates as bigger bubbles:
 
 ## CRISPR silencing & deletion of LTR10 elements
 
-Just give one example e.g. ATG12 
-
-1) Coolbox python script
-
-2) DEseq2 analysis of CRISPRi candidates vs GFP control
-
 Processed each sample using the same RNAseq workflow as above.
 
 - Raw feature counts table of all CRISPRi candidates: [feature_counts_crispri.tab](5_crispr_results/feature_counts_crispri.tab)
@@ -264,9 +258,3 @@ Processed each sample using the same RNAseq workflow as above.
 - DEseq2 results table: [deseq2_results_genes_kdm6ako_vs_wildtype.tab](5_crispr_results/deseq2_results_genes_kdm6ako_vs_wildtype.tab)
 - MA plot: [MAplot_genes_kdm6ako_vs_wildtype.pdf](5_crispr_results/MAplot_genes_kdm6ako_vs_wildtype.pdf)
 - Genomic distance plot: [chrplot_genes_kdm6ako_vs_wildtype.pdf](5_crispr_results/chrplot_genes_kdm6ako_vs_wildtype.pdf)
-
-## Human variation at AP1 sites within LTR10 elements
-
-Python scripts for AP1 count histogram/correlation plots. 
-
-Also python/jupyter scripts for gnomad deletions in human popn. 
