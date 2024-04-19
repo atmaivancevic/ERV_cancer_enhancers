@@ -2,7 +2,7 @@
 
 ### Scripts and files used in:
 
-Atma Ivancevic, David M. Simpson, Olivia M. Joyner, Stacey M. Bagby, Lily L. Nguyen, Ben G. Bitler, Todd M. Pitts, Edward B. Chuong (2024) "Endogenous retroviruses mediate transcriptional rewiring in response to oncogenic signaling in colorectal cancer". bioRxiv doi: [https://doi.org/10.1101/2021.10.28.466196](https://doi.org/10.1101/2021.10.28.466196)
+Atma Ivancevic, David M. Simpson, Olivia M. Joyner, Stacey M. Bagby, Lily L. Nguyen, Ben G. Bitler, Todd M. Pitts, Edward B. Chuong (2024) "Endogenous retroviruses mediate transcriptional rewiring in response to oncogenic signaling in colorectal cancer". 
 
 ### GEO:
 Accession code [GSE186619](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186619)
