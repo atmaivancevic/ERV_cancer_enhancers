@@ -170,8 +170,8 @@ Combining MAPK-treated HCT116 RNAseq, HCT116 H3K27ac CUT&RUN and Activity-by-Con
 **4a) Activity by Contact model predictions** (https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction/blob/master/README.md).
 
 Followed the GitHub instructions to make enhancer-gene predictions in HCT116 cells, using as input:
-1) Publicly available HCT116 ATACseq, GEO accession GSM3593802 (https://www.ncbi.nlm.nih.gov/sra/?term=SRR8544480)
-2) In-house HCT116 H3K27ac CUT&RUN, GEO accession DUMMY (LINK)
+1) Publicly available HCT116 ATACseq, GEO accession [GSM3593802](https://www.ncbi.nlm.nih.gov/sra/?term=SRR8544480)
+2) In-house HCT116 H3K27ac CUT&RUN, GEO accession [GSE186619](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186619)
 3) Average HiC file provided by the ABC model
 
 **Workflow:**
