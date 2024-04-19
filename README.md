@@ -219,7 +219,6 @@ Processed each sample using the same RNAseq workflow as above.
 - Raw feature counts table of all CRISPRi candidates: [feature_counts_crispri.tab](5_crispr_results/feature_counts_crispri.tab)
 - Normalized counts table of all CRISPRi candidates: [normalized_counts_crispri.tab](5_crispr_results/normalized_counts_crispri.tab)
 - PCA of all CRISPRi and control samples: [deseq2_and_pca_crispri.R](5_crispr_results/deseq2_and_pca_crispri.R), [pca_crispri.pdf](5_crispr_results/pca_crispri.pdf)
-- Count plot bargraphs (python scripts) showing norm counts e.g. for genes ATG12 and AP3S1. 
 - DEseq2 results table for all comparisons:
 1. ATG12_LTR10i vs Ctrl: [deseq2_results_genes_atg12ltr10i_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_atg12ltr10i_vs_ctrl.tab)
 2. XRCC4_LTR10i vs Ctrl: [deseq2_results_genes_xrcc4ltr10i_vs_ctrl.tab](5_crispr_results/deseq2_results_genes_xrcc4ltr10i_vs_ctrl.tab)
