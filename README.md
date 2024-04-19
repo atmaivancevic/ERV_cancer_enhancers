@@ -69,17 +69,7 @@ Processed patient H3K27ac ChIPseq peaks (tumor + matched normal colon samples) w
 
 #### 2. LTR10 enrichment in Roadmap regulatory states and Cistrome TFs
 
-The merged bed file of LTR10A/F elements was queried (using GIGGLE) against numerous public databases, including the 127 regulatory states defined by Roadmap  ([SuppTable2_LTR10AF_enriched_in_Roadmap_giggle_results.tsv](2_regulatory_activity/SuppTable2_LTR10AF_enriched_in_Roadmap_giggle_results.tsv), [Fig2_roadmap.py](2_regulatory_activity/Fig2_roadmap.py)), and transcription factor ChIPseq from Cistrome ([SuppTable3_LTR10AF_enriched_in_CistromeTFs_giggle_results.tsv](2_regulatory_activity/SuppTable3_LTR10AF_enriched_in_CistromeTFs_giggle_results.tsv)), including both transcriptional activators and repressors ([Top_Cistrome_Activators.tab](2_regulatory_activity/Top_Cistrome_Activators.tab), [Top_Cistrome_Repressors.tab](2_regulatory_activity/Top_Cistrome_Repressors.tab), [Fig2_cistrome_activators.py](2_regulatory_activity/Fig2_cistrome_activators.py), [Fig2_cistrome_repressors.py](2_regulatory_activity/Fig2_cistrome_repressors.py)).
-
-#### 3. MEME motif analysis
-
-2h: meme results and input files e.g. primary set H3K27ac-marked LTR10s vs control set non-H3K27ac-marked LTR10s (with shell script process of how generated those files). Also deeptools motif plot. And fimo script to get FOSL1 motif coordinates genome-wide. 
-
-## Evolutionary history of LTR10 elements
-
-2i: muscle/gblocks/fasttree scripts for LTR10 consensus tree
-
-Fig 2 Supp: pca plot, alignment of all LTR10 sequences, etc. 
+The merged bed file of LTR10A/F elements was queried (using GIGGLE) against numerous public databases, including the 127 regulatory states defined by Roadmap  ([SuppTable2_LTR10AF_enriched_in_Roadmap_giggle_results.tsv](2_regulatory_activity/SuppTable2_LTR10AF_enriched_in_Roadmap_giggle_results.tsv), [Fig2_roadmap.py](2_regulatory_activity/Fig2_roadmap.py)), and transcription factor ChIPseq from Cistrome ([SuppTable3_LTR10AF_enriched_in_CistromeTFs_giggle_results.tsv](2_regulatory_activity/SuppTable3_LTR10AF_enriched_in_CistromeTFs_giggle_results.tsv)), including both transcriptional activators and repressors ([Top_Cistrome_Activators.tab](2_regulatory_activity/Top_Cistrome_Activators.tab), [Top_Cistrome_Repressors.tab](2_regulatory_activity/Top_Cistrome_Repressors.tab), [Fig2_cistrome_activators.py](2_regulatory_activity/Fig2_cistrome_activators.py), [Fig2_cistrome_repressors.py](2_regulatory_activity/Fig2_cistrome_repressors.py)). 
 
 ## Control of LTR10 activity by AP1/MAPK signaling
 
