@@ -2,7 +2,7 @@
 
 ### Scripts and files used in:
 
-Ivancevic A, Simpson D, Chuong E (2021) "Endogenous retroviruses mediate transcriptional rewiring in response to oncogenic signaling in colorectal cancer". bioRxiv doi: [https://doi.org/10.1101/2021.10.28.466196](https://doi.org/10.1101/2021.10.28.466196)
+Ivancevic A, Simpson D, Chuong E (2024) "Endogenous retroviruses mediate transcriptional rewiring in response to oncogenic signaling in colorectal cancer". bioRxiv doi: [https://doi.org/10.1101/2021.10.28.466196](https://doi.org/10.1101/2021.10.28.466196)
 
 ### GEO:
 Accession code [GSE186619](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186619)
